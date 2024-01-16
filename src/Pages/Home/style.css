@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+    color: #212529;
+}
+.font-icons{
+    font-size: 20px;
+}
+.t-l{
+    text-align: left;
+    padding: 10px;
+}
+.center{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.Col{
+    padding-left: 10px;
+    flex: 0;
+}
