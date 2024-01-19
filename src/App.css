@@ -1,5 +1,9 @@
 .App {
   text-align: center;
 }
+/* Global.css */
+body {
+  transition: background-color 0.5s, color 0.5s;
+}
 
 

@@ -7,14 +7,13 @@ function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-header">
       <Container >
-        <Navbar.Brand className='text-header' href="/Home">Belloni Alexandre</Navbar.Brand>
+        <Navbar.Brand className='text-header fs-3' href="/Home">Alexandre Belloni</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/About">About</Nav.Link>
-            <Nav.Link href="/Project">Project</Nav.Link>
-            <Nav.Link href="#deets">Dark Mode</Nav.Link>
-            <Nav.Link href=".#">Portuguese</Nav.Link>
+            <Nav.Link className='fs-5' href="/Home">Home</Nav.Link>
+            <Nav.Link className='fs-5' href="/About">Sobre</Nav.Link>
+            <Nav.Link className='fs-5' href="/Project">Projetos</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

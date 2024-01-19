@@ -14,6 +14,7 @@ import Project2 from '../../images/card-home/Project2.png'
 import Project3 from '../../images/card-home/Project3.png'
 import Project4 from '../../images/card-home/Project4.png'
 import Project5 from '../../images/card-home/Project5.png'
+
 function Home() {
   return (
     <Container className='pb-3'>
@@ -28,9 +29,9 @@ function Home() {
             <ListGroup>
               <h2 className="mb-2 text-muted pb-2">Belloni Alexandre</h2>
               <ListGroup.Item >Software Enginer</ListGroup.Item>
-              <ListGroup.Item>22 Years</ListGroup.Item>
+              <ListGroup.Item>22 Anos</ListGroup.Item>
               <ListGroup.Item><a target='_blank' href='https://maps.app.goo.gl/6y2jBrPSaviJKaH79'>Laranjeiras Do Sul - Paraná <FaExternalLinkAlt /></a> </ListGroup.Item>
-              <ListGroup.Item>Domains <FaReact /> <FaHtml5 /> <FaCss3 /> <IoLogoJavascript /> <FaPhp /></ListGroup.Item>
+              <ListGroup.Item>Domínios <FaReact /> <FaHtml5 /> <FaCss3 /> <IoLogoJavascript /> <FaPhp /></ListGroup.Item>
               <ListGroup.Item> Developer Front-End</ListGroup.Item>
             </ListGroup>
           </Col>
@@ -41,14 +42,14 @@ function Home() {
 
         {/* Trabalhos desenvolvidos */}
         <Row>
-          <h2 className='t-l'>Developer Projects.</h2>
+          <h2 className='t-l'>Projetos Desenvolvidos.</h2>
           <Col>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={Project} />
               <Card.Body>
-                <Card.Title>HTML CSS PROGRAMMING SCHOOL FOR FREE</Card.Title>
+                <Card.Title>CURSO DE PROGRAMAÇÃO WEB GRATUITO</Card.Title>
                 <Card.Text>
-                  Introduction to the basic concepts of web development in html css and java script
+                Introdução aos conceitos básicos de desenvolvimento web em html css e java script
                 </Card.Text>
                 <Button target='_blank' href='https://www.instagram.com/p/Cy6YiVJA0Qp/' variant="primary">know more</Button>
               </Card.Body>
@@ -57,10 +58,10 @@ function Home() {
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" className='h-6' src={Project2} />
               <Card.Body>
-                <Card.Title>ROBOTIC <br /> INSERTION</Card.Title>
+                <Card.Title>INSERÇÃO A <br /> ROBÓTICA</Card.Title>
 
                 <Card.Text>
-                  Introduction to the basics of robotics for free to anyone interested.
+                Introdução aos fundamentos da robótica gratuitamente para todos os interessados.
                 </Card.Text>
                 <Button target='_blank' href='https://www.instagram.com/p/CiVA9rWgA-M/' variant="primary">know more</Button>
               </Card.Body>
@@ -69,9 +70,9 @@ function Home() {
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={Project3} />
               <Card.Body>
-                <Card.Title>PRIVATE <br /> PROJECTS</Card.Title>
+                <Card.Title>PROJETOS <br /> PRIVADOS</Card.Title>
                 <Card.Text>
-                  Free projects <br /> developed for <br /> companies.
+                  Projetos gratuitos <br /> desenvolvidos para <br /> empresas.
                 </Card.Text>
                 <Button variant="primary">know more</Button>
               </Card.Body>
@@ -85,13 +86,13 @@ function Home() {
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={Project4} />
                 <Card.Body>
-                  <Card.Title>INFORMATIC TECHNICIAN</Card.Title>
+                  <Card.Title>Técnico Informática</Card.Title>
                   <Card.Text>
-                    Developing knowledge in the areas of hardware,
-                    software, networks, basic programming and information security
+                  Desenvolver conhecimentos nas áreas de hardware,
+                    software, sistemas de redes, programação básica em web e back e segurança da informação
                   </Card.Text>
                   <Button target='_blank' href='https://www.instagram.com/p/Cy6YiVJA0Qp/' variant="primary">
-                    where I graduated</Button>
+                    Onde formei?</Button>
                 </Card.Body>
               </Card></Col>
             <Col className='Col '>
@@ -101,10 +102,10 @@ function Home() {
                   <Card.Title>SOFTWARE ENGINER</Card.Title>
 
                   <Card.Text>
-                    We learn about software, systems design, algorithms, software testing,
-                    project management, and software engineering practices
+                  Aprendemos sobre software, design de sistemas, algoritmos, testes de software,
+                    gerenciamento de projetos e práticas de engenharia de software
                   </Card.Text>
-                  <Button target='_blank' href='https://www.instagram.com/p/CiVA9rWgA-M/' variant="primary">where I graduated</Button>
+                  <Button target='_blank' href='https://www.instagram.com/p/CiVA9rWgA-M/' variant="primary">Onde formei?</Button>
                 </Card.Body>
               </Card></Col>
           </div>
@@ -115,5 +116,6 @@ function Home() {
 
   );
 }
+
 
 export default Home;

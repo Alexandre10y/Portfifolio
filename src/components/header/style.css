@@ -1,9 +1,11 @@
 .navbar-collapse {
     flex-grow: 0;
 }
-.bg-header{
+
+.bg-header {
     background-color: rgba(249, 249, 249, 0.93);
 }
-.text-header{
+
+.text-header {
     font-weight: bold;
 }
