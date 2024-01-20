@@ -21,7 +21,7 @@ function Home() {
       <div className='pt-5'>
         {/* Apresentação */}
         <Row>
-          <Col xs={6} md={4}>
+          <Col md={4}>
             <Image src={Perfil} roundedCircle thumbnail />
           </Col>
           <Col className='pt-4'>
@@ -41,32 +41,34 @@ function Home() {
         <hr />
 
         {/* Trabalhos desenvolvidos */}
-        <Row>
-          <h2 className='t-l'>Projetos Desenvolvidos.</h2>
-          <Col>
+        <Row className='center'>
+          <h2 className='t-l center'>Projetos Desenvolvidos.</h2>
+          <Col className='Col center'>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={Project} />
               <Card.Body>
                 <Card.Title>CURSO DE PROGRAMAÇÃO WEB GRATUITO</Card.Title>
                 <Card.Text>
-                Introdução aos conceitos básicos de desenvolvimento web em html css e java script
+                  Introdução aos conceitos básicos de desenvolvimento web em html css e java script
                 </Card.Text>
                 <Button target='_blank' href='https://www.instagram.com/p/Cy6YiVJA0Qp/' variant="primary">know more</Button>
               </Card.Body>
-            </Card></Col>
-          <Col>
+            </Card>
+          </Col>
+          <Col className='Col center'>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" className='h-6' src={Project2} />
               <Card.Body>
                 <Card.Title>INSERÇÃO A <br /> ROBÓTICA</Card.Title>
 
                 <Card.Text>
-                Introdução aos fundamentos da robótica gratuitamente para todos os interessados.
+                  Introdução aos fundamentos da robótica gratuitamente para todos os interessados.
                 </Card.Text>
                 <Button target='_blank' href='https://www.instagram.com/p/CiVA9rWgA-M/' variant="primary">know more</Button>
               </Card.Body>
-            </Card></Col>
-          <Col>
+            </Card>
+          </Col>
+          <Col className=' Col center'>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={Project3} />
               <Card.Body>
@@ -76,7 +78,8 @@ function Home() {
                 </Card.Text>
                 <Button variant="primary">know more</Button>
               </Card.Body>
-            </Card></Col>
+            </Card>
+          </Col>
         </Row>
         <Row>
           <h2 className='t-l pt-5 center'>Education.</h2>
@@ -88,7 +91,7 @@ function Home() {
                 <Card.Body>
                   <Card.Title>Técnico Informática</Card.Title>
                   <Card.Text>
-                  Desenvolver conhecimentos nas áreas de hardware,
+                    Desenvolver conhecimentos nas áreas de hardware,
                     software, sistemas de redes, programação básica em web e back e segurança da informação
                   </Card.Text>
                   <Button target='_blank' href='https://www.instagram.com/p/Cy6YiVJA0Qp/' variant="primary">
@@ -102,7 +105,7 @@ function Home() {
                   <Card.Title>SOFTWARE ENGINER</Card.Title>
 
                   <Card.Text>
-                  Aprendemos sobre software, design de sistemas, algoritmos, testes de software,
+                    Aprendemos sobre software, design de sistemas, algoritmos, testes de software,
                     gerenciamento de projetos e práticas de engenharia de software
                   </Card.Text>
                   <Button target='_blank' href='https://www.instagram.com/p/CiVA9rWgA-M/' variant="primary">Onde formei?</Button>

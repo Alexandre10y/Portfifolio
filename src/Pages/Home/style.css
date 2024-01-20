@@ -11,10 +11,12 @@ a{
 }
 .center{
     text-align: center;
-  
+    
     justify-content: center;
 }
 .Col{
+    padding-top: 15px;
     padding-left: 10px;
     flex: 0;
 }
+
