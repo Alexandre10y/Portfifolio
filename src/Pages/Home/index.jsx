@@ -51,7 +51,7 @@ function Home() {
                 <Card.Text>
                   Introdução aos conceitos básicos de desenvolvimento web em html css e java script
                 </Card.Text>
-                <Button target='_blank' href='https://www.instagram.com/p/Cy6YiVJA0Qp/' variant="primary">know more</Button>
+                <Button target='_blank' href='https://www.instagram.com/p/Cy6YiVJA0Qp/' variant="primary">Saiba Mais:</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -64,7 +64,7 @@ function Home() {
                 <Card.Text>
                   Introdução aos fundamentos da robótica gratuitamente para todos os interessados.
                 </Card.Text>
-                <Button target='_blank' href='https://www.instagram.com/p/CiVA9rWgA-M/' variant="primary">know more</Button>
+                <Button target='_blank' href='https://www.instagram.com/p/CiVA9rWgA-M/' variant="primary">Saiba Mais:</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -76,7 +76,7 @@ function Home() {
                 <Card.Text>
                   Projetos gratuitos <br /> desenvolvidos para <br /> empresas.
                 </Card.Text>
-                <Button variant="primary">know more</Button>
+                <Button target='_blank' href='/Project' variant="primary">Saiba Mais:</Button>
               </Card.Body>
             </Card>
           </Col>
