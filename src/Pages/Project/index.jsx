@@ -6,14 +6,16 @@ import Image from 'react-bootstrap/Image';
 import React from 'react';
 import Frente from '../../images/frente.jpg'
 import GH from '../../images/gh.jpg'
+import alexandreAulas from '../../images/prof..png'
 import Angulo from '../../images/angulo.jpg'
+import Jogo from '../../images/Jogo/unity.png'
 import './style.css'
 function Projeto() {
     return (
         <>
             <Container>
 
-                <h4 className='alinha'>Projects</h4>
+                <h4 className='alinha'>Projetos Empresáriais</h4>
                 <div>
                     {/* Hotel Laranjeiras */}
                     <div className='p-2 d-flex border'>
@@ -82,6 +84,48 @@ function Projeto() {
                         </Col>
 
                     </div>
+                    <br />
+                    {/* Gh Treinamento */}
+                    <div className='p-2 d-flex border'>
+                        <div className="img-hotel">
+                            <Image className="img-hotel" src={alexandreAulas} thumbnail />
+                        </div>
+                        <Col className='text-hotel'>
+                            <h3 className='pt-5'>Site De Aulas Gratuitas</h3>
+                            <p><strong>Repositório</strong></p>
+                            <p>GitHub -<a target='_blank' className='textfinal' href="https://github.com/Alexandre10y/aulas-prof-alunos.git"> Aulas Gratuitas<FaGithub /> </a></p>
+                            <p>
+                                Nosso site visa apoiar professores, alunos e entusiastas da educação. Queremos simplificar o acesso a recursos educacionais, promover a colaboração entre professores, oferecer feedback personalizado aos alunos e compartilhar informações relevantes sobre práticas educacionais. Buscamos criar uma comunidade vibrante e integrada, inspirando o crescimento intelectual e a aprendizagem coletiva.
+                            </p>
+                            <a class="textfinal" target='_blank' href="https://alexandreaulas.vercel.app/index.html">Link do Site</a>
+                            <p class="tamanho" >Design: <a class="textfinal" href="tel:+5542984022669">AllSistem</a></p>
+                        </Col>
+
+                    </div>
+                </div>
+
+                <h4 className='alinha'>Jogos Desenvolvidos</h4>
+                <div>
+                    {/* Hotel Laranjeiras */}
+                    <div className='p-2 d-flex border'>
+                        <div className="img-hotel " >
+                            <Image className="img-hotel h-1" src={Jogo} thumbnail />
+                        </div>
+                        <Col className='text-hotel pt-2'>
+                            <h3>Aracnídio</h3>
+                            <p><strong>Repositório</strong></p>
+                            <p>Unity -<a target='_blank' className='textfinal' href="https://play.unity.com/mg/other/deusolibre?signup=true"> Aracnídio<FaGithub /> </a></p>
+                            <p>
+                                Visando um perfil profíssional mais completo e fugindo da um pouco da área
+                                também me aperfeiçoei em games, conhecendo a linguagem C#
+                                Ressaltando que o projeto "Jogo Aracnídio" foi desenvolvido com intuito apenas de adquirir
+                                conhecimento e uma experiência diferente do que estou acostumado a trabalhar.
+                            </p>
+                            <a class="textfinal" target='_blank' href="https://play.unity.com/mg/other/deusolibre?signup=true">Link do Site</a>
+                            <p class="tamanho" >Design: <a class="textfinal" href="tel:+5542984022669">AllSistem</a></p>
+                        </Col>
+                    </div>
+                    <br />
                 </div>
             </Container>
         </>
