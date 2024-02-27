@@ -97,7 +97,8 @@ function Projeto() {
                             <p>
                                 Nosso site visa apoiar professores, alunos e entusiastas da educação. Queremos simplificar o acesso a recursos educacionais, promover a colaboração entre professores, oferecer feedback personalizado aos alunos e compartilhar informações relevantes sobre práticas educacionais. Buscamos criar uma comunidade vibrante e integrada, inspirando o crescimento intelectual e a aprendizagem coletiva.
                             </p>
-                            <a class="textfinal" target='_blank' href="https://alexandreaulas.vercel.app/index.html">Link do Site</a>
+                            <a class="textfinal" target='_blank' href="https://alexandreaulas.vercel.app/index.html
+                            ">Link do Site</a>
                             <p class="tamanho" >Design: <a class="textfinal" href="tel:+5542984022669">AllSistem</a></p>
                         </Col>
 

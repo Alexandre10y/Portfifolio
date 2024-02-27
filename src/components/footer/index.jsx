@@ -17,7 +17,7 @@ function Footer() {
                     </Col>
                     <Col >
                         <ul className="d-flex ">
-                            <li className="pl-3"><a target='_blank' href="https://www.instagram.com/alexandre__02/"><FaInstagram /></a></li>
+                            <li className="pl-3"><a target='_blank' href="https://www.instagram.com/alexandremendesbelloni/"><FaInstagram /></a></li>
                             <li className="pl-3"><a target='_blank' href="https://wa.me/5542984022669?text=Bem+Vindo%2C+Sou+Alexandre%2C+Desenvolvedor++Front-End.+Como+posso+lhe+ajudar%3F"><FaWhatsapp /></a></li>
                             <li className="pl-3"><a target='_blank' href="https://github.com/Alexandre10y"><FaGithub /></a></li>
                         </ul>
