@@ -5,6 +5,7 @@ import Footer from './components/footer';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Project from './Pages/Project';
+import Dashboard from './Pages/Project/dashboard';
 import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/Home' Component={Home} />
           <Route path='/About' Component={About} />
           <Route path='/Project' Component={Project} />
+          <Route path='/Dashboard' Component={Dashboard} />
         </Routes>
       </main>
       <Footer/>

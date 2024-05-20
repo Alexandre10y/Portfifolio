@@ -9,6 +9,8 @@ import GH from '../../images/gh.jpg'
 import alexandreAulas from '../../images/prof..png'
 import Angulo from '../../images/angulo.jpg'
 import Jogo from '../../images/Jogo/unity.png'
+import DashBoard from '../../images/Jogo/dashboard.png'
+import { SiPowerbi } from "react-icons/si";
 import './style.css'
 function Projeto() {
     return (
@@ -123,6 +125,31 @@ function Projeto() {
                                 conhecimento e uma experiência diferente do que estou acostumado a trabalhar.
                             </p>
                             <a class="textfinal" target='_blank' href="https://play.unity.com/mg/other/deusolibre?signup=true">Link do Site</a>
+                            <p class="tamanho" >Design: <a class="textfinal" href="tel:+5542984022669">AllSistem</a></p>
+                        </Col>
+                    </div>
+                    <br />
+                </div>
+
+                <h4 className='alinha'>Portifólio</h4>
+                <div>
+                    {/* Hotel Laranjeiras */}
+                    <div className='p-2 d-flex border'>
+                        <div className="img-hotel " >
+                            <Image className="img-hotel h-1" src={DashBoard} thumbnail />
+                        </div>
+                        <Col className='text-hotel pt-2'>
+                            <h3>DashBoard</h3>
+                            <p><strong>Repositório</strong></p>
+                            <p>Acesse -<a target='_blank' className='textfinal' href="https://app.powerbi.com/view?r=eyJrIjoiNDVjMTIxMDctNWI5OS00NWZlLTgxYzctZTM0N2ZmMmViYjZhIiwidCI6IjBiYWIxNGQ4LTEyNTktNDQyYi05MDQ0LTk2NjU4MWRjOWM2MyJ9"> PowerBi<SiPowerbi /> </a></p>
+                            <p>
+                                Visando um perfil profíssional mais completo e fugindo da um pouco da área
+                                também me aperfeiçoei em Analise de Dados, conhecendo a linguagem DAX.
+                                Ressaltando que o projeto "DashBoard1" foi desenvolvido com intuito apenas de adquirir
+                                conhecimento e uma experiência diferente do que estou acostumado a trabalhar.
+                                Um projeto muito simples de se desenvolver, porém para tudo a um começo.
+                            </p>
+                            <a class="textfinal" target='_blank' href="./dashboard">Link do Site</a>
                             <p class="tamanho" >Design: <a class="textfinal" href="tel:+5542984022669">AllSistem</a></p>
                         </Col>
                     </div>
