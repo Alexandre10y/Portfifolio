@@ -4,9 +4,10 @@ import Image from 'react-bootstrap/Image';
 import Col from 'react-bootstrap/Col';
 import './style.css';
 function about() {
+    
     return (
         <>
-            <div className="sobre-container p-3 height-100">
+            <div className="sobre-container p-3 ">
                 <div className="sobre-content ">
                     <div className='d-flex'>
 

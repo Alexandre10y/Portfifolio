@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     /* Cor de fundo da tela */
 }
 
@@ -14,6 +14,7 @@
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
 }
 .height-100{
+    height: 100%;
     height: 100vh;
 }
 ul li{

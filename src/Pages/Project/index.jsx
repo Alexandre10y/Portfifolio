@@ -10,6 +10,7 @@ import alexandreAulas from '../../images/prof..png'
 import Angulo from '../../images/angulo.jpg'
 import Jogo from '../../images/Jogo/unity.png'
 import DashBoard from '../../images/Jogo/dashboard.png'
+import TCCIMG from '../../images/Jogo/tela_inicial_fundo.jpg'
 import { SiPowerbi } from "react-icons/si";
 import './style.css'
 function Projeto() {
@@ -131,9 +132,9 @@ function Projeto() {
                     <br />
                 </div>
 
-                <h4 className='alinha'>Portifólio</h4>
+                <h4 className='alinha'>Analise de Dados</h4>
                 <div>
-                    {/* Hotel Laranjeiras */}
+                    {/* Dashboard de Finanças */}
                     <div className='p-2 d-flex border'>
                         <div className="img-hotel " >
                             <Image className="img-hotel h-1" src={DashBoard} thumbnail />
@@ -150,6 +151,24 @@ function Projeto() {
                                 Um projeto muito simples de se desenvolver, porém para tudo a um começo.
                             </p>
                             <a class="textfinal" target='_blank' href="./dashboard">Link do Site</a>
+                            <p class="tamanho" >Design: <a class="textfinal" href="tel:+5542984022669">AllSistem</a></p>
+                        </Col>
+                    </div>
+                    <br />
+                </div>
+                <div>
+                    {/* Dashboard TCC */}
+                    <div className='p-2 d-flex border'>
+                        <div className="img-hotel " >
+                            <Image className="img-hotel h-1" src={TCCIMG} thumbnail />
+                        </div>
+                        <Col className='text-hotel pt-2'>
+                            <h3>Champions Insights - TCC EM DESENVOLVIMENTO</h3>
+                            <p><strong>Repositório</strong></p>
+                            <p>Acesse -<a target='_blank' className='textfinal' href="https://app.powerbi.com/view?r=eyJrIjoiODQxZWRiNTgtNTI0OS00MzZjLTgyYzItM2JhYTQ2ZjdkODM2IiwidCI6IjBiYWIxNGQ4LTEyNTktNDQyYi05MDQ0LTk2NjU4MWRjOWM2MyJ9"> PowerBi<SiPowerbi /> </a></p>
+                            <p>
+                                Utilizando a API online da API FOOTBALL, BigQuery para armazenamento de dados, Py junto a Cloud Scheduler e Cloud Functions para automação de tarefas, SQL para criançaõ de Views importantes e Power BI para criação de dashboards, este projeto proporciona uma visão abrangente e detalhada sobre a UEFA Champions League. As visualizações interativas permitem analisar o desempenho das equipes e jogadores de forma intuitiva e eficiente.
+                            </p>
                             <p class="tamanho" >Design: <a class="textfinal" href="tel:+5542984022669">AllSistem</a></p>
                         </Col>
                     </div>
