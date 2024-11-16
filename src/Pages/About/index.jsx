@@ -27,8 +27,8 @@ function about() {
                         </div>
                     </div>
 
-                    <h2>O que domíno na programação?</h2>
-                    <p> Sou um desenvolvedor Front-end com conhecimentos básicos em backend,
+                    <h2>O que domino na programação?</h2>
+                    <p> Sou um desenvolvedor Front-end com conhecimentos essencial em backend,
                         pronto para oferecer as melhores soluções para o seu negócio.
                         Com 22 anos e atualmente formando em Engenharia de Software no 8º período,
                         sou apaixonado pelo ramo tecnologico. Com facilidade em aprendizado
@@ -37,8 +37,17 @@ function about() {
                         extremamente flexível e habilidoso com diversas linguagens e
                         frameworks de programação.
                     </p>
+
+                    <h2>Outros competências!</h2>
+                    <ul className='comp'>
+                        <li>Power BI - Avançado</li>
+                        <li>Redes de Computadores - Avançado</li>
+                        <li>Arquitetura e Infraestrutura</li>
+                        <li>Manutenção de Hardware - Avançada</li>
+                        <li>Ferramentas Microsoft</li>
+                    </ul>
                     <h5 className='pl-2'>Exemplos: </h5>
-                    <div className='d-flex '>
+                    <div className='d-flex justify-content-center'>
                         <div>
                             <ul>
                                 <li>Flutter</li>
@@ -60,6 +69,14 @@ function about() {
                         <div>
                             <ul>
                                 <li>C++</li>
+                                <li>DAX</li>
+                            </ul>
+                        </div>
+                        <div>
+
+                            <ul>
+                                <li>Power Bi</li>
+                                <li>APKs</li>
                             </ul>
                         </div>
 

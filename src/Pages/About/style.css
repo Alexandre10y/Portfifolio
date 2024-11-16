@@ -5,7 +5,14 @@
     background-color: #ffffff;
     /* Cor de fundo da tela */
 }
-
+.comp{
+    text-align: left;
+    padding-left: 50px;
+    
+}
+.comp li{
+    list-style: circle;
+}
 .sobre-content {
     max-width: 800px;
     padding: 20px;
@@ -18,7 +25,7 @@
     height: 100vh;
 }
 ul li{
-    list-style: none !important;
+    list-style: none;
     padding: 0;
 }
 .pl-2{

@@ -28,11 +28,11 @@ function Home() {
 
             <ListGroup>
               <h2 className="mb-2 text-muted pb-2">Belloni Alexandre</h2>
-              <ListGroup.Item >Software Enginer</ListGroup.Item>
+              <ListGroup.Item >Engenheiro de Software</ListGroup.Item>
               <ListGroup.Item>22 Anos</ListGroup.Item>
               <ListGroup.Item><a target='_blank' href='https://maps.app.goo.gl/6y2jBrPSaviJKaH79'>Laranjeiras Do Sul - Paraná <FaExternalLinkAlt /></a> </ListGroup.Item>
               <ListGroup.Item>Domínios <FaReact /> <FaHtml5 /> <FaCss3 /> <IoLogoJavascript /> <FaPhp /></ListGroup.Item>
-              <ListGroup.Item> Developer Front-End</ListGroup.Item>
+              <ListGroup.Item> Desenvolvedor Front-End /  Design</ListGroup.Item>
             </ListGroup>
           </Col>
         </Row>
@@ -47,7 +47,7 @@ function Home() {
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={Project} />
               <Card.Body>
-                <Card.Title>CURSO DE PROGRAMAÇÃO WEB GRATUITO</Card.Title>
+                <Card.Title>CURSO DE PROGRAMAÇÃO WEB</Card.Title>
                 <Card.Text>
                   Introdução aos conceitos básicos de desenvolvimento web em html css e java script
                 </Card.Text>
@@ -102,7 +102,7 @@ function Home() {
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={Project5} />
                 <Card.Body>
-                  <Card.Title>SOFTWARE ENGINER</Card.Title>
+                  <Card.Title>Engenheiro de Software</Card.Title>
 
                   <Card.Text>
                     Aprendemos sobre software, design de sistemas, algoritmos, testes de software,
