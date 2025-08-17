@@ -91,10 +91,7 @@ export default function Home() {
                             Seja encorajado pela ambição.
                         </h1>
                         <p>
-                            <span className='destaque-span' destaque>
-                                Como dizia Sr. Clovis:
-                            </span>
-                            "Como pode um cara escrever uma coisa que eu não entenda?"
+                           O conhecimento só tem valor quando inspira ação e transforma realidades.
                         </p>
                         <img
                             style={{
