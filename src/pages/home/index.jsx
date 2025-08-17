@@ -323,7 +323,7 @@ export default function Home() {
                         </Col>
 
                         <Col>
-                            <div className="h-100 p-3 rounded bg-muted ">
+                            <div className="h-100 p-3 rounded bg-muted  ">
                                 <h5 className="fw-bold text-white">Freelancer em Front-End</h5>
                                 <p>
                                     Desenvolvimento de interfaces modernas e responsivas, sempre priorizando usabilidade e estética.
