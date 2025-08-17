@@ -1,0 +1,134 @@
+.colorfundo {
+  background-color: rgb(0, 0, 0);
+}
+
+.destaque-span {
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.estilocard {
+  color: white;
+  display: flex;
+  padding-top: 40px;
+}
+
+/* wrapper geral da seção */
+.sobre-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  min-height: 600px;
+  padding: 40px 0;
+}
+
+/* coluna do texto */
+.sobre-texto {
+  max-width: 640px;
+}
+
+/* tipografia */
+.sobre-titulo {
+  color: white;
+  margin: 0 0 12px;
+  font-weight: 800;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+}
+
+.sobre-paragrafo {
+  margin: 0;
+  line-height: 1.6;
+  color: #ccc;
+  font-size: clamp(0.95rem, 1.2vw, 1.05rem);
+}
+
+/* coluna do card */
+.sobre-cardbox {
+  flex: 0 0 auto;
+  width: 460px;
+  /* largura ideal no desktop */
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* bom para efeitos 3D/tilt */
+}
+
+/* RESPONSIVO: mobile = column-reverse + centralizado */
+@media (max-width: 768px) {
+  .sobre-wrapper {
+    flex-direction: column-reverse;
+    /* 👈 card embaixo do texto */
+    text-align: center;
+    gap: 20px;
+    min-height: auto;
+    padding: 24px 0;
+  }
+
+  .sobre-texto {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+
+  .sobre-cardbox {
+    width: min(360px, 92vw);
+    /* diminui no celular */
+    margin: 0 auto;
+  }
+}
+
+
+.card-img-uniform {
+  height: 286px;
+  /* altura padrão para todas as imagens */
+  object-fit: cover;
+  /* corta e preenche proporcionalmente */
+}
+
+.card-text {
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+}
+
+.card .btn-saiba-mais {
+  justify-content: center;
+  display: flex;
+  background-color: #adadad;
+  /* amarelo vibrante */
+  color: #393939;
+  /* texto escuro para contraste */
+  font-weight: 600;
+  border-radius: 50px;
+  /* mais arredondado */
+  padding: 10px 20px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.card .btn-saiba-mais:hover {
+  background-color: #7c7c7c;
+  /* laranja mais forte no hover */
+  color: #000000;
+  transform: translateY(-3px);
+  /* leve efeito de elevação */
+  box-shadow: 0px 4px 10px rgba(43, 41, 38, 0.4);
+}
+
+.bg-muted{
+  border-radius: 10px;
+  color: #7F8687;
+  background-color: #212529;
+}
+
+.text-muted22{
+    color: #212529;
+}
