@@ -61,12 +61,11 @@ export const MeuDrigPessoal = ({
     },
     {
       image: buscador,
-      title: "Controle de Loja - TCC",
-      subtitle: "Buscando controlar vendas, metas, funcionários e fluxo. Foi desenvolido a GH MODAS",
+      title: "GH - TCC - PRIVADO",
+      subtitle: "Foi desenvolido a GH MODAS - um sistema conectado com power bi, firebase e dataworld.",
       handle: "@Alexandre10y",
       borderColor: "#8B5CF6",
       gradient: "linear-gradient(225deg, #8B5CF6, #000)",
-      url: "https://github.com/",
     },
   ];
   const data = items?.length ? items : demo;

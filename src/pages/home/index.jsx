@@ -91,7 +91,7 @@ export default function Home() {
                             Seja encorajado pela ambição.
                         </h1>
                         <p>
-                           O conhecimento só tem valor quando inspira ação e transforma realidades.
+                            O conhecimento só tem valor quando inspira ação e transforma realidades.
                         </p>
                         <img
                             style={{
@@ -242,41 +242,43 @@ export default function Home() {
                         <Row className="g-3">
                             <Col md={3}>
                                 <Card bg="dark" text="white" className="mb-2 h-100 cursor-target">
-                                    <Card.Header className="text-center fw-bold ">Aulas de Robótica Básica</Card.Header>
+                                    <Card.Header className="text-center fw-bold ">Aula de HTML e CSS Gratuitas</Card.Header>
                                     <Card.Body>
                                         <Card.Img variant="top" src={HTML} />
                                         <Card.Text className="mt-2 text-secondary">
                                             Com o intuito de fortalecer o mercado de trabalho e motivar os jovens a se aperfeiçoarem em tecnologia, disponibilizei-me, durante três anos,
                                             para oferecer gratuitamente aulas noturnas no Colégio Técnico Naiana Bavaresco.
                                         </Card.Text>
-                                        <Button className='btn-saiba-mais' href="#" target="_blank" variant="light">Saiba Mais</Button>
+                                        <Button className='btn-saiba-mais' href='https://www.instagram.com/p/Cy6YiVJA0Qp/' target="_blank" variant="light">Saiba Mais</Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
 
                             <Col md={6}>
                                 <Card bg="dark" text="white" className="mb-2 h-100 cursor-target">
-                                    <Card.Header className="text-center fw-bold">Licenciando Programação e Robótica</Card.Header>
+                                    <Card.Header className="text-center fw-bold">Área de Atuação Atualmente</Card.Header>
                                     <Card.Body>
                                         <Card.Img className='card-img-uniform' variant="top" src={prof} />
                                         <Card.Text className="mt-2 text-secondary">
-                                            Atuando em escolas estaduais, ministro aulas de programação para alunos de 14 a 17 anos, ensinando desde conceitos básicos, como lógica computacional por meio do Scratch, até conteúdos avançados,
-                                            como programação em HTML, CSS e JavaScript, nas disciplinas de Pensamento Computacional e Matemática II.
+                                            <ul>
+                                                <li> Atuando em escolas estaduais a 4 anos, ministro aulas de programação para alunos de 14 a 17 anos, ensinando desde conceitos básicos, como lógica computacional por meio de programação em HTML, CSS e JavaScript.</li>
+                                                <li>Desenvolvimento de web-sites com banco de dados e landing page</li>
+                                                <li>Suporte de Marketing e TI para a empresa Hotel Marechal Express - Laranjeiras do Sul</li>
+                                            </ul>
                                         </Card.Text>
-                                        <Button href="#" target="_blank" variant="warning" className="fw-bold btn-saiba-mais">Saiba Mais</Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
 
                             <Col md={3}>
                                 <Card bg="dark" text="white" className="mb-2 h-100 cursor-target">
-                                    <Card.Header className="text-center fw-bold ">Aula de HTML e CSS Gratuitas</Card.Header>
+                                    <Card.Header className="text-center fw-bold ">Aulas de Robótica Básica</Card.Header>
                                     <Card.Body>
                                         <Card.Img variant="top" src={robotica} />
                                         <Card.Text className="mt-2 text-secondary">
                                             Em parceria com o Centro Universitário Campo Real, iniciamos uma imersão em robótica com o objetivo de incentivar jovens a se envolverem mais com o setor tecnológico, especialmente voltado para a área de robótica inicial.
                                         </Card.Text>
-                                        <Button className='btn-saiba-mais' href="#" target="_blank" variant="light">Saiba Mais</Button>
+                                        <Button className='btn-saiba-mais' target='_blank' href='https://www.instagram.com/p/CiVA9rWgA-M/' variant="light">Saiba Mais</Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
