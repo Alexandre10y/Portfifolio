@@ -1,9 +1,43 @@
+html {
+  scroll-behavior: auto;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Space Grotesk', 'Poppins', sans-serif;
+  background: #050506;
+  color: #f6f6f7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #ffffff;
+  color: #0a0a0a;
+}
+
+/* scrollbar custom */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0c;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.28);
 }
 
 .card-text {
   font-size: 0.95rem;
   line-height: 1.6;
-  color: #d1d1d1; /* cinza claro para leitura confortável */
+  color: #d1d1d1;
 }
