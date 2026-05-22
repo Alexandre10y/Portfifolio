@@ -20,6 +20,7 @@ import AtuacaoSection from '../../components/atuacao/AtuacaoSection';
 import JourneySection from '../../components/jornada/JourneySection';
 import ContactSection from '../../components/contato/ContactSection';
 import EducatorIntro from '../../components/educadores/EducatorIntro';
+import InscricaoButton from '../../components/ui/InscricaoButton';
 import NoiseOverlay from '../../components/ui/NoiseOverlay';
 
 import fotoPerfil from '../../assets/img/foto .png';
@@ -156,16 +157,18 @@ export default function Home() {
             Desenvolvo produtos digitais com estética, performance e propósito.
           </motion.p>
 
-          <motion.a
-            href="#educadores"
-            className="hero__educator-hint cursor-target"
+          <motion.div
+            className="hero__educator-actions"
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 1.05 }}
           >
-            <span className="hero__educator-hint-dot" aria-hidden="true" />
-            É professor(a)? Assista minha mensagem
-          </motion.a>
+            <a href="#educadores" className="hero__educator-hint cursor-target">
+              <span className="hero__educator-hint-dot" aria-hidden="true" />
+              É professor(a)? Assista minha mensagem
+            </a>
+            <InscricaoButton variant="outline" className="hero__inscricao-btn" />
+          </motion.div>
 
           <motion.div
             className="hero__avatar-wrap"

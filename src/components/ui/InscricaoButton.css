@@ -1,0 +1,137 @@
+.inscricao-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 22px;
+  border-radius: 999px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease,
+    background 0.3s ease,
+    border-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.inscricao-btn svg {
+  flex-shrink: 0;
+  transition: transform 0.35s ease;
+}
+
+.inscricao-btn:hover svg {
+  transform: translateX(4px);
+}
+
+.inscricao-btn--primary {
+  background: #3ddc84;
+  color: #0a0a0a;
+  border: 1px solid rgba(61, 220, 132, 0.6);
+  box-shadow: 0 12px 32px rgba(61, 220, 132, 0.25);
+}
+
+.inscricao-btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(61, 220, 132, 0.35);
+  color: #0a0a0a;
+}
+
+.inscricao-btn--secondary {
+  background: #fff;
+  color: #0a0a0a;
+  border: 1px solid transparent;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+.inscricao-btn--secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(61, 220, 132, 0.2);
+  color: #0a0a0a;
+}
+
+.inscricao-btn--outline {
+  background: rgba(61, 220, 132, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(61, 220, 132, 0.45);
+  box-shadow: none;
+}
+
+.inscricao-btn--outline:hover {
+  background: rgba(61, 220, 132, 0.18);
+  border-color: rgba(61, 220, 132, 0.65);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+/* CTA abaixo do vídeo — alto contraste */
+.inscricao-btn--compact {
+  width: 100%;
+  padding: 16px 22px;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: #041208;
+  background: linear-gradient(135deg, #4ae892 0%, #3ddc84 45%, #2eb86d 100%);
+  border: 1px solid rgba(160, 255, 200, 0.55);
+  box-shadow:
+    0 0 0 1px rgba(61, 220, 132, 0.25) inset,
+    0 10px 32px rgba(61, 220, 132, 0.4),
+    0 4px 12px rgba(0, 0, 0, 0.45);
+  position: relative;
+  overflow: hidden;
+}
+
+.inscricao-btn--compact::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    rgba(255, 255, 255, 0.22) 50%,
+    transparent 60%
+  );
+  transform: translateX(-120%);
+  transition: transform 0.6s ease;
+}
+
+.inscricao-btn--compact:hover {
+  transform: translateY(-2px);
+  color: #041208;
+  border-color: rgba(200, 255, 220, 0.75);
+  box-shadow:
+    0 0 0 1px rgba(61, 220, 132, 0.35) inset,
+    0 14px 40px rgba(61, 220, 132, 0.5),
+    0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+.inscricao-btn--compact:hover::before {
+  transform: translateX(120%);
+}
+
+.inscricao-btn--compact > * {
+  position: relative;
+  z-index: 1;
+}
+
+.inscricao-btn--compact svg {
+  filter: drop-shadow(0 1px 0 rgba(255, 255, 255, 0.25));
+}
+
+@media (max-width: 600px) {
+  .inscricao-btn--compact,
+  .inscricao-btn--primary,
+  .inscricao-btn--secondary {
+    width: 100%;
+  }
+
+  .inscricao-btn--compact {
+    padding: 15px 20px;
+    font-size: 0.78rem;
+  }
+}

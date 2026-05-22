@@ -9,37 +9,39 @@ import {
   FaArrowRightLong,
 } from 'react-icons/fa6';
 import Reveal from '../ui/Reveal';
+import InscricaoButton from '../ui/InscricaoButton';
+import { CONTACT } from '../../constants/contact';
 import './contact.css';
 
 const CONTACTS = [
   {
     label: 'Email',
-    value: 'alexandrebelloni10@gmail.com',
-    href: 'mailto:alexandrebelloni10@gmail.com',
+    value: CONTACT.emailDisplay,
+    href: `mailto:${CONTACT.email}`,
     icon: <FaEnvelope />,
   },
   {
     label: 'LinkedIn',
-    value: '/in/alexandre-belloni',
-    href: 'https://www.linkedin.com/in/alexandre-belloni/',
+    value: CONTACT.linkedinHandle,
+    href: CONTACT.linkedin,
     icon: <FaLinkedinIn />,
   },
   {
     label: 'GitHub',
-    value: '/Alexandre10y',
-    href: 'https://github.com/Alexandre10y',
+    value: CONTACT.githubHandle,
+    href: CONTACT.github,
     icon: <FaGithub />,
   },
   {
     label: 'Instagram',
-    value: '@alexandre10y',
-    href: 'https://www.instagram.com/alexandre10y/',
+    value: CONTACT.instagramHandle,
+    href: CONTACT.instagram,
     icon: <FaInstagram />,
   },
   {
     label: 'WhatsApp',
-    value: 'Fale agora',
-    href: 'https://wa.me/5542999999999',
+    value: CONTACT.whatsappDisplay,
+    href: CONTACT.whatsapp,
     icon: <FaWhatsapp />,
   },
 ];
@@ -66,7 +68,7 @@ function ContactCTA() {
   return (
     <motion.a
       ref={ref}
-      href="mailto:alexandrebelloni10@gmail.com"
+      href={`mailto:${CONTACT.email}`}
       className="contact-cta cursor-target"
       onMouseMove={onMove}
       onMouseLeave={onLeave}
@@ -87,7 +89,7 @@ export default function ContactSection() {
 
   const copyEmail = async () => {
     try {
-      await navigator.clipboard.writeText('alexandrebelloni10@gmail.com');
+      await navigator.clipboard.writeText(CONTACT.email);
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
     } catch {}
@@ -96,7 +98,6 @@ export default function ContactSection() {
   return (
     <section id="contato" className="contact-section">
       <div className="contact-section__bg" aria-hidden="true" />
-
       <div className="contact-section__inner">
         <Reveal direction="up" className="contact-section__head">
           <span className="contact-section__kicker">
@@ -112,6 +113,10 @@ export default function ContactSection() {
             Disponível para projetos freelance, consultorias e novas oportunidades em análise de
             dados, desenvolvimento web, TI e inteligência artificial para empresas.
           </p>
+          <div className="contact-section__inscricao">
+            <span className="contact-section__inscricao-label">Capacitação para educadores</span>
+            <InscricaoButton variant="primary" />
+          </div>
         </Reveal>
 
         <Reveal direction="up" delay={0.15} className="contact-section__cta-wrap">

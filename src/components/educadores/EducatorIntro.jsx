@@ -8,6 +8,7 @@ import {
   FaArrowRight,
 } from 'react-icons/fa6';
 import Reveal from '../ui/Reveal';
+import InscricaoButton from '../ui/InscricaoButton';
 import './educator-intro.css';
 
 const HEYGEN_EMBED =
@@ -88,6 +89,7 @@ export default function EducatorIntro() {
           </ul>
 
           <div className="educator-intro__actions">
+            <InscricaoButton variant="primary" />
             <a href="#contato" className="educator-intro__cta">
               Quero saber mais
               <FaArrowRight />
@@ -131,6 +133,13 @@ export default function EducatorIntro() {
             <p className="educator-intro__caption">
               Assista com som ligado · cerca de 1 min
             </p>
+
+            <div className="educator-intro__frame-cta">
+              <span className="educator-intro__frame-cta-label">
+                Capacitação · vagas limitadas
+              </span>
+              <InscricaoButton variant="compact" />
+            </div>
           </div>
         </Reveal>
       </div>

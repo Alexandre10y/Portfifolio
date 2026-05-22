@@ -6,31 +6,32 @@ import {
   FaWhatsapp,
   FaEnvelope,
 } from 'react-icons/fa6';
+import { CONTACT } from '../../constants/contact';
 import './SocialDock.css';
 
 const LINKS = [
   {
-    href: 'https://github.com/Alexandre10y',
+    href: CONTACT.github,
     label: 'GitHub',
     icon: <FaGithub />,
   },
   {
-    href: 'https://www.linkedin.com/in/alexandre-belloni/',
+    href: CONTACT.linkedin,
     label: 'LinkedIn',
     icon: <FaLinkedinIn />,
   },
   {
-    href: 'https://www.instagram.com/alexandre10y/',
+    href: CONTACT.instagram,
     label: 'Instagram',
     icon: <FaInstagram />,
   },
   {
-    href: 'https://wa.me/5542999999999',
+    href: CONTACT.whatsapp,
     label: 'WhatsApp',
     icon: <FaWhatsapp />,
   },
   {
-    href: 'mailto:alexandrebelloni10@gmail.com',
+    href: `mailto:${CONTACT.email}`,
     label: 'Email',
     icon: <FaEnvelope />,
   },
