@@ -109,8 +109,8 @@ export default function ContactSection() {
             <span>juntos.</span>
           </h2>
           <p>
-            Disponível para projetos freelance, consultorias e novas oportunidades profissionais
-            em desenvolvimento web, dados e educação tecnológica.
+            Disponível para projetos freelance, consultorias e novas oportunidades em análise de
+            dados, desenvolvimento web, TI e inteligência artificial para empresas.
           </p>
         </Reveal>
 
@@ -153,7 +153,7 @@ export default function ContactSection() {
             <div className="site-footer__mark">AB</div>
             <div>
               <strong>Alexandre Belloni</strong>
-              <span>Software Engineer · Professor · Criador</span>
+              <span>Analista de Dados · Eng. Software · Criador</span>
             </div>
           </div>
           <div className="site-footer__meta">

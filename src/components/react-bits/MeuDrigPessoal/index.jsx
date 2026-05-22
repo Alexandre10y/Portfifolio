@@ -59,14 +59,6 @@ export const MeuDrigPessoal = ({
       gradient: "linear-gradient(195deg, #EF4444, #000)",
       url: "https://github.com/Alexandre10y/BuscadorDeCep-React",
     },
-    {
-      image: buscador,
-      title: "GH - TCC - PRIVADO",
-      subtitle: "Foi desenvolido a GH MODAS - um sistema conectado com power bi, firebase e dataworld.",
-      handle: "@Alexandre10y",
-      borderColor: "#8B5CF6",
-      gradient: "linear-gradient(225deg, #8B5CF6, #000)",
-    },
   ];
   const data = items?.length ? items : demo;
 

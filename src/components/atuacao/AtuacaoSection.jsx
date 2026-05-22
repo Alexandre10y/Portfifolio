@@ -14,33 +14,25 @@ const ROLES = [
   },
   {
     numero: '02',
-    titulo: 'Professor de Programação & Robótica',
-    local: 'Escolas estaduais · Iniciativas comunitárias',
+    titulo: 'Suporte de TI, IA & Marketing Digital',
+    local: 'Hotéis e empresas do setor hoteleiro',
     descricao:
-      'Ministro aulas presenciais de lógica computacional, HTML, CSS, JavaScript e robótica básica para adolescentes. As turmas no período noturno e em projetos sociais são 100% gratuitas.',
-    tags: ['Docência', 'Gratuito', 'Robótica', 'Front-end'],
+      'Prestação de serviços de tecnologia, inteligência artificial, marketing de TI e desenvolvimento de sistemas para empresas do ramo: configuração de contas Google, automações, chatbots, sites, Booking e inovação no dia a dia do negócio.',
+    tags: ['IA', 'Google Workspace', 'Chatbots', 'Automação'],
   },
   {
     numero: '03',
-    titulo: 'Suporte de TI & Automação em hotelaria',
-    local: 'Redes hoteleiras · Hotel Marechal Express',
+    titulo: 'Freelancer — Desenvolvimento & Dados',
+    local: 'Projetos sob demanda',
     descricao:
-      'Manutenção de equipamentos, administração da plataforma Booking, suporte a e-mails corporativos, sites, chatbots e robôs automatizados que operam no dia a dia do negócio.',
-    tags: ['Booking', 'Chatbots', 'Automação', 'Infra'],
-  },
-  {
-    numero: '04',
-    titulo: 'Freelancer Full-Stack',
-    local: 'Projetos autorais e sob demanda',
-    descricao:
-      'Desenvolvimento de sites, landing pages, sistemas web e integrações com APIs. Foco em interfaces modernas, performance e identidade visual coerente com cada cliente.',
-    tags: ['React', 'UI/UX', 'APIs', 'Firebase'],
+      'Desenvolvimento de sites, landing pages, sistemas web, dashboards e integrações com APIs. Foco em interfaces modernas, performance e identidade visual coerente com cada cliente.',
+    tags: ['React', 'Power BI', 'APIs', 'UI/UX'],
   },
 ];
 
 export default function AtuacaoSection() {
   return (
-    <section id="trabalhos-atuais" className="atuacao-section">
+    <section id="atuacao" className="atuacao-section">
       <div className="container">
         <Reveal className="atuacao-section__head">
           <span className="atuacao-section__kicker">
@@ -48,7 +40,7 @@ export default function AtuacaoSection() {
             Trabalhos atuais
           </span>
           <h2>
-            Quatro frentes. Um propósito: <em>criar impacto real</em>.
+            Três frentes. Um propósito: <em>criar impacto real</em>.
           </h2>
         </Reveal>
 

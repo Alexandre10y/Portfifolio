@@ -33,6 +33,11 @@ const TargetCursor = ({
   useEffect(() => {
     if (!cursorRef.current) return;
 
+    const isTouchLike =
+      window.matchMedia('(hover: none), (pointer: coarse)').matches ||
+      window.innerWidth <= 900;
+    if (isTouchLike) return undefined;
+
     const originalCursor = document.body.style.cursor;
     if (hideDefaultCursor) {
       document.body.style.cursor = 'none';

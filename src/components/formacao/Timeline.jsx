@@ -24,13 +24,13 @@ const ITEMS = [
     tags: ['Arquitetura', 'Banco de Dados', 'Engenharia de Requisitos'],
   },
   {
-    periodo: '2022 — Atual',
-    titulo: 'Professor de Programação e Robótica',
+    periodo: '2022 — 2025',
+    titulo: 'Docência em Programação e Robótica',
     instituicao: 'Escolas estaduais · Campo Real (robótica)',
-    tipo: 'Docência',
+    tipo: 'Histórico',
     detalhes:
-      'Aulas para adolescentes de 14 a 17 anos em escolas estaduais, além de imersões de robótica básica já ministradas em centros universitários como o Campo Real.',
-    tags: ['Docência', 'Robótica', 'Front-end'],
+      'Aulas para adolescentes de 14 a 17 anos em escolas estaduais e imersões de robótica no Campo Real. Atividade encerrada no ensino estadual; mantém apoio pontual a ex-alunos com dúvidas de carreira e projetos.',
+    tags: ['Docência', 'Robótica', 'Mentoria'],
   },
   {
     periodo: '2024 — 2025',
@@ -52,12 +52,12 @@ const ITEMS = [
   },
   {
     periodo: 'Atual',
-    titulo: 'Freelancer & Suporte de TI',
-    instituicao: 'Hotelaria, web e automações',
+    titulo: 'Suporte de TI, IA & Marketing Digital',
+    instituicao: 'Hotéis e empresas do setor',
     tipo: 'Profissional',
     detalhes:
-      'Manutenção de equipamentos em redes hoteleiras, administração de sistemas como Booking, suporte a sites, e-mail corporativo, chatbots e robôs automatizados para clientes.',
-    tags: ['Booking', 'Chatbots', 'Automação', 'Sites'],
+      'Serviços de tecnologia, inteligência artificial, marketing de TI e desenvolvimento de sistemas para empresas do ramo hoteleiro: Google Workspace, Booking, sites, chatbots e automações.',
+    tags: ['IA', 'Google', 'Chatbots', 'Hotelaria'],
   },
 ];
 
@@ -81,8 +81,8 @@ export default function Timeline() {
             Uma trajetória construída por <em>estudo</em>, prática e ensino.
           </h2>
           <p>
-            Entre salas de aula, clientes reais e projetos pessoais, cada experiência moldou um
-            profissional que entrega tecnologia com propósito.
+            Entre dados na Cresol, tecnologia para empresas e uma trajetória sólida em educação,
+            cada experiência moldou um profissional que entrega soluções com propósito.
           </p>
         </Reveal>
 

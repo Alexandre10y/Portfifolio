@@ -5,10 +5,10 @@ import Reveal from '../ui/Reveal';
 import './StatsSection.css';
 
 const STATS = [
-  { value: 4,   suffix: '+', label: 'Anos ensinando tecnologia',  sub: 'Escolas públicas e universidades' },
-  { value: 300, suffix: '+', label: 'Alunos impactados',          sub: 'Programação, robótica e BI' },
-  { value: 20,  suffix: '+', label: 'Projetos entregues',         sub: 'Web, BI, automação e chatbots' },
-  { value: 100, suffix: '%', label: 'Aulas comunitárias gratuitas', sub: 'Retribuir o que aprendi' },
+  { value: 4,   suffix: '+', label: 'Anos formando em tecnologia',  sub: 'Escolas públicas e comunidade' },
+  { value: 300, suffix: '+', label: 'Alunos impactados',            sub: 'Programação, robótica e BI' },
+  { value: 20,  suffix: '+', label: 'Projetos entregues',           sub: 'Web, BI, automação e chatbots' },
+  { value: 10,  suffix: '+', label: 'Empresas no setor hoteleiro',  sub: 'TI, IA e marketing digital' },
 ];
 
 export default function StatsSection() {
@@ -24,7 +24,7 @@ export default function StatsSection() {
             Resultados
           </span>
           <h2>
-            Anos formando pessoas <em>e</em> entregando produtos.
+            Dados, produtos digitais <em>e</em> impacto real.
           </h2>
         </Reveal>
 

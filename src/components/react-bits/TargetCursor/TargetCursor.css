@@ -55,3 +55,9 @@
   border-right: none;
   border-top: none;
 }
+
+@media (hover: none), (pointer: coarse), (max-width: 900px) {
+  .target-cursor-wrapper {
+    display: none !important;
+  }
+}

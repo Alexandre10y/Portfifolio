@@ -33,17 +33,16 @@ const ITEMS = [
   {
     id: 'atuacao',
     numero: '02',
-    categoria: 'Ensino público',
+    categoria: 'Histórico',
     icon: <FaGraduationCap />,
-    titulo: 'Professor no ensino estadual',
+    titulo: 'Docência no ensino estadual',
     subtitulo: '4+ anos — Programação para adolescentes',
     imagem: prof,
-    destaque: true,
     descricao:
-      'Ministro aulas de programação para alunos de 14 a 17 anos em escolas estaduais. Trabalho desde a lógica computacional até o desenvolvimento de sites completos usando HTML, CSS, JavaScript e Bootstrap, além de landing pages com banco de dados.',
+      'Atuei por mais de quatro anos como professor de programação para alunos de 14 a 17 anos em escolas estaduais, da lógica computacional ao desenvolvimento de sites com HTML, CSS, JavaScript e Bootstrap. Hoje não ministra mais aulas no Estado, mas segue apoiando ex-alunos com dúvidas importantes.',
     destaques: [
-      'Lógica computacional',
-      'HTML · CSS · JS',
+      'Atividade encerrada',
+      'Apoio a ex-alunos',
       'Projetos reais em sala',
     ],
   },
@@ -70,7 +69,7 @@ const ITEMS = [
 ];
 
 export default function JourneySection() {
-  const [active, setActive] = useState(ITEMS[1].id);
+  const [active, setActive] = useState(ITEMS[0].id);
   const activeItem = ITEMS.find((i) => i.id === active) || ITEMS[0];
 
   return (
@@ -85,9 +84,9 @@ export default function JourneySection() {
             Educação tecnológica, <em>acessível e gratuita</em>.
           </h2>
           <p className="section-lead">
-            Acredito que o conhecimento tem que voltar pra comunidade. Por isso atuo há anos em
-            escolas públicas e iniciativas voluntárias — formando novos desenvolvedores e
-            incentivando a cultura técnica em quem normalmente não teria acesso.
+            Histórico de aulas gratuitas em escolas públicas e iniciativas voluntárias. Hoje o
+            foco profissional está em dados e tecnologia para empresas, mas o compromisso com
+            quem aprendeu continua no apoio pontual a ex-alunos.
           </p>
         </Reveal>
 

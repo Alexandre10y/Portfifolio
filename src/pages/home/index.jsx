@@ -19,6 +19,7 @@ import StatsSection from '../../components/stats/StatsSection';
 import AtuacaoSection from '../../components/atuacao/AtuacaoSection';
 import JourneySection from '../../components/jornada/JourneySection';
 import ContactSection from '../../components/contato/ContactSection';
+import EducatorIntro from '../../components/educadores/EducatorIntro';
 import NoiseOverlay from '../../components/ui/NoiseOverlay';
 
 import fotoPerfil from '../../assets/img/foto .png';
@@ -43,7 +44,32 @@ export default function Home() {
     if ('scrollRestoration' in window.history) {
       window.history.scrollRestoration = 'manual';
     }
-    window.scrollTo(0, 0);
+
+    const hash = window.location.hash;
+    if (hash && hash !== '#educadores' && hash !== '#inicio') {
+      const target = document.querySelector(hash);
+      if (target) {
+        requestAnimationFrame(() => {
+          target.scrollIntoView({ behavior: 'auto', block: 'start' });
+        });
+      }
+      return undefined;
+    }
+
+    const scrollToVideo = () => {
+      const el = document.getElementById('educadores');
+      if (!el) return;
+      const navOffset = window.innerWidth < 768 ? 72 : 88;
+      const top = el.getBoundingClientRect().top + window.scrollY - navOffset;
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({
+        top: Math.max(0, top),
+        behavior: reduceMotion ? 'auto' : 'smooth',
+      });
+    };
+
+    const timer = window.setTimeout(scrollToVideo, 650);
+    return () => window.clearTimeout(timer);
   }, []);
 
   useEffect(() => {
@@ -130,6 +156,17 @@ export default function Home() {
             Desenvolvo produtos digitais com estética, performance e propósito.
           </motion.p>
 
+          <motion.a
+            href="#educadores"
+            className="hero__educator-hint cursor-target"
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 1.05 }}
+          >
+            <span className="hero__educator-hint-dot" aria-hidden="true" />
+            É professor(a)? Assista minha mensagem
+          </motion.a>
+
           <motion.div
             className="hero__avatar-wrap"
             initial={{ opacity: 0, scale: 0.85 }}
@@ -148,7 +185,7 @@ export default function Home() {
           </motion.div>
 
           <motion.a
-            href="#trabalhos"
+            href="#educadores"
             className="hero__scroll cursor-target"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -159,6 +196,89 @@ export default function Home() {
           </motion.a>
         </div>
       </section>
+
+      <EducatorIntro />
+
+      <TargetCursor spinDuration={2} hideDefaultCursor={true} />
+
+      {/* SOBRE */}
+      <section id="sobre" className="about-section">
+        <Container>
+          <div className="sobre-wrapper">
+            <div className="sobre-texto">
+              <Reveal>
+                <span className="section-kicker">
+                  <span className="section-kicker__dot" />
+                  Sobre mim
+                </span>
+              </Reveal>
+              <Reveal delay={0.05}>
+                <h2 className="section-title sobre-titulo cursor-target">
+                  Meu nome é <em>Alexandre Belloni</em>
+                </h2>
+              </Reveal>
+              <Reveal delay={0.1}>
+                <p className="sobre-paragrafo">
+                  Sou <strong>Engenheiro de Software</strong> e pós-graduado em{' '}
+                  <strong>Inteligência Artificial</strong>. Atualmente sou <strong>Analista
+                  de Dados</strong> na <strong>Cresol</strong>, 3ª maior cooperativa de
+                  crédito do Brasil, desenvolvendo painéis gerenciais de BI para decisões
+                  estratégicas.
+                  <br />
+                  <br />
+                  Meu segundo foco profissional é prestar <strong>suporte de tecnologia,
+                  inteligência artificial, marketing de TI e desenvolvimento de sistemas</strong>{' '}
+                  para <strong>hotéis e empresas do setor</strong> — configuração de contas
+                  Google, automações, chatbots, sites e inovação no dia a dia do negócio.
+                  <br />
+                  <br />
+                  Não ministro mais aulas no ensino estadual, mas sigo apoiando ex-alunos que
+                  têm dúvidas sobre carreira e projetos. Já formei turmas gratuitas em escolas
+                  e comunidade por mais de 4 anos.
+                  <br />
+                  <br />
+                  <strong>Acredito que tecnologia só faz sentido quando gera impacto real.</strong>
+                </p>
+              </Reveal>
+              <Reveal delay={0.2}>
+                <ul className="sobre-highlights">
+                  <li>
+                    <span>01</span>Engenheiro de Software + Pós em Inteligência Artificial
+                  </li>
+                  <li>
+                    <span>02</span>Analista de Dados na Cresol · 3ª maior cooperativa do Brasil
+                  </li>
+                  <li>
+                    <span>03</span>TI, IA e marketing digital para hotéis e empresas do ramo
+                  </li>
+                  <li>
+                    <span>04</span>4+ anos de docência social · apoio pontual a ex-alunos
+                  </li>
+                </ul>
+              </Reveal>
+            </div>
+
+            <Reveal direction="right" delay={0.15} className="sobre-cardbox">
+              <ProfileCard
+                name="Alexandre Belloni"
+                title="Analista de Dados · Eng. Software"
+                handle="alexandre10y"
+                status="Online"
+                contactText="Fale comigo"
+                avatarUrl="/images/avatar.png"
+                centerImageUrl="/images/foto-central.png"
+                showUserInfo
+                enableTilt
+                enableMobileTilt={false}
+              />
+            </Reveal>
+          </div>
+        </Container>
+      </section>
+
+      <SkillsMarquee />
+
+      <Timeline />
 
       {/* TRABALHOS */}
       <section id="trabalhos" className="work-section">
@@ -225,85 +345,9 @@ export default function Home() {
         </div>
       </section>
 
-      <TargetCursor spinDuration={2} hideDefaultCursor={true} />
-
-      {/* SOBRE */}
-      <section id="sobre" className="about-section">
-        <Container>
-          <div className="sobre-wrapper">
-            <div className="sobre-texto">
-              <Reveal>
-                <span className="section-kicker">
-                  <span className="section-kicker__dot" />
-                  Sobre mim
-                </span>
-              </Reveal>
-              <Reveal delay={0.05}>
-                <h2 className="section-title sobre-titulo cursor-target">
-                  Meu nome é <em>Alexandre Belloni</em>
-                </h2>
-              </Reveal>
-              <Reveal delay={0.1}>
-                <p className="sobre-paragrafo">
-                  Sou <strong>Engenheiro de Software</strong> e pós-graduado em{' '}
-                  <strong>Inteligência Artificial</strong>. Hoje atuo como <strong>Analista
-                  de Dados</strong> na <strong>Cresol</strong>, a 3ª maior cooperativa de
-                  crédito do Brasil, desenvolvendo painéis gerenciais de BI para decisões
-                  estratégicas.
-                  <br />
-                  <br />
-                  Em paralelo, ministro aulas de programação e robótica em escolas estaduais
-                  e em iniciativas comunitárias — todas <strong>100% gratuitas</strong> —,
-                  além de prestar suporte de TI e automações (chatbots, robôs, sites, e-mail
-                  corporativo e Booking) para redes hoteleiras e clientes freelance.
-                  <br />
-                  <br />
-                  <strong>Acredito que tecnologia só faz sentido quando gera impacto real.</strong>
-                </p>
-              </Reveal>
-              <Reveal delay={0.2}>
-                <ul className="sobre-highlights">
-                  <li>
-                    <span>01</span>Engenheiro de Software + Pós em Inteligência Artificial
-                  </li>
-                  <li>
-                    <span>02</span>Analista de BI na Cresol · 3ª maior cooperativa do Brasil
-                  </li>
-                  <li>
-                    <span>03</span>Robótica já ministrada no Centro Universitário Campo Real
-                  </li>
-                  <li>
-                    <span>04</span>Aulas de programação <strong>100% gratuitas</strong> há 4+ anos
-                  </li>
-                </ul>
-              </Reveal>
-            </div>
-
-            <Reveal direction="right" delay={0.15} className="sobre-cardbox">
-              <ProfileCard
-                name="Alexandre Belloni"
-                title="Software Engineer"
-                handle="alexandre10y"
-                status="Online"
-                contactText="Fale comigo"
-                avatarUrl="/images/avatar.png"
-                centerImageUrl="/images/foto-central.png"
-                showUserInfo
-                enableTilt
-                enableMobileTilt={false}
-              />
-            </Reveal>
-          </div>
-        </Container>
-      </section>
-
-      <SkillsMarquee />
-
       <StatsSection />
 
       <JourneySection />
-
-      <Timeline />
 
       <AtuacaoSection />
 

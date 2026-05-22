@@ -270,19 +270,34 @@ p {
 .hero__scroll {
   position: absolute;
   bottom: 28px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: inline-flex;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  transform: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 10px;
+  width: fit-content;
+  max-width: calc(100% - 32px);
+  padding: 4px 8px;
+  box-sizing: border-box;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-family: 'Space Grotesk', sans-serif;
   font-size: 0.72rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
   transition: color 0.3s ease;
+}
+
+.hero__scroll > span {
+  display: inline-block;
+  text-indent: 0.18em;
 }
 
 .hero__scroll:hover {
@@ -290,6 +305,9 @@ p {
 }
 
 .hero__scroll svg {
+  display: block;
+  width: 14px;
+  height: 14px;
   animation: hero-arrow 1.6s ease-in-out infinite;
 }
 
@@ -426,6 +444,48 @@ p {
   }
   .sobre-texto { max-width: 620px; margin: 0 auto; }
   .sobre-cardbox { width: min(360px, 92vw); margin: 0 auto; }
+}
+
+/* =========================================================
+   HERO – ajustes mobile
+   ========================================================= */
+@media (max-width: 600px) {
+  .hero {
+    min-height: 640px;
+  }
+
+  .hero__content {
+    padding: 0 20px;
+  }
+
+  .hero__scroll {
+    bottom: 20px;
+    gap: 8px;
+    font-size: 0.66rem;
+    letter-spacing: 0.16em;
+    padding: 4px 6px;
+    max-width: calc(100% - 24px);
+  }
+
+  .hero__scroll > span {
+    text-indent: 0.16em;
+  }
+
+  .hero__scroll svg {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero__scroll {
+    font-size: 0.6rem;
+    letter-spacing: 0.14em;
+  }
+
+  .hero__scroll > span {
+    text-indent: 0.14em;
+  }
 }
 
 /* =========================================================

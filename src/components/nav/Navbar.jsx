@@ -4,10 +4,12 @@ import './Navbar.css';
 
 const SECTIONS = [
   { id: 'inicio', label: 'Início' },
-  { id: 'trabalhos', label: 'Trabalhos' },
+  { id: 'educadores', label: 'Educadores' },
   { id: 'sobre', label: 'Sobre' },
-  { id: 'jornada', label: 'Jornada' },
+  { id: 'trabalhos', label: 'Projetos' },
   { id: 'formacao', label: 'Formação' },
+  { id: 'jornada', label: 'Jornada' },
+  { id: 'atuacao', label: 'Atuação' },
   { id: 'contato', label: 'Contato' },
 ];
 
