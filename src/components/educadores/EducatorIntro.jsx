@@ -12,7 +12,7 @@ import InscricaoButton from '../ui/InscricaoButton';
 import './educator-intro.css';
 
 const HEYGEN_EMBED =
-  'https://app.heygen.com/embeds/debeaff29d1d47f4abf0f15918992658';
+  'https://app.heygen.com/embeds/2ef345424d01455ba6f05d5f9761b175';
 
 const TOPICS = [
   {
