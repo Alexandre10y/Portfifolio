@@ -99,7 +99,7 @@
   inset: 1px;
   position: absolute;
   background-image: var(--inner-gradient);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(5, 5, 6, 0.35);
   transform: translate3d(0, 0, 0.01px);
 }
 
@@ -294,39 +294,85 @@
   mix-blend-mode: luminosity;
 }
 
+.pc-main-image-content {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: normal;
+}
+
+.pc-card .pc-main-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+  border-radius: var(--card-radius);
+  z-index: 1;
+  grid-area: 1 / -1;
+}
+
+.pc-card .pc-main-image-content .pc-details {
+  display: flex;
+  grid-area: 1 / -1;
+}
+
+.pc-main-image-content::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(5, 5, 6, 0.92) 0%,
+    rgba(5, 5, 6, 0.55) 28%,
+    rgba(5, 5, 6, 0.15) 55%,
+    transparent 78%
+  );
+  border-radius: var(--card-radius);
+}
+
 .pc-details {
   width: 100%;
   position: absolute;
-  top: 3em;
+  top: 1.75rem;
+  left: 0;
+  right: 0;
+  padding: 0 1.25rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  z-index: 6;
+  mix-blend-mode: normal;
+  pointer-events: none;
 }
 
 .pc-details h3 {
   font-weight: 600;
   margin: 0;
-  font-size: min(5svh, 3em);
-  margin: 0;
-  background-image: linear-gradient(to bottom, #fff, #6f6fbe);
-  background-size: 1em 1.5em;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
+  font-size: min(5svh, 2.4rem);
+  color: #fff;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.65);
+  background: none;
+  -webkit-text-fill-color: #fff;
 }
 
 .pc-details p {
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
-  top: -12px;
-  white-space: nowrap;
-  font-size: 16px;
-  margin: 0 auto;
-  width: min-content;
-  background-image: linear-gradient(to bottom, #fff, #4a4ac0);
-  background-size: 1em 1.5em;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
+  top: 0;
+  margin: 0.35rem 0 0;
+  white-space: normal;
+  font-size: clamp(0.8rem, 2.2svh, 1rem);
+  color: rgba(255, 255, 255, 0.82);
+  text-shadow: 0 1px 16px rgba(0, 0, 0, 0.55);
+  background: none;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.82);
+  width: auto;
+  max-width: 100%;
+  line-height: 1.35;
 }
 
 @keyframes glow-bg {

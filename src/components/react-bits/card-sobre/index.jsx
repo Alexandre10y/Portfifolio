@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useCallback, useMemo } from "react";
 import "./ProfileCard.css";
-import fotoPerfil from '../../../assets/img/foto .png'
+import fotoPerfil from '../../../assets/img/Foto Perfil.jpeg';
 const DEFAULT_BEHIND_GRADIENT =
     "radial-gradient(farthest-side circle at var(--pointer-x) var(--pointer-y),hsla(266,100%,90%,var(--card-opacity)) 4%,hsla(266,50%,80%,calc(var(--card-opacity)*0.75)) 10%,hsla(266,25%,70%,calc(var(--card-opacity)*0.5)) 50%,hsla(266,0%,60%,0) 100%),radial-gradient(35% 52% at 55% 20%,#00ffaac4 0%,#073aff00 100%),radial-gradient(100% 100% at 50% 50%,#00c1ffff 1%,#073aff00 76%),conic-gradient(from 124deg at 50% 50%,#c137ffff 0%,#07c6ffff 40%,#07c6ffff 60%,#c137ffff 100%)";
 
@@ -236,17 +236,10 @@ const ProfileCardComponent = ({
         card.addEventListener("pointerleave", pointerLeaveHandler);
         card.addEventListener("click", handleClick);
 
-        const initialX = wrap.clientWidth - ANIMATION_CONFIG.INITIAL_X_OFFSET;
-        const initialY = ANIMATION_CONFIG.INITIAL_Y_OFFSET;
+        const initialX = wrap.clientWidth / 2;
+        const initialY = wrap.clientHeight / 2;
 
         animationHandlers.updateCardTransform(initialX, initialY, card, wrap);
-        animationHandlers.createSmoothAnimation(
-            ANIMATION_CONFIG.INITIAL_DURATION,
-            initialX,
-            initialY,
-            card,
-            wrap
-        );
 
         return () => {
             card.removeEventListener("pointerenter", pointerEnterHandler);
@@ -293,15 +286,15 @@ const ProfileCardComponent = ({
                     <div className="pc-content pc-main-image-content">
                         {/* Imagem central */}
                         <img
-                            className="pc-main-image "
-                            src={fotoPerfil} // nova prop para imagem central
-                            alt="Imagem central"
+                            className="pc-main-image"
+                            src={fotoPerfil}
+                            alt={`Foto de ${name}`}
                             loading="lazy"
+                            decoding="async"
                         />
 
                         <div className="pc-details">
                             <h3>{name}</h3>
-                            <br />
                             <p>{title}</p>
                         </div>
                     </div>

@@ -12,13 +12,9 @@ export const CONTACT = {
   whatsappDisplay: '(42) 98402-2669',
 };
 
-/**
- * Formulário de inscrição (capacitação para educadores).
- * Quando o formulário estiver no ar, troque formUrl pela URL completa
- * (Google Forms, Typeform, Microsoft Forms, etc.).
- */
+/** Formulário de inscrição — Imersão em IA para Professores (Google Forms) */
 export const INSCRICAO = {
-  /** Troque pela URL do formulário quando publicar (ex.: Google Forms) */
-  formUrl: '#contato',
+  formUrl:
+    'https://docs.google.com/forms/d/1wqd9SItNtQkmE6lb0yKDGUrI_KCDbHla5zrkVC-klvI/viewform',
   formLabel: 'Quero me inscrever',
 };

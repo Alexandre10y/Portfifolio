@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import {
   FaChalkboardUser,
@@ -9,10 +8,8 @@ import {
 } from 'react-icons/fa6';
 import Reveal from '../ui/Reveal';
 import InscricaoButton from '../ui/InscricaoButton';
+import videoApresentacao from '../../assets/img/Vídeo Apresentação.mov';
 import './educator-intro.css';
-
-const HEYGEN_EMBED =
-  'https://app.heygen.com/embeds/2ef345424d01455ba6f05d5f9761b175';
 
 const TOPICS = [
   {
@@ -33,13 +30,6 @@ const TOPICS = [
 ];
 
 export default function EducatorIntro() {
-  const [loadVideo, setLoadVideo] = useState(false);
-
-  useEffect(() => {
-    const timer = window.setTimeout(() => setLoadVideo(true), 200);
-    return () => window.clearTimeout(timer);
-  }, []);
-
   return (
     <section
       id="educadores"
@@ -114,20 +104,13 @@ export default function EducatorIntro() {
             </div>
 
             <div className="educator-intro__video">
-              {loadVideo ? (
-                <iframe
-                  src={HEYGEN_EMBED}
-                  title="Mensagem para educadores — IA nas escolas"
-                  allow="encrypted-media; fullscreen"
-                  allowFullScreen
-                  loading="eager"
-                />
-              ) : (
-                <div className="educator-intro__video-placeholder" aria-hidden="true">
-                  <FaChalkboardUser />
-                  <span>Carregando vídeo…</span>
-                </div>
-              )}
+              <video
+                src={videoApresentacao}
+                title="Mensagem para educadores — IA nas escolas"
+                controls
+                playsInline
+                preload="metadata"
+              />
             </div>
 
             <p className="educator-intro__caption">

@@ -23,7 +23,7 @@ import EducatorIntro from '../../components/educadores/EducatorIntro';
 import InscricaoButton from '../../components/ui/InscricaoButton';
 import NoiseOverlay from '../../components/ui/NoiseOverlay';
 
-import fotoPerfil from '../../assets/img/foto .png';
+import fotoPerfil from '../../assets/img/Foto Perfil.jpeg';
 
 import './style.css';
 
@@ -47,30 +47,17 @@ export default function Home() {
     }
 
     const hash = window.location.hash;
-    if (hash && hash !== '#educadores' && hash !== '#inicio') {
-      const target = document.querySelector(hash);
-      if (target) {
-        requestAnimationFrame(() => {
-          target.scrollIntoView({ behavior: 'auto', block: 'start' });
-        });
-      }
+    if (!hash || hash === '#educadores' || hash === '#inicio') {
       return undefined;
     }
 
-    const scrollToVideo = () => {
-      const el = document.getElementById('educadores');
-      if (!el) return;
-      const navOffset = window.innerWidth < 768 ? 72 : 88;
-      const top = el.getBoundingClientRect().top + window.scrollY - navOffset;
-      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      window.scrollTo({
-        top: Math.max(0, top),
-        behavior: reduceMotion ? 'auto' : 'smooth',
+    const target = document.querySelector(hash);
+    if (target) {
+      requestAnimationFrame(() => {
+        target.scrollIntoView({ behavior: 'auto', block: 'start' });
       });
-    };
-
-    const timer = window.setTimeout(scrollToVideo, 650);
-    return () => window.clearTimeout(timer);
+    }
+    return undefined;
   }, []);
 
   useEffect(() => {
@@ -268,8 +255,6 @@ export default function Home() {
                 handle="alexandre10y"
                 status="Online"
                 contactText="Fale comigo"
-                avatarUrl="/images/avatar.png"
-                centerImageUrl="/images/foto-central.png"
                 showUserInfo
                 enableTilt
                 enableMobileTilt={false}
