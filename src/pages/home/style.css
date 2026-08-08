@@ -450,16 +450,33 @@ p {
    HERO – ajustes mobile
    ========================================================= */
 @media (max-width: 600px) {
+  /* No mobile o conteúdo empilhado ultrapassa 100vh; o hero precisa
+     crescer com ele, senão o overflow:hidden corta o indicador de scroll. */
   .hero {
-    min-height: 640px;
+    height: auto;
+    min-height: 100svh;
   }
 
   .hero__content {
-    padding: 0 20px;
+    height: auto;
+    min-height: 100svh;
+    padding: 104px 20px 40px;
   }
 
+  .hero__pressure {
+    height: 96px;
+  }
+
+  .hero__avatar-wrap {
+    width: 150px;
+    height: 150px;
+    margin-top: 26px;
+  }
+
+  /* Entra no fluxo normal para nunca sobrepor o avatar. */
   .hero__scroll {
-    bottom: 20px;
+    position: static;
+    margin-top: 36px;
     gap: 8px;
     font-size: 0.66rem;
     letter-spacing: 0.16em;
