@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-10T09:04:53.199Z",
+  "updatedAt": "2026-08-11T08:42:20.341Z",
   "posts": [
+    {
+      "id": "radar-2026-08-11-aHR0cHM6Ly",
+      "title": "OpenAI Finaliza Oferta de Ações de US$ 7 Bilhões para Funcionários",
+      "summary": "A OpenAI concluiu uma transação de compra de ações de 7 bilhões de dólares, permitindo que seus colaboradores vendam suas participações na empresa. O movimento consolida a startup como uma das mais valiosas do setor global de tecnologia e reforça a atratividade do mercado de inteligência artificial para grandes investidores. A estratégia também fortalece a retenção dos principais talentos da empresa em um cenário altamente competitivo.",
+      "image": "/images/radar-ia/post-2026-08-11.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+      "publishedAt": "2026-08-11",
+      "tags": [
+        "OpenAI",
+        "Inteligência Artificial"
+      ]
+    },
     {
       "id": "radar-2026-08-09-aHR0cHM6Ly",
       "title": "Fundo de IA investe US$ 400 milhões na startup de chips Source Foundry",
