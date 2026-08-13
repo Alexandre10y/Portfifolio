@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-12T08:58:53.861Z",
+  "updatedAt": "2026-08-13T09:01:46.717Z",
   "posts": [
+    {
+      "id": "radar-2026-08-12-aHR0cHM6Ly",
+      "title": "Marcas-d'água no Claude geram polêmica entre estudantes e profissionais",
+      "summary": "A Anthropic implementou um novo sistema de marca-d'água no Claude para identificar conteúdos gerados por sua inteligência artificial. A mudança provocou fortes críticas nas redes sociais por parte de usuários que temem ser descobertos utilizando a ferramenta no trabalho ou na faculdade. O caso destaca o debate crescente sobre transparência e rastreabilidade na era da IA generativa.",
+      "image": "/images/radar-ia/post-2026-08-12.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+      "publishedAt": "2026-08-12",
+      "tags": [
+        "Inteligência Artificial",
+        "Anthropic"
+      ]
+    },
     {
       "id": "radar-2026-08-11-aHR0cHM6Ly",
       "title": "Accel fecha novo fundo de US$ 550 milhões na Índia em poucas semanas",
