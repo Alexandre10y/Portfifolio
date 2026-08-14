@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-13T09:01:46.717Z",
+  "updatedAt": "2026-08-14T08:56:09.050Z",
   "posts": [
+    {
+      "id": "radar-2026-08-13-aHR0cHM6Ly",
+      "title": "Writer lança novo modelo de IA projetado para reduzir custos com tokens",
+      "summary": "A Writer anunciou um novo modelo de inteligência artificial desenvolvido a partir de uma variação pós-treinamento do GLM-5.2 da Z.ai. Com uma estrutura aprimorada para conter o uso de tokens, o sistema entrega recursos prontos para implantação corporativa a preços significativamente mais baixos.",
+      "image": "/images/radar-ia/post-2026-08-13.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "publishedAt": "2026-08-13",
+      "tags": [
+        "Inteligência Artificial",
+        "Otimização de Custos"
+      ]
+    },
     {
       "id": "radar-2026-08-12-aHR0cHM6Ly",
       "title": "Marcas-d'água no Claude geram polêmica entre estudantes e profissionais",
