@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-14T08:56:09.050Z",
+  "updatedAt": "2026-08-15T08:13:56.420Z",
   "posts": [
+    {
+      "id": "radar-2026-08-14-aHR0cHM6Ly",
+      "title": "Google passa a permitir remoção de marcas d'água visíveis em conteúdos de IA",
+      "summary": "O Google atualizou suas ferramentas para permitir que os usuários desativem a exibição de marcas d'água visíveis nas mídias geradas por sua IA. No entanto, a mudança afeta apenas a camada visual, mantendo intactas as marcas invisíveis usadas para rastrear e identificar arquivos sintéticos.",
+      "image": "/images/radar-ia/post-2026-08-14.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "publishedAt": "2026-08-14",
+      "tags": [
+        "Inteligência Artificial",
+        "Google"
+      ]
+    },
     {
       "id": "radar-2026-08-13-aHR0cHM6Ly",
       "title": "Writer lança novo modelo de IA projetado para reduzir custos com tokens",
