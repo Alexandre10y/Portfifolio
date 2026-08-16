@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-15T08:13:56.420Z",
+  "updatedAt": "2026-08-16T08:15:14.085Z",
   "posts": [
+    {
+      "id": "radar-2026-08-15-aHR0cHM6Ly",
+      "title": "Uso Indevido de IA: Mulher Denuncia Gerador Grok por Manipulação de Foto Infantil",
+      "summary": "Uma mulher denunciou que seu padrasto utilizou a ferramenta de inteligência artificial Grok para transformar uma foto de sua infância em imagens explicitamente inadequadas. O incidente traz à tona debates urgentes sobre a segurança de geradores de imagem e a facilidade com que fotos comuns podem ser adulteradas. A vítima alertou sobre como o mau uso dessas tecnologias representa uma ameaça crescente à privacidade e à proteção de vulneráveis.",
+      "image": "/images/radar-ia/post-2026-08-15.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+      "publishedAt": "2026-08-15",
+      "tags": [
+        "Inteligência Artificial",
+        "Segurança Digital"
+      ]
+    },
     {
       "id": "radar-2026-08-14-aHR0cHM6Ly",
       "title": "Google passa a permitir remoção de marcas d'água visíveis em conteúdos de IA",
