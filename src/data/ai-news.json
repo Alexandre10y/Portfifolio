@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-17T08:29:32.580Z",
+  "updatedAt": "2026-08-18T08:22:19.624Z",
   "posts": [
+    {
+      "id": "radar-2026-08-17-aHR0cHM6Ly",
+      "title": "Anthropic Dispara em Receita e Consolida Crescimento Recorde no Setor de IA",
+      "summary": "A Anthropic alcançou um marco impressionante ao atingir uma receita anualizada de US$ 65 bilhões. A desenvolvedora de inteligência artificial adicionou US$ 18 bilhões a esse total em apenas dois meses, impulsionada pela alta demanda por seus modelos de linguagem. Esse crescimento acelerado reforça a forte expansão comercial da empresa no mercado global de tecnologia.",
+      "image": "/images/radar-ia/post-2026-08-17.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+      "publishedAt": "2026-08-17",
+      "tags": [
+        "Inteligência Artificial",
+        "Negócios"
+      ]
+    },
     {
       "id": "radar-2026-08-16-aHR0cHM6Ly",
       "title": "Stripe compra startup de IA OpenRouter em transação de US$ 7 bilhões",
