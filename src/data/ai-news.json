@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-18T08:22:19.624Z",
+  "updatedAt": "2026-08-19T08:23:00.593Z",
   "posts": [
+    {
+      "id": "radar-2026-08-18-aHR0cHM6Ly",
+      "title": "Cursor desafia o GitHub com nova plataforma de hospedagem de código",
+      "summary": "Conhecida por seu editor de código impulsionado por IA, a Cursor está lançando uma nova plataforma de hospedagem para rivalizar diretamente com o GitHub. A iniciativa busca capitalizar sobre a insatisfação de parte da comunidade de desenvolvedores com a solução tradicional. Com essa novidade, a startup amplia seu ecossistema e promete transformar a experiência de desenvolvimento colaborativo.",
+      "image": "/images/radar-ia/post-2026-08-18.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+      "publishedAt": "2026-08-18",
+      "tags": [
+        "Inteligência Artificial",
+        "Desenvolvimento"
+      ]
+    },
     {
       "id": "radar-2026-08-17-aHR0cHM6Ly",
       "title": "Anthropic Dispara em Receita e Consolida Crescimento Recorde no Setor de IA",
