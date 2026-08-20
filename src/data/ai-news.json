@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-19T08:23:00.593Z",
+  "updatedAt": "2026-08-20T08:23:25.578Z",
   "posts": [
+    {
+      "id": "radar-2026-08-19-aHR0cHM6Ly",
+      "title": "Stripe e OpenRouter: A verdadeira estratégia por trás da nova aposta em IA",
+      "summary": "A gigante de pagamentos Stripe se aproximou da startup OpenRouter, conhecida por rotear prompts entre múltiplos modelos de inteligência artificial. Apesar do discurso sobre a 'singularidade', o movimento reflete uma jogada altamente pragmática para controlar a infraestrutura essencial de transações no ecossistema de IA.",
+      "image": "/images/radar-ia/post-2026-08-19.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+      "publishedAt": "2026-08-19",
+      "tags": [
+        "Inteligência Artificial",
+        "Negócios Tech"
+      ]
+    },
     {
       "id": "radar-2026-08-18-aHR0cHM6Ly",
       "title": "Cursor desafia o GitHub com nova plataforma de hospedagem de código",
