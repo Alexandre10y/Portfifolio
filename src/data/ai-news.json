@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-20T08:23:25.578Z",
+  "updatedAt": "2026-08-21T08:25:33.992Z",
   "posts": [
+    {
+      "id": "radar-2026-08-21-aHR0cHM6Ly",
+      "title": "Boom no Treinamento de IA Impulsiona Startup Micro1 a US$ 500 Milhões em Receita",
+      "summary": "A crescente demanda por dados de treinamento para inteligência artificial está impulsionando um rápido crescimento no setor de tecnologia. Nesse cenário aquecido, a startup Micro1 alcançou a marca de US$ 500 milhões em receita projetada, destacando-se no mercado. Esse avanço consolida a preparação de dados como um dos pilares mais lucrativos e essenciais para o avanço da IA.",
+      "image": "/images/radar-ia/post-2026-08-21.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+      "publishedAt": "2026-08-21",
+      "tags": [
+        "Inteligência Artificial",
+        "Startups"
+      ]
+    },
     {
       "id": "radar-2026-08-19-aHR0cHM6Ly",
       "title": "Stripe e OpenRouter: A verdadeira estratégia por trás da nova aposta em IA",
