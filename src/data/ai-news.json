@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-21T08:25:33.992Z",
+  "updatedAt": "2026-08-22T08:16:10.574Z",
   "posts": [
+    {
+      "id": "radar-2026-08-21-aHR0cHM6Ly",
+      "title": "Testes Revelam Brechas nos Filtros de Segurança do Claude da Anthropic",
+      "summary": "Apesar de a Anthropic proibir estritamente a geração de conteúdo adulto em seus modelos Claude, testes do portal TechCrunch demonstraram ser simples burlar essas limitações. As descobertas evidenciam que os guardrails atuais de segurança ainda enfrentam dificuldades para conter bypasses de diretrizes. O caso reforça os desafios contínuos das empresas de tecnologia no alinhamento e na moderação eficaz de inteligências artificiais.",
+      "image": "/images/radar-ia/post-2026-08-21.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+      "publishedAt": "2026-08-21",
+      "tags": [
+        "Segurança em IA",
+        "Anthropic"
+      ]
+    },
     {
       "id": "radar-2026-08-21-aHR0cHM6Ly",
       "title": "Boom no Treinamento de IA Impulsiona Startup Micro1 a US$ 500 Milhões em Receita",
