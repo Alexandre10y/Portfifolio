@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-22T08:16:10.574Z",
+  "updatedAt": "2026-08-23T08:16:09.655Z",
   "posts": [
+    {
+      "id": "radar-2026-08-22-aHR0cHM6Ly",
+      "title": "Harvard lança bootcamp de startups com avatares de IA que simulam professores",
+      "summary": "O programa HBS Foundry da Harvard Business School agora utiliza avatares de inteligência artificial de seus instrutores para orientar futuros empreendedores. Custando US$ 699, a experiência permite que os alunos recebam feedbacks em tempo real durante simulações de pitches e reuniões de conselho. A iniciativa une o prestígio acadêmico à tecnologia para escalar o aprendizado prático em negócios.",
+      "image": "/images/radar-ia/post-2026-08-22.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "publishedAt": "2026-08-22",
+      "tags": [
+        "Inteligência Artificial",
+        "EdTech"
+      ]
+    },
     {
       "id": "radar-2026-08-21-aHR0cHM6Ly",
       "title": "Testes Revelam Brechas nos Filtros de Segurança do Claude da Anthropic",
