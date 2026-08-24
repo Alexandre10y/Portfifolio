@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-23T08:16:09.655Z",
+  "updatedAt": "2026-08-24T08:34:56.935Z",
   "posts": [
+    {
+      "id": "radar-2026-08-23-aHR0cHM6Ly",
+      "title": "O mistério do Ox Alpha: Novo modelo 'stealth' de IA agita a comunidade tech",
+      "summary": "Um novo e misterioso modelo de inteligência artificial chamado Ox Alpha está gerando intensas especulações no ecossistema de tecnologia. Sem autoria confirmada, o projeto tem impressionado por seu alto desempenho e alimentado teorias sobre qual grande empresa estaria por trás do seu desenvolvimento. A novidade reforça a recente tendência de lançamentos sigilosos no mercado de IA.",
+      "image": "/images/radar-ia/post-2026-08-23.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+      "publishedAt": "2026-08-23",
+      "tags": [
+        "Inteligência Artificial",
+        "Ox Alpha"
+      ]
+    },
     {
       "id": "radar-2026-08-22-aHR0cHM6Ly",
       "title": "Harvard lança bootcamp de startups com avatares de IA que simulam professores",
