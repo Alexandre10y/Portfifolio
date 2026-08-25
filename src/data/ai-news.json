@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-24T08:34:56.935Z",
+  "updatedAt": "2026-08-25T08:28:11.273Z",
   "posts": [
+    {
+      "id": "radar-2026-08-25-aHR0cHM6Ly",
+      "title": "Fundo de IA 'Situational Awareness' entra na mira da SEC após quase colapsar",
+      "summary": "O fundo de hedge baseado em inteligência artificial Situational Awareness está sob investigação oficial da SEC, o órgão regulador do mercado financeiro americano. A gestora passou rapidamente do status de estrela de Wall Street a alvo de intimações federais após quase falir. A apuração busca entender as falhas de gestão e o papel das decisões automatizadas na crise da empresa.",
+      "image": "/images/radar-ia/post-2026-08-25.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+      "publishedAt": "2026-08-25",
+      "tags": [
+        "Inteligência Artificial",
+        "Mercado Financeiro"
+      ]
+    },
     {
       "id": "radar-2026-08-23-aHR0cHM6Ly",
       "title": "O mistério do Ox Alpha: Novo modelo 'stealth' de IA agita a comunidade tech",
