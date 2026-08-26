@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-25T08:28:11.273Z",
+  "updatedAt": "2026-08-26T08:29:01.092Z",
   "posts": [
+    {
+      "id": "radar-2026-08-26-aHR0cHM6Ly",
+      "title": "Ringg capta US$ 10 milhões para revolucionar o futuro da IA de voz",
+      "summary": "A startup indiana Ringg garantiu US$ 10 milhões em uma rodada liderada pela Peak XV para expandir sua tecnologia de inteligência artificial conversacional. O investimento será utilizado para levar a IA de voz além das chamadas telefônicas tradicionais, integrando agentes autônomos em novos ecossistemas digitais. Com o aporte, a empresa fortalece sua posição no mercado de automação e comunicação inteligente.",
+      "image": "/images/radar-ia/post-2026-08-26.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+      "publishedAt": "2026-08-26",
+      "tags": [
+        "IA de Voz",
+        "Investimentos"
+      ]
+    },
     {
       "id": "radar-2026-08-25-aHR0cHM6Ly",
       "title": "Fundo de IA 'Situational Awareness' entra na mira da SEC após quase colapsar",
