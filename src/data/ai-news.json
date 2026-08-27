@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-26T08:29:01.092Z",
+  "updatedAt": "2026-08-27T18:28:04.858Z",
   "posts": [
+    {
+      "id": "radar-2026-08-27-aHR0cHM6Ly",
+      "title": "OpenAI, Google e Anthropic se unem para combater novas ameaças de IA",
+      "summary": "Mais de 100 gigantes da tecnologia e startups de inteligência artificial uniram forças para alertar sobre os riscos atuais da cibersegurança global. O grupo defende a adoção urgente de novas soluções estratégicas capazes de proteger sistemas contra a próxima geração de ameaças digitais.",
+      "image": "/images/radar-ia/post-2026-08-27.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+      "publishedAt": "2026-08-27",
+      "tags": [
+        "Cibersegurança",
+        "Inteligência Artificial"
+      ]
+    },
     {
       "id": "radar-2026-08-26-aHR0cHM6Ly",
       "title": "Ringg capta US$ 10 milhões para revolucionar o futuro da IA de voz",
@@ -220,19 +233,6 @@
       "tags": [
         "Semicondutores",
         "Investimentos"
-      ]
-    },
-    {
-      "id": "radar-2026-08-08-aHR0cHM6Ly",
-      "title": "Data center da Amazon no Texas pode se tornar o maior poluidor climático dos EUA",
-      "summary": "A Amazon está investindo na construção de uma usina de energia própria para abastecer um novo centro de dados gigantesco no Texas. Contudo, relatórios indicam que a infraestrutura pode se transformar na maior fonte individual de poluição climática do país. O projeto acende o alerta sobre o impacto ambiental do crescimento acelerado da computação em nuvem e da inteligência artificial.",
-      "image": "/images/radar-ia/post-2026-08-08.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
-      "publishedAt": "2026-08-08",
-      "tags": [
-        "Sustentabilidade",
-        "Data Center"
       ]
     }
   ]
