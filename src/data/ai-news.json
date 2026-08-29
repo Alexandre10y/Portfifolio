@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-27T18:28:04.858Z",
+  "updatedAt": "2026-08-29T13:26:59.398Z",
   "posts": [
+    {
+      "id": "radar-2026-08-28-aHR0cHM6Ly",
+      "title": "Lambda capta US$ 1 bilhão para comprar chips da Nvidia e impulsionar a IA da Microsoft",
+      "summary": "A neocloud Lambda arrecadou US$ 1 bilhão em dívidas privadas para adquirir processadores de IA da Nvidia, que serão alugados diretamente para a Microsoft. A movimentação bilionária reflete a corrida acelerada por capacidade computacional e evidencia os custos astronômicos envolvidos no avanço da inteligência artificial.",
+      "image": "/images/radar-ia/post-2026-08-28.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "publishedAt": "2026-08-28",
+      "tags": [
+        "Infraestrutura de IA",
+        "Nvidia"
+      ]
+    },
     {
       "id": "radar-2026-08-27-aHR0cHM6Ly",
       "title": "OpenAI, Google e Anthropic se unem para combater novas ameaças de IA",
@@ -220,19 +233,6 @@
       "tags": [
         "OpenAI",
         "Inteligência Artificial"
-      ]
-    },
-    {
-      "id": "radar-2026-08-09-aHR0cHM6Ly",
-      "title": "Fundo de IA investe US$ 400 milhões na startup de chips Source Foundry",
-      "summary": "O fundo de hedge Situational Awareness realizou um aporte de US$ 400 milhões na startup de semicondutores Source Foundry. Mesmo enfrentando desafios no mercado, a gestora mantém grandes apostas no desenvolvimento de hardware avançado para inteligência artificial. A movimentação destaca a contínua atração de capital estratégico para a infraestrutura da tecnologia.",
-      "image": "/images/radar-ia/post-2026-08-09.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
-      "publishedAt": "2026-08-09",
-      "tags": [
-        "Semicondutores",
-        "Investimentos"
       ]
     }
   ]
