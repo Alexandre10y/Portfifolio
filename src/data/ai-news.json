@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-29T13:26:59.398Z",
+  "updatedAt": "2026-08-30T13:23:17.073Z",
   "posts": [
+    {
+      "id": "radar-2026-08-29-aHR0cHM6Ly",
+      "title": "Sony Music e Warner processam Anthropic por uso indevido de direitos autorais em IA",
+      "summary": "As gigantes da música Sony Music e Warner moveram um grande processo contra a startup Anthropic, acusando-a de violação descarada de propriedade intelectual. A ação alega pirataria ilegal pelo uso não autorizado de letras de canções protegidas no treinamento de seus modelos de inteligência artificial. O caso intensifica a pressão jurídica global sobre os limites do uso de dados autorais na era da IA.",
+      "image": "/images/radar-ia/post-2026-08-29.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "publishedAt": "2026-08-29",
+      "tags": [
+        "Direitos Autorais",
+        "Inteligência Artificial"
+      ]
+    },
     {
       "id": "radar-2026-08-28-aHR0cHM6Ly",
       "title": "Lambda capta US$ 1 bilhão para comprar chips da Nvidia e impulsionar a IA da Microsoft",
@@ -220,19 +233,6 @@
       "tags": [
         "Venture Capital",
         "Investimentos"
-      ]
-    },
-    {
-      "id": "radar-2026-08-11-aHR0cHM6Ly",
-      "title": "OpenAI Finaliza Oferta de Ações de US$ 7 Bilhões para Funcionários",
-      "summary": "A OpenAI concluiu uma transação de compra de ações de 7 bilhões de dólares, permitindo que seus colaboradores vendam suas participações na empresa. O movimento consolida a startup como uma das mais valiosas do setor global de tecnologia e reforça a atratividade do mercado de inteligência artificial para grandes investidores. A estratégia também fortalece a retenção dos principais talentos da empresa em um cenário altamente competitivo.",
-      "image": "/images/radar-ia/post-2026-08-11.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
-      "publishedAt": "2026-08-11",
-      "tags": [
-        "OpenAI",
-        "Inteligência Artificial"
       ]
     }
   ]
