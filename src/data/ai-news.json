@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-31T15:35:41.929Z",
+  "updatedAt": "2026-09-01T12:51:20.752Z",
   "posts": [
+    {
+      "id": "radar-2026-09-01-aHR0cHM6Ly",
+      "title": "Apple apresenta provas chocantes de roubo de dados por ex-funcionário contratado pela OpenAI",
+      "summary": "A Apple revelou evidências de que um ex-colaborador destruiu provas de roubo de dados confidenciais após descobrir que estava sendo investigado pela empresa. O profissional é acusado de ter desviado informações sigilosas sobre inteligência artificial antes de migrar para a OpenAI.",
+      "image": "/images/radar-ia/post-2026-09-01.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+      "publishedAt": "2026-09-01",
+      "tags": [
+        "Apple",
+        "OpenAI"
+      ]
+    },
     {
       "id": "radar-2026-08-31-aHR0cHM6Ly",
       "title": "Nvidia investe US$ 3,5 bilhões na MediaTek para blindar hegemonia em chips de IA",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Otimização de Custos"
-      ]
-    },
-    {
-      "id": "radar-2026-08-12-aHR0cHM6Ly",
-      "title": "Marcas-d'água no Claude geram polêmica entre estudantes e profissionais",
-      "summary": "A Anthropic implementou um novo sistema de marca-d'água no Claude para identificar conteúdos gerados por sua inteligência artificial. A mudança provocou fortes críticas nas redes sociais por parte de usuários que temem ser descobertos utilizando a ferramenta no trabalho ou na faculdade. O caso destaca o debate crescente sobre transparência e rastreabilidade na era da IA generativa.",
-      "image": "/images/radar-ia/post-2026-08-12.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
-      "publishedAt": "2026-08-12",
-      "tags": [
-        "Inteligência Artificial",
-        "Anthropic"
       ]
     }
   ]
