@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-01T12:51:20.752Z",
+  "updatedAt": "2026-09-02T12:21:39.585Z",
   "posts": [
+    {
+      "id": "radar-2026-09-02-aHR0cHM6Ly",
+      "title": "OpenAI Enfrenta Onda de 30 Novos Processos por Cumplicidade em Crime",
+      "summary": "A OpenAI está sendo alvo de 30 novas ações judiciais movidas pelo escritório Edelson PC, que elevou as acusações para cumplicidade em relação ao tiroteio em Tumbler Ridge. Os processos também citam nominalmente o executivo Chris Lehane, embora as evidências apresentadas ainda não tenham sido confirmadas. O caso intensifica o debate sobre a responsabilidade jurídica e o impacto de empresas de IA no mundo real.",
+      "image": "/images/radar-ia/post-2026-09-02.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
+      "publishedAt": "2026-09-02",
+      "tags": [
+        "OpenAI",
+        "Legislação"
+      ]
+    },
     {
       "id": "radar-2026-09-01-aHR0cHM6Ly",
       "title": "Apple apresenta provas chocantes de roubo de dados por ex-funcionário contratado pela OpenAI",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Google"
-      ]
-    },
-    {
-      "id": "radar-2026-08-13-aHR0cHM6Ly",
-      "title": "Writer lança novo modelo de IA projetado para reduzir custos com tokens",
-      "summary": "A Writer anunciou um novo modelo de inteligência artificial desenvolvido a partir de uma variação pós-treinamento do GLM-5.2 da Z.ai. Com uma estrutura aprimorada para conter o uso de tokens, o sistema entrega recursos prontos para implantação corporativa a preços significativamente mais baixos.",
-      "image": "/images/radar-ia/post-2026-08-13.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
-      "publishedAt": "2026-08-13",
-      "tags": [
-        "Inteligência Artificial",
-        "Otimização de Custos"
       ]
     }
   ]
