@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-02T12:21:39.585Z",
+  "updatedAt": "2026-09-03T12:18:52.053Z",
   "posts": [
+    {
+      "id": "radar-2026-09-02-aHR0cHM6Ly",
+      "title": "Escalabilidade em Foco: O TechCrunch Disrupt 2026 anuncia o retorno do Builders Stage",
+      "summary": "O evento TechCrunch Disrupt 2026 traz de volta o Builders Stage, um espaço dedicado a estratégias práticas de crescimento para startups. O palco reunirá fundadores, operadores e investidores para compartilhar insights cruciais sobre como escalar negócios com eficiência no cenário atual.",
+      "image": "https://image.pollinations.ai/prompt/Modern%20business%20conference%20stage%20with%20glowing%20professional%20lighting%2C%20abstract%20digital%20network%20connections%2C%20minimalist%20tech%20aesthetic%2C%20high%20resolution.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
+      "publishedAt": "2026-09-02",
+      "tags": [
+        "Startups",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "radar-2026-09-02-aHR0cHM6Ly",
       "title": "OpenAI Enfrenta Onda de 30 Novos Processos por Cumplicidade em Crime",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Segurança Digital"
-      ]
-    },
-    {
-      "id": "radar-2026-08-14-aHR0cHM6Ly",
-      "title": "Google passa a permitir remoção de marcas d'água visíveis em conteúdos de IA",
-      "summary": "O Google atualizou suas ferramentas para permitir que os usuários desativem a exibição de marcas d'água visíveis nas mídias geradas por sua IA. No entanto, a mudança afeta apenas a camada visual, mantendo intactas as marcas invisíveis usadas para rastrear e identificar arquivos sintéticos.",
-      "image": "/images/radar-ia/post-2026-08-14.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
-      "publishedAt": "2026-08-14",
-      "tags": [
-        "Inteligência Artificial",
-        "Google"
       ]
     }
   ]
