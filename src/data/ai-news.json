@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-03T12:18:52.053Z",
+  "updatedAt": "2026-09-04T12:19:53.750Z",
   "posts": [
+    {
+      "id": "radar-2026-09-04-aHR0cHM6Ly",
+      "title": "A Armadilha da IA nos Cardápios: Por Que Imagens Generativas Não Apetecem os Clientes",
+      "summary": "Muitos restaurantes estão usando inteligência artificial generativa como um atalho para criar fotos e descrições de seus cardápios. No entanto, a padronização excessiva e a falta de autenticidade criam imagens artificiais que os clientes rejeitam instintivamente. O fenômeno alerta para como o uso inadequado da tecnologia pode prejudicar a percepção de marca e a experiência do consumidor.",
+      "image": "/images/radar-ia/post-2026-09-04.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+      "publishedAt": "2026-09-04",
+      "tags": [
+        "IA Generativa",
+        "Experiência do Cliente"
+      ]
+    },
     {
       "id": "radar-2026-09-02-aHR0cHM6Ly",
       "title": "Escalabilidade em Foco: O TechCrunch Disrupt 2026 anuncia o retorno do Builders Stage",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Mercado Tech"
-      ]
-    },
-    {
-      "id": "radar-2026-08-15-aHR0cHM6Ly",
-      "title": "Uso Indevido de IA: Mulher Denuncia Gerador Grok por Manipulação de Foto Infantil",
-      "summary": "Uma mulher denunciou que seu padrasto utilizou a ferramenta de inteligência artificial Grok para transformar uma foto de sua infância em imagens explicitamente inadequadas. O incidente traz à tona debates urgentes sobre a segurança de geradores de imagem e a facilidade com que fotos comuns podem ser adulteradas. A vítima alertou sobre como o mau uso dessas tecnologias representa uma ameaça crescente à privacidade e à proteção de vulneráveis.",
-      "image": "/images/radar-ia/post-2026-08-15.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
-      "publishedAt": "2026-08-15",
-      "tags": [
-        "Inteligência Artificial",
-        "Segurança Digital"
       ]
     }
   ]
