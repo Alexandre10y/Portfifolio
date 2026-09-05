@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-04T12:19:53.750Z",
+  "updatedAt": "2026-09-05T11:26:52.949Z",
   "posts": [
+    {
+      "id": "radar-2026-09-04-aHR0cHM6Ly",
+      "title": "Startup de Robótica XDOF Negocia Valuation de US$ 1,2 Bilhão Apenas Três Meses Após Sair do Stealth",
+      "summary": "A startup de dados para robótica XDOF está em negociações avançadas para captar uma nova rodada Série B, mirando uma avaliação de US$ 1,2 bilhão. O aporte bilionário impressiona por ocorrer apenas três meses após a empresa ter saído publicamente do modo sigiloso. Essa valorização meteórica reflete a alta demanda por infraestrutura de dados especializada para impulsionar a próxima geração de robôs inteligentes.",
+      "image": "/images/radar-ia/post-2026-09-04.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "publishedAt": "2026-09-04",
+      "tags": [
+        "Robótica",
+        "Investimentos"
+      ]
+    },
     {
       "id": "radar-2026-09-04-aHR0cHM6Ly",
       "title": "A Armadilha da IA nos Cardápios: Por Que Imagens Generativas Não Apetecem os Clientes",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Negócios"
-      ]
-    },
-    {
-      "id": "radar-2026-08-16-aHR0cHM6Ly",
-      "title": "Stripe compra startup de IA OpenRouter em transação de US$ 7 bilhões",
-      "summary": "A gigante dos pagamentos Stripe está prestes a adquirir a OpenRouter, startup especializada em gateways de inteligência artificial, por um valor estimado em mais de 7 bilhões de dólares. A negociação consolida a presença da Stripe na infraestrutura de IA, unindo soluções financeiras ao acesso unificado a múltiplos modelos de linguagem. O movimento reflete a rápida expansão do setor, unindo duas grandes referências em infraestrutura tecnológica.",
-      "image": "/images/radar-ia/post-2026-08-16.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-      "publishedAt": "2026-08-16",
-      "tags": [
-        "Inteligência Artificial",
-        "Mercado Tech"
       ]
     }
   ]
