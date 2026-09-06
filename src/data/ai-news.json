@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-05T11:26:52.949Z",
+  "updatedAt": "2026-09-06T11:47:51.539Z",
   "posts": [
+    {
+      "id": "radar-2026-09-05-aHR0cHM6Ly",
+      "title": "Jornais americanos processam OpenAI e Microsoft por uso indevido de dados",
+      "summary": "O Seattle Times e o Newsday iniciaram ações judiciais contra a OpenAI e a Microsoft, alegando o uso não autorizado de seus conteúdos jornalísticos para o treinamento de modelos de IA. O caso intensifica a disputa jurídica global sobre direitos autorais e ética no desenvolvimento de grandes modelos de linguagem.",
+      "image": "/images/radar-ia/post-2026-09-05.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "publishedAt": "2026-09-05",
+      "tags": [
+        "Inteligência Artificial",
+        "Direito Digital"
+      ]
+    },
     {
       "id": "radar-2026-09-04-aHR0cHM6Ly",
       "title": "Startup de Robótica XDOF Negocia Valuation de US$ 1,2 Bilhão Apenas Três Meses Após Sair do Stealth",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Desenvolvimento"
-      ]
-    },
-    {
-      "id": "radar-2026-08-17-aHR0cHM6Ly",
-      "title": "Anthropic Dispara em Receita e Consolida Crescimento Recorde no Setor de IA",
-      "summary": "A Anthropic alcançou um marco impressionante ao atingir uma receita anualizada de US$ 65 bilhões. A desenvolvedora de inteligência artificial adicionou US$ 18 bilhões a esse total em apenas dois meses, impulsionada pela alta demanda por seus modelos de linguagem. Esse crescimento acelerado reforça a forte expansão comercial da empresa no mercado global de tecnologia.",
-      "image": "/images/radar-ia/post-2026-08-17.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
-      "publishedAt": "2026-08-17",
-      "tags": [
-        "Inteligência Artificial",
-        "Negócios"
       ]
     }
   ]
