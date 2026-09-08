@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-06T11:47:51.539Z",
+  "updatedAt": "2026-09-08T12:20:43.263Z",
   "posts": [
+    {
+      "id": "radar-2026-09-07-aHR0cHM6Ly",
+      "title": "Guia Essencial: Os Termos e Jargões de IA que Você Precisa Conhecer",
+      "summary": "O avanço acelerado da inteligência artificial trouxe consigo uma verdadeira avalanche de novos conceitos e termos técnicos para o mercado de tecnologia. Entender vocábulos fundamentais como 'recorrência opaca' tornou-se indispensável para acompanhar as discussões e inovações atuais da área. Este novo glossário reúne as definições mais relevantes para ajudar profissionais e entusiastas a dominarem essa nova linguagem.",
+      "image": "/images/radar-ia/post-2026-09-07.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "publishedAt": "2026-09-07",
+      "tags": [
+        "Inteligência Artificial",
+        "Glossário Tech"
+      ]
+    },
     {
       "id": "radar-2026-09-05-aHR0cHM6Ly",
       "title": "Jornais americanos processam OpenAI e Microsoft por uso indevido de dados",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Negócios Tech"
-      ]
-    },
-    {
-      "id": "radar-2026-08-18-aHR0cHM6Ly",
-      "title": "Cursor desafia o GitHub com nova plataforma de hospedagem de código",
-      "summary": "Conhecida por seu editor de código impulsionado por IA, a Cursor está lançando uma nova plataforma de hospedagem para rivalizar diretamente com o GitHub. A iniciativa busca capitalizar sobre a insatisfação de parte da comunidade de desenvolvedores com a solução tradicional. Com essa novidade, a startup amplia seu ecossistema e promete transformar a experiência de desenvolvimento colaborativo.",
-      "image": "/images/radar-ia/post-2026-08-18.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
-      "publishedAt": "2026-08-18",
-      "tags": [
-        "Inteligência Artificial",
-        "Desenvolvimento"
       ]
     }
   ]
