@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-09T12:32:26.691Z",
+  "updatedAt": "2026-09-10T12:26:11.900Z",
   "posts": [
+    {
+      "id": "radar-2026-09-10-aHR0cHM6Ly",
+      "title": "Listen Labs cancela mega aporte de US$ 1,5 bi para focar em negociações com a Salesforce",
+      "summary": "A startup de pesquisa em inteligência artificial Listen Labs desistiu de fechar uma rodada de investimento Série C avaliada em US$ 1,5 bilhão com a Menlo Ventures. O movimento estratégico ocorreu para priorizar conversas avançadas de aquisição com a gigante do setor de software Salesforce.",
+      "image": "/images/radar-ia/post-2026-09-10.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+      "publishedAt": "2026-09-10",
+      "tags": [
+        "Inteligência Artificial",
+        "Startups"
+      ]
+    },
     {
       "id": "radar-2026-09-09-aHR0cHM6Ly",
       "title": "Suno lança modelo v6 treinado com músicas licenciadas para evitar processos de direitos autorais",
@@ -220,19 +233,6 @@
       "tags": [
         "Segurança em IA",
         "Anthropic"
-      ]
-    },
-    {
-      "id": "radar-2026-08-21-aHR0cHM6Ly",
-      "title": "Boom no Treinamento de IA Impulsiona Startup Micro1 a US$ 500 Milhões em Receita",
-      "summary": "A crescente demanda por dados de treinamento para inteligência artificial está impulsionando um rápido crescimento no setor de tecnologia. Nesse cenário aquecido, a startup Micro1 alcançou a marca de US$ 500 milhões em receita projetada, destacando-se no mercado. Esse avanço consolida a preparação de dados como um dos pilares mais lucrativos e essenciais para o avanço da IA.",
-      "image": "/images/radar-ia/post-2026-08-21.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
-      "publishedAt": "2026-08-21",
-      "tags": [
-        "Inteligência Artificial",
-        "Startups"
       ]
     }
   ]
