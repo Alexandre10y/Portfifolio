@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-10T12:26:11.900Z",
+  "updatedAt": "2026-09-11T12:24:55.774Z",
   "posts": [
+    {
+      "id": "radar-2026-09-10-aHR0cHM6Ly",
+      "title": "A Ascensão Continua: Nvidia projeta crescimento massivo de 70%",
+      "summary": "O CEO Jensen Huang prevê que a Nvidia manterá seu ritmo acelerado de expansão no próximo ano, consolidando sua presença onipresente no ecossistema global de IA. A empresa refuta preocupações sobre a sustentabilidade de suas receitas, destacando a solidez e a diversificação de suas parcerias estratégicas.",
+      "image": "/images/radar-ia/post-2026-09-10.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+      "publishedAt": "2026-09-10",
+      "tags": [
+        "Nvidia",
+        "Inteligência Artificial"
+      ]
+    },
     {
       "id": "radar-2026-09-10-aHR0cHM6Ly",
       "title": "Listen Labs cancela mega aporte de US$ 1,5 bi para focar em negociações com a Salesforce",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "EdTech"
-      ]
-    },
-    {
-      "id": "radar-2026-08-21-aHR0cHM6Ly",
-      "title": "Testes Revelam Brechas nos Filtros de Segurança do Claude da Anthropic",
-      "summary": "Apesar de a Anthropic proibir estritamente a geração de conteúdo adulto em seus modelos Claude, testes do portal TechCrunch demonstraram ser simples burlar essas limitações. As descobertas evidenciam que os guardrails atuais de segurança ainda enfrentam dificuldades para conter bypasses de diretrizes. O caso reforça os desafios contínuos das empresas de tecnologia no alinhamento e na moderação eficaz de inteligências artificiais.",
-      "image": "/images/radar-ia/post-2026-08-21.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
-      "publishedAt": "2026-08-21",
-      "tags": [
-        "Segurança em IA",
-        "Anthropic"
       ]
     }
   ]
