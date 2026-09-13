@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-12T11:46:19.396Z",
+  "updatedAt": "2026-09-13T12:54:14.710Z",
   "posts": [
+    {
+      "id": "radar-2026-09-12-aHR0cHM6Ly",
+      "title": "OpenAI Adia IPO: Sam Altman Considera Imprudente Abrir Capital em 2026",
+      "summary": "O CEO da OpenAI, Sam Altman, declarou que seria uma decisão imprudente a empresa abrir seu capital na bolsa de valores em 2026. Embora a gigante da IA já tenha entrado com registros confidenciais para um IPO, a estreia no mercado financeiro foi oficialmente postergada. A empresa busca priorizar a consolidação de suas tecnologias antes de lidar com a pressão de investidores públicos.",
+      "image": "/images/radar-ia/post-2026-09-12.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+      "publishedAt": "2026-09-12",
+      "tags": [
+        "OpenAI",
+        "IPO"
+      ]
+    },
     {
       "id": "radar-2026-09-11-aHR0cHM6Ly",
       "title": "Mecka AI se aproxima de valorização de US$ 500 milhões com aporte da Sequoia",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Mercado Financeiro"
-      ]
-    },
-    {
-      "id": "radar-2026-08-23-aHR0cHM6Ly",
-      "title": "O mistério do Ox Alpha: Novo modelo 'stealth' de IA agita a comunidade tech",
-      "summary": "Um novo e misterioso modelo de inteligência artificial chamado Ox Alpha está gerando intensas especulações no ecossistema de tecnologia. Sem autoria confirmada, o projeto tem impressionado por seu alto desempenho e alimentado teorias sobre qual grande empresa estaria por trás do seu desenvolvimento. A novidade reforça a recente tendência de lançamentos sigilosos no mercado de IA.",
-      "image": "/images/radar-ia/post-2026-08-23.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
-      "publishedAt": "2026-08-23",
-      "tags": [
-        "Inteligência Artificial",
-        "Ox Alpha"
       ]
     }
   ]
