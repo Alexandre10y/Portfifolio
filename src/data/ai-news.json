@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-13T12:54:14.710Z",
+  "updatedAt": "2026-09-14T14:31:36.298Z",
   "posts": [
+    {
+      "id": "radar-2026-09-14-aHR0cHM6Ly",
+      "title": "Como a IA e a Biologia Computacional Estão Trazendo Espécies Extintas de Volta",
+      "summary": "O avanço da inteligência artificial aliado à genética e à biologia computacional está tornando possível a desextinção de espécies, transformando a ficção científica em uma indústria bilionária. Essas tecnologias prometem redefinir a conservação ambiental, levantando debates profundos sobre o papel da tecnologia na restauração da natureza.",
+      "image": "/images/radar-ia/post-2026-09-14.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/",
+      "publishedAt": "2026-09-14",
+      "tags": [
+        "Inteligência Artificial",
+        "Biotecnologia"
+      ]
+    },
     {
       "id": "radar-2026-09-12-aHR0cHM6Ly",
       "title": "OpenAI Adia IPO: Sam Altman Considera Imprudente Abrir Capital em 2026",
@@ -220,19 +233,6 @@
       "tags": [
         "IA de Voz",
         "Investimentos"
-      ]
-    },
-    {
-      "id": "radar-2026-08-25-aHR0cHM6Ly",
-      "title": "Fundo de IA 'Situational Awareness' entra na mira da SEC após quase colapsar",
-      "summary": "O fundo de hedge baseado em inteligência artificial Situational Awareness está sob investigação oficial da SEC, o órgão regulador do mercado financeiro americano. A gestora passou rapidamente do status de estrela de Wall Street a alvo de intimações federais após quase falir. A apuração busca entender as falhas de gestão e o papel das decisões automatizadas na crise da empresa.",
-      "image": "/images/radar-ia/post-2026-08-25.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
-      "publishedAt": "2026-08-25",
-      "tags": [
-        "Inteligência Artificial",
-        "Mercado Financeiro"
       ]
     }
   ]
