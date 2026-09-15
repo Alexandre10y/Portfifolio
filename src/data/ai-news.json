@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-14T14:31:36.298Z",
+  "updatedAt": "2026-09-15T12:56:55.531Z",
   "posts": [
+    {
+      "id": "radar-2026-09-15-aHR0cHM6Ly",
+      "title": "Salesforce e Nvidia lançam Koa, novo modelo de IA focado em negócios",
+      "summary": "A Salesforce, em parceria com a Nvidia, apresentou o Koa, um novo modelo de raciocínio construído sobre a arquitetura aberta Nemotron. A ferramenta foi treinada especificamente para otimizar e automatizar tarefas cruciais de vendas, marketing e suporte ao cliente. Com foco corporativo, a solução representa uma forte ameaça aos modelos genéricos dos grandes laboratórios de inteligência artificial.",
+      "image": "/images/radar-ia/post-2026-09-15.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
+      "publishedAt": "2026-09-15",
+      "tags": [
+        "Inteligência Artificial",
+        "IA Corporativa"
+      ]
+    },
     {
       "id": "radar-2026-09-14-aHR0cHM6Ly",
       "title": "Como a IA e a Biologia Computacional Estão Trazendo Espécies Extintas de Volta",
@@ -220,19 +233,6 @@
       "tags": [
         "Cibersegurança",
         "Inteligência Artificial"
-      ]
-    },
-    {
-      "id": "radar-2026-08-26-aHR0cHM6Ly",
-      "title": "Ringg capta US$ 10 milhões para revolucionar o futuro da IA de voz",
-      "summary": "A startup indiana Ringg garantiu US$ 10 milhões em uma rodada liderada pela Peak XV para expandir sua tecnologia de inteligência artificial conversacional. O investimento será utilizado para levar a IA de voz além das chamadas telefônicas tradicionais, integrando agentes autônomos em novos ecossistemas digitais. Com o aporte, a empresa fortalece sua posição no mercado de automação e comunicação inteligente.",
-      "image": "/images/radar-ia/post-2026-08-26.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
-      "publishedAt": "2026-08-26",
-      "tags": [
-        "IA de Voz",
-        "Investimentos"
       ]
     }
   ]
