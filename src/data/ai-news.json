@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-15T12:56:55.531Z",
+  "updatedAt": "2026-09-16T12:54:37.326Z",
   "posts": [
+    {
+      "id": "radar-2026-09-16-aHR0cHM6Ly",
+      "title": "Amazon expande Alexa+ para a Índia com suporte a Híndi e IA avançada",
+      "summary": "A Amazon iniciou a fase de acesso antecipado do assistente Alexa+ para todos os usuários na Índia, trazendo suporte nativo ao idioma híndi. A nova versão utiliza recursos avançados de inteligência artificial para oferecer interações mais fluidas e contextuais. A novidade reforça a estratégia da empresa em expandir suas tecnologias de IA conversacional para grandes mercados globais.",
+      "image": "https://image.pollinations.ai/prompt/A%20futuristic%20smart%20speaker%20glowing%20with%20soft%20blue%20ambient%20light%20on%20a%20modern%20desk%2C%20clean%20high-tech%20aesthetic%2C%20digital%20art%2C%20no%20text%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
+      "publishedAt": "2026-09-16",
+      "tags": [
+        "Amazon",
+        "Inteligência Artificial"
+      ]
+    },
     {
       "id": "radar-2026-09-15-aHR0cHM6Ly",
       "title": "Salesforce e Nvidia lançam Koa, novo modelo de IA focado em negócios",
@@ -220,19 +233,6 @@
       "tags": [
         "Infraestrutura de IA",
         "Nvidia"
-      ]
-    },
-    {
-      "id": "radar-2026-08-27-aHR0cHM6Ly",
-      "title": "OpenAI, Google e Anthropic se unem para combater novas ameaças de IA",
-      "summary": "Mais de 100 gigantes da tecnologia e startups de inteligência artificial uniram forças para alertar sobre os riscos atuais da cibersegurança global. O grupo defende a adoção urgente de novas soluções estratégicas capazes de proteger sistemas contra a próxima geração de ameaças digitais.",
-      "image": "/images/radar-ia/post-2026-08-27.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-      "publishedAt": "2026-08-27",
-      "tags": [
-        "Cibersegurança",
-        "Inteligência Artificial"
       ]
     }
   ]
