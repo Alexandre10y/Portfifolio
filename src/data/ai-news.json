@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-16T12:54:37.326Z",
+  "updatedAt": "2026-09-17T12:51:06.324Z",
   "posts": [
+    {
+      "id": "radar-2026-09-17-aHR0cHM6Ly",
+      "title": "Treble levanta US$ 18 milhões para revolucionar a simulação de áudio via IA",
+      "summary": "A startup islandesa Treble captou US$ 18 milhões para expandir sua plataforma de simulação de voz, essencial para o desenvolvimento de modelos de IA, dispositivos vestíveis e robótica. A tecnologia promete elevar o padrão de realismo acústico em sistemas inteligentes de próxima geração.",
+      "image": "/images/radar-ia/post-2026-09-17.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+      "publishedAt": "2026-09-17",
+      "tags": [
+        "Inteligência Artificial",
+        "Deep Tech"
+      ]
+    },
     {
       "id": "radar-2026-09-16-aHR0cHM6Ly",
       "title": "Amazon expande Alexa+ para a Índia com suporte a Híndi e IA avançada",
@@ -220,19 +233,6 @@
       "tags": [
         "Direitos Autorais",
         "Inteligência Artificial"
-      ]
-    },
-    {
-      "id": "radar-2026-08-28-aHR0cHM6Ly",
-      "title": "Lambda capta US$ 1 bilhão para comprar chips da Nvidia e impulsionar a IA da Microsoft",
-      "summary": "A neocloud Lambda arrecadou US$ 1 bilhão em dívidas privadas para adquirir processadores de IA da Nvidia, que serão alugados diretamente para a Microsoft. A movimentação bilionária reflete a corrida acelerada por capacidade computacional e evidencia os custos astronômicos envolvidos no avanço da inteligência artificial.",
-      "image": "/images/radar-ia/post-2026-08-28.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
-      "publishedAt": "2026-08-28",
-      "tags": [
-        "Infraestrutura de IA",
-        "Nvidia"
       ]
     }
   ]
