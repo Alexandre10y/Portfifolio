@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-17T12:51:06.324Z",
+  "updatedAt": "2026-09-18T12:25:49.043Z",
   "posts": [
+    {
+      "id": "radar-2026-09-17-aHR0cHM6Ly",
+      "title": "Crusoe Capta US$ 3,9 Bi para Expandir Data Centers e 'Fábricas de IA' Modulares",
+      "summary": "A gigante de infraestrutura Crusoe garantiu um aporte de US$ 3,9 bilhões, elevando seu valor de mercado para US$ 30,9 bilhões. Os recursos serão destinados à construção de grandes data centers e instalações modulares projetadas especialmente para processamento de inteligência artificial. Com o movimento, a empresa se consolida como peça-chave no fornecimento de capacidade computacional em larga escala.",
+      "image": "/images/radar-ia/post-2026-09-17.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+      "publishedAt": "2026-09-17",
+      "tags": [
+        "Infraestrutura",
+        "Inteligência Artificial"
+      ]
+    },
     {
       "id": "radar-2026-09-17-aHR0cHM6Ly",
       "title": "Treble levanta US$ 18 milhões para revolucionar a simulação de áudio via IA",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Hardware"
-      ]
-    },
-    {
-      "id": "radar-2026-08-29-aHR0cHM6Ly",
-      "title": "Sony Music e Warner processam Anthropic por uso indevido de direitos autorais em IA",
-      "summary": "As gigantes da música Sony Music e Warner moveram um grande processo contra a startup Anthropic, acusando-a de violação descarada de propriedade intelectual. A ação alega pirataria ilegal pelo uso não autorizado de letras de canções protegidas no treinamento de seus modelos de inteligência artificial. O caso intensifica a pressão jurídica global sobre os limites do uso de dados autorais na era da IA.",
-      "image": "/images/radar-ia/post-2026-08-29.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-      "publishedAt": "2026-08-29",
-      "tags": [
-        "Direitos Autorais",
-        "Inteligência Artificial"
       ]
     }
   ]
