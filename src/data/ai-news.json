@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-18T12:25:49.043Z",
+  "updatedAt": "2026-09-19T12:07:01.198Z",
   "posts": [
+    {
+      "id": "radar-2026-09-19-aHR0cHM6Ly",
+      "title": "Índia exige que apps de identificação de chamadas compartilhem dados de spam com operadoras",
+      "summary": "O governo da Índia passou a exigir que aplicativos como o Truecaller repassem seus relatórios de spam diretamente para as operadoras de telecomunicações. A Truecaller criticou a medida, alegando que o compartilhamento unidirecional entrega um valioso ativo comercial proprietário às empresas de telefonia. O impasse evidencia a crescente tensão entre regulamentações estatais antifraude e a proteção de dados privados de empresas de tecnologia.",
+      "image": "/images/radar-ia/post-2026-09-19.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
+      "publishedAt": "2026-09-19",
+      "tags": [
+        "Regulamentação",
+        "Privacidade de Dados"
+      ]
+    },
     {
       "id": "radar-2026-09-17-aHR0cHM6Ly",
       "title": "Crusoe Capta US$ 3,9 Bi para Expandir Data Centers e 'Fábricas de IA' Modulares",
@@ -220,19 +233,6 @@
       "tags": [
         "Apple",
         "OpenAI"
-      ]
-    },
-    {
-      "id": "radar-2026-08-31-aHR0cHM6Ly",
-      "title": "Nvidia investe US$ 3,5 bilhões na MediaTek para blindar hegemonia em chips de IA",
-      "summary": "A Nvidia anunciou um investimento estratégico de US$ 3,5 bilhões na fabricante taiwanesa MediaTek para fortalecer sua presença no mercado de hardware. A aliança visa garantir que a gigante continue sendo essencial na infraestrutura global de inteligência artificial, antecipando-se ao movimento das Big Techs de criarem seus próprios semicondutores.",
-      "image": "/images/radar-ia/post-2026-08-31.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-      "publishedAt": "2026-08-31",
-      "tags": [
-        "Inteligência Artificial",
-        "Hardware"
       ]
     }
   ]
