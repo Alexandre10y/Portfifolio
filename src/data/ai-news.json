@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-19T12:07:01.198Z",
+  "updatedAt": "2026-09-20T12:42:51.084Z",
   "posts": [
+    {
+      "id": "radar-2026-09-19-aHR0cHM6Ly",
+      "title": "Flock busca reestruturação através de demissões voluntárias",
+      "summary": "Para evitar cortes compulsórios, a Flock implementou um programa de desligamento voluntário como estratégia de redução de custos. A medida visa estabilizar a operação e ajustar o quadro de funcionários frente aos desafios atuais da empresa.",
+      "image": "/images/radar-ia/post-2026-09-19.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+      "publishedAt": "2026-09-19",
+      "tags": [
+        "Tecnologia",
+        "Mercado de Trabalho"
+      ]
+    },
     {
       "id": "radar-2026-09-19-aHR0cHM6Ly",
       "title": "Índia exige que apps de identificação de chamadas compartilhem dados de spam com operadoras",
@@ -220,19 +233,6 @@
       "tags": [
         "OpenAI",
         "Legislação"
-      ]
-    },
-    {
-      "id": "radar-2026-09-01-aHR0cHM6Ly",
-      "title": "Apple apresenta provas chocantes de roubo de dados por ex-funcionário contratado pela OpenAI",
-      "summary": "A Apple revelou evidências de que um ex-colaborador destruiu provas de roubo de dados confidenciais após descobrir que estava sendo investigado pela empresa. O profissional é acusado de ter desviado informações sigilosas sobre inteligência artificial antes de migrar para a OpenAI.",
-      "image": "/images/radar-ia/post-2026-09-01.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
-      "publishedAt": "2026-09-01",
-      "tags": [
-        "Apple",
-        "OpenAI"
       ]
     }
   ]
