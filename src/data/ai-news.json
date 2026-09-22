@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-20T12:42:51.084Z",
+  "updatedAt": "2026-09-22T12:54:45.687Z",
   "posts": [
+    {
+      "id": "radar-2026-09-22-aHR0cHM6Ly",
+      "title": "Aposta em Infraestrutura: IPO da Nscale testa o interesse do mercado em data centers de IA",
+      "summary": "A Nscale prepara seu IPO em um momento decisivo, sendo fortemente dependente de gigantes como Microsoft e Anthropic para sua receita. A estreia na bolsa revelará o real apetite de Wall Street por empresas focadas em infraestrutura de IA.",
+      "image": "/images/radar-ia/post-2026-09-22.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
+      "publishedAt": "2026-09-22",
+      "tags": [
+        "Inteligência Artificial",
+        "Mercado Financeiro"
+      ]
+    },
     {
       "id": "radar-2026-09-19-aHR0cHM6Ly",
       "title": "Flock busca reestruturação através de demissões voluntárias",
@@ -220,19 +233,6 @@
       "tags": [
         "Startups",
         "Tecnologia"
-      ]
-    },
-    {
-      "id": "radar-2026-09-02-aHR0cHM6Ly",
-      "title": "OpenAI Enfrenta Onda de 30 Novos Processos por Cumplicidade em Crime",
-      "summary": "A OpenAI está sendo alvo de 30 novas ações judiciais movidas pelo escritório Edelson PC, que elevou as acusações para cumplicidade em relação ao tiroteio em Tumbler Ridge. Os processos também citam nominalmente o executivo Chris Lehane, embora as evidências apresentadas ainda não tenham sido confirmadas. O caso intensifica o debate sobre a responsabilidade jurídica e o impacto de empresas de IA no mundo real.",
-      "image": "/images/radar-ia/post-2026-09-02.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
-      "publishedAt": "2026-09-02",
-      "tags": [
-        "OpenAI",
-        "Legislação"
       ]
     }
   ]
