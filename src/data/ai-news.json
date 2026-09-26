@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-22T12:54:45.687Z",
+  "updatedAt": "2026-09-26T12:32:22.064Z",
   "posts": [
+    {
+      "id": "radar-2026-09-26-aHR0cHM6Ly",
+      "title": "Meta aposta no futuro da computação com óculos inteligentes",
+      "summary": "A Meta reafirmou seu compromisso com a computação vestível durante o Meta Connect, destacando a evolução de seus óculos inteligentes. A estratégia visa integrar o mundo digital à rotina dos usuários por meio de dispositivos inovadores que prometem substituir o smartphone no dia a dia.",
+      "image": "/images/radar-ia/post-2026-09-26.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
+      "publishedAt": "2026-09-26",
+      "tags": [
+        "Metaverso",
+        "Hardware"
+      ]
+    },
     {
       "id": "radar-2026-09-22-aHR0cHM6Ly",
       "title": "Aposta em Infraestrutura: IPO da Nscale testa o interesse do mercado em data centers de IA",
@@ -220,19 +233,6 @@
       "tags": [
         "IA Generativa",
         "Experiência do Cliente"
-      ]
-    },
-    {
-      "id": "radar-2026-09-02-aHR0cHM6Ly",
-      "title": "Escalabilidade em Foco: O TechCrunch Disrupt 2026 anuncia o retorno do Builders Stage",
-      "summary": "O evento TechCrunch Disrupt 2026 traz de volta o Builders Stage, um espaço dedicado a estratégias práticas de crescimento para startups. O palco reunirá fundadores, operadores e investidores para compartilhar insights cruciais sobre como escalar negócios com eficiência no cenário atual.",
-      "image": "https://image.pollinations.ai/prompt/Modern%20business%20conference%20stage%20with%20glowing%20professional%20lighting%2C%20abstract%20digital%20network%20connections%2C%20minimalist%20tech%20aesthetic%2C%20high%20resolution.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
-      "publishedAt": "2026-09-02",
-      "tags": [
-        "Startups",
-        "Tecnologia"
       ]
     }
   ]
