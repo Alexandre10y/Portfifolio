@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-26T12:32:22.064Z",
+  "updatedAt": "2026-09-27T13:22:59.790Z",
   "posts": [
+    {
+      "id": "radar-2026-09-27-aHR0cHM6Ly",
+      "title": "Google testa compras diretas via Gemini e AI Mode na Índia",
+      "summary": "O Google começou a testar compras diretas na e-commerce Flipkart integradas ao Gemini e ao seu AI Mode na Índia. Inicialmente disponível para usuários e produtos selecionados, o recurso combina IA generativa e comércio eletrônico para agilizar a jornada do consumidor. A expansão da funcionalidade para um público mais amplo está planejada para o final de outubro.",
+      "image": "https://image.pollinations.ai/prompt/Futuristic%203D%20vector%20illustration%20of%20a%20smartphone%20displaying%20an%20AI%20assistant%20shopping%20interface%20with%20digital%20shopping%20bags%20and%20glowing%20network%20connections%2C%20dynamic%20light%20effects%2C%20no%20text.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+      "publishedAt": "2026-09-27",
+      "tags": [
+        "Inteligência Artificial",
+        "E-commerce"
+      ]
+    },
     {
       "id": "radar-2026-09-26-aHR0cHM6Ly",
       "title": "Meta aposta no futuro da computação com óculos inteligentes",
@@ -220,19 +233,6 @@
       "tags": [
         "Robótica",
         "Investimentos"
-      ]
-    },
-    {
-      "id": "radar-2026-09-04-aHR0cHM6Ly",
-      "title": "A Armadilha da IA nos Cardápios: Por Que Imagens Generativas Não Apetecem os Clientes",
-      "summary": "Muitos restaurantes estão usando inteligência artificial generativa como um atalho para criar fotos e descrições de seus cardápios. No entanto, a padronização excessiva e a falta de autenticidade criam imagens artificiais que os clientes rejeitam instintivamente. O fenômeno alerta para como o uso inadequado da tecnologia pode prejudicar a percepção de marca e a experiência do consumidor.",
-      "image": "/images/radar-ia/post-2026-09-04.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
-      "publishedAt": "2026-09-04",
-      "tags": [
-        "IA Generativa",
-        "Experiência do Cliente"
       ]
     }
   ]
