@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-27T13:22:59.790Z",
+  "updatedAt": "2026-09-29T14:25:16.274Z",
   "posts": [
+    {
+      "id": "radar-2026-09-29-aHR0cHM6Ly",
+      "title": "Dazzle: A nova era da organização pessoal através das suas fotos",
+      "summary": "A ex-CEO do Yahoo, Marissa Mayer, lançou o Dazzle, um assistente de IA focado em transformar a organização da sua galeria de fotos em uma ferramenta de gestão da vida cotidiana. A tecnologia promete extrair informações valiosas do seu rolo de câmera, tornando o histórico visual mais útil que a sua caixa de entrada.",
+      "image": "https://image.pollinations.ai/prompt/A%20minimalist%20smartphone%20screen%20displaying%20an%20array%20of%20colorful%2C%20organized%20photo%20icons%20connected%20by%20glowing%20digital%20lines%2C%20sleek%20tech%20aesthetic%2C%20blurred%20background.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/29/with-dazzle-marissa-mayer-bets-your-camera-roll-has-more-info-on-your-life-than-your-inbox/",
+      "publishedAt": "2026-09-29",
+      "tags": [
+        "Inteligência Artificial",
+        "Produtividade"
+      ]
+    },
     {
       "id": "radar-2026-09-27-aHR0cHM6Ly",
       "title": "Google testa compras diretas via Gemini e AI Mode na Índia",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Direito Digital"
-      ]
-    },
-    {
-      "id": "radar-2026-09-04-aHR0cHM6Ly",
-      "title": "Startup de Robótica XDOF Negocia Valuation de US$ 1,2 Bilhão Apenas Três Meses Após Sair do Stealth",
-      "summary": "A startup de dados para robótica XDOF está em negociações avançadas para captar uma nova rodada Série B, mirando uma avaliação de US$ 1,2 bilhão. O aporte bilionário impressiona por ocorrer apenas três meses após a empresa ter saído publicamente do modo sigiloso. Essa valorização meteórica reflete a alta demanda por infraestrutura de dados especializada para impulsionar a próxima geração de robôs inteligentes.",
-      "image": "/images/radar-ia/post-2026-09-04.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-      "publishedAt": "2026-09-04",
-      "tags": [
-        "Robótica",
-        "Investimentos"
       ]
     }
   ]
