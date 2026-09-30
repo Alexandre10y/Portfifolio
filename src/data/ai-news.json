@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-29T14:25:16.274Z",
+  "updatedAt": "2026-09-30T14:21:19.580Z",
   "posts": [
+    {
+      "id": "radar-2026-09-30-aHR0cHM6Ly",
+      "title": "Airbnb integra busca por IA e novos serviços para viajantes",
+      "summary": "O Airbnb anunciou a implementação de um sistema de busca impulsionado por inteligência artificial e novos recursos sociais em sua plataforma. A empresa também está expandindo sua atuação ao oferecer serviços convenientes como entrega de refeições e lavanderia em locais selecionados. Com essas novidades, a marca reforça sua transição para um ecossistema de viagens completo e personalizado.",
+      "image": "/images/radar-ia/post-2026-09-30.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
+      "publishedAt": "2026-09-30",
+      "tags": [
+        "Inteligência Artificial",
+        "Inovação"
+      ]
+    },
     {
       "id": "radar-2026-09-29-aHR0cHM6Ly",
       "title": "Dazzle: A nova era da organização pessoal através das suas fotos",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Glossário Tech"
-      ]
-    },
-    {
-      "id": "radar-2026-09-05-aHR0cHM6Ly",
-      "title": "Jornais americanos processam OpenAI e Microsoft por uso indevido de dados",
-      "summary": "O Seattle Times e o Newsday iniciaram ações judiciais contra a OpenAI e a Microsoft, alegando o uso não autorizado de seus conteúdos jornalísticos para o treinamento de modelos de IA. O caso intensifica a disputa jurídica global sobre direitos autorais e ética no desenvolvimento de grandes modelos de linguagem.",
-      "image": "/images/radar-ia/post-2026-09-05.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "publishedAt": "2026-09-05",
-      "tags": [
-        "Inteligência Artificial",
-        "Direito Digital"
       ]
     }
   ]
