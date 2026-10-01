@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-30T14:21:19.580Z",
+  "updatedAt": "2026-10-01T14:53:35.921Z",
   "posts": [
+    {
+      "id": "radar-2026-10-01-aHR0cHM6Ly",
+      "title": "Photon: O Fim dos Aplicativos Tradicionais e a Era dos Agentes de IA",
+      "summary": "A startup Photon captou US$ 4,5 milhões para substituir aplicativos móveis por agentes inteligentes integrados a plataformas de mensagens como iMessage e SMS. A proposta aposta que a interação direta via IA será a nova norma, eliminando a necessidade de downloads constantes para o usuário final.",
+      "image": "https://image.pollinations.ai/prompt/A%20futuristic%20glowing%20digital%20interface%20interacting%20with%20various%20messaging%20bubbles%2C%20minimalist%20style%2C%20high-tech%20abstract%20aesthetic.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
+      "publishedAt": "2026-10-01",
+      "tags": [
+        "Inteligência Artificial",
+        "Inovação Mobile"
+      ]
+    },
     {
       "id": "radar-2026-09-30-aHR0cHM6Ly",
       "title": "Airbnb integra busca por IA e novos serviços para viajantes",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Direitos Autorais"
-      ]
-    },
-    {
-      "id": "radar-2026-09-07-aHR0cHM6Ly",
-      "title": "Guia Essencial: Os Termos e Jargões de IA que Você Precisa Conhecer",
-      "summary": "O avanço acelerado da inteligência artificial trouxe consigo uma verdadeira avalanche de novos conceitos e termos técnicos para o mercado de tecnologia. Entender vocábulos fundamentais como 'recorrência opaca' tornou-se indispensável para acompanhar as discussões e inovações atuais da área. Este novo glossário reúne as definições mais relevantes para ajudar profissionais e entusiastas a dominarem essa nova linguagem.",
-      "image": "/images/radar-ia/post-2026-09-07.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "publishedAt": "2026-09-07",
-      "tags": [
-        "Inteligência Artificial",
-        "Glossário Tech"
       ]
     }
   ]
