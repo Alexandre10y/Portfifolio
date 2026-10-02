@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-01T14:53:35.921Z",
+  "updatedAt": "2026-10-02T14:15:19.641Z",
   "posts": [
+    {
+      "id": "radar-2026-10-02-aHR0cHM6Ly",
+      "title": "TechCrunch Disrupt 2026: Última chamada para expor sua startup a 10 mil líderes",
+      "summary": "Termina hoje o prazo de inscrição para garantir um estande de exposição no TechCrunch Disrupt 2026, em São Francisco. O evento reunirá mais de 10 mil fundadores, investidores e tomadores de decisão em busca de inovações promissoras. É a oportunidade ideal para conectar sua empresa aos maiores nomes da tecnologia global.",
+      "image": "/images/radar-ia/post-2026-10-02.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/",
+      "publishedAt": "2026-10-02",
+      "tags": [
+        "TechCrunch Disrupt",
+        "Startups"
+      ]
+    },
     {
       "id": "radar-2026-10-01-aHR0cHM6Ly",
       "title": "Photon: O Fim dos Aplicativos Tradicionais e a Era dos Agentes de IA",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Startups"
-      ]
-    },
-    {
-      "id": "radar-2026-09-09-aHR0cHM6Ly",
-      "title": "Suno lança modelo v6 treinado com músicas licenciadas para evitar processos de direitos autorais",
-      "summary": "Enfrentando uma série de processos judiciais por violação de direitos autorais, a Suno anunciou o lançamento do seu novo modelo de IA, o Suno v6. A nova versão substitui os modelos anteriores e foi criada utilizando exclusivamente um acervo de músicas devidamente licenciadas. Com essa mudança, a plataforma busca garantir conformidade legal sem comprometer a criação musical automatizada.",
-      "image": "https://image.pollinations.ai/prompt/Abstract%20digital%20illustration%20of%20glowing%20musical%20notes%20and%20sound%20waves%20merging%20with%20a%20sleek%20legal%20scale%2C%20futuristic%20aesthetic%2C%20clean%20vector%20art%20style%2C%20no%20text%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
-      "publishedAt": "2026-09-09",
-      "tags": [
-        "Inteligência Artificial",
-        "Direitos Autorais"
       ]
     }
   ]
