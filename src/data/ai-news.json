@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-02T14:15:19.641Z",
+  "updatedAt": "2026-10-03T12:49:28.782Z",
   "posts": [
+    {
+      "id": "radar-2026-10-03-aHR0cHM6Ly",
+      "title": "Meta democratiza a IA: Modelo Muse agora disponível gratuitamente",
+      "summary": "A Meta liberou o código-fonte do seu modelo generativo Muse, permitindo que desenvolvedores integrem recursos avançados de IA em diversos dispositivos domésticos. A iniciativa visa acelerar a inovação tecnológica ao tornar uma das IAs mais potentes do mercado acessível para implementações em hardware variados.",
+      "image": "/images/radar-ia/post-2026-10-03.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "publishedAt": "2026-10-03",
+      "tags": [
+        "Inteligência Artificial",
+        "Meta"
+      ]
+    },
     {
       "id": "radar-2026-10-02-aHR0cHM6Ly",
       "title": "TechCrunch Disrupt 2026: Última chamada para expor sua startup a 10 mil líderes",
@@ -220,19 +233,6 @@
       "tags": [
         "Nvidia",
         "Inteligência Artificial"
-      ]
-    },
-    {
-      "id": "radar-2026-09-10-aHR0cHM6Ly",
-      "title": "Listen Labs cancela mega aporte de US$ 1,5 bi para focar em negociações com a Salesforce",
-      "summary": "A startup de pesquisa em inteligência artificial Listen Labs desistiu de fechar uma rodada de investimento Série C avaliada em US$ 1,5 bilhão com a Menlo Ventures. O movimento estratégico ocorreu para priorizar conversas avançadas de aquisição com a gigante do setor de software Salesforce.",
-      "image": "/images/radar-ia/post-2026-09-10.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
-      "publishedAt": "2026-09-10",
-      "tags": [
-        "Inteligência Artificial",
-        "Startups"
       ]
     }
   ]
