@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-03T12:49:28.782Z",
+  "updatedAt": "2026-10-04T13:32:30.196Z",
   "posts": [
+    {
+      "id": "radar-2026-10-03-aHR0cHM6Ly",
+      "title": "Amazon responde a críticas e elimina acordos de confidencialidade em data centers",
+      "summary": "Em resposta ao crescente escrutínio público sobre a expansão de infraestrutura de IA e nuvem, a Amazon Web Services anunciou que não utiliza mais acordos de confidencialidade com governos locais. A medida visa aumentar a transparência e combater a desconfiança da população sobre os impactos ambientais e energéticos dessas instalações. Com essa mudança, a gigante da tecnologia busca construir um diálogo mais aberto com as comunidades afetadas.",
+      "image": "/images/radar-ia/post-2026-10-03.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "publishedAt": "2026-10-03",
+      "tags": [
+        "Amazon",
+        "Data Centers"
+      ]
+    },
     {
       "id": "radar-2026-10-03-aHR0cHM6Ly",
       "title": "Meta democratiza a IA: Modelo Muse agora disponível gratuitamente",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Robótica"
-      ]
-    },
-    {
-      "id": "radar-2026-09-10-aHR0cHM6Ly",
-      "title": "A Ascensão Continua: Nvidia projeta crescimento massivo de 70%",
-      "summary": "O CEO Jensen Huang prevê que a Nvidia manterá seu ritmo acelerado de expansão no próximo ano, consolidando sua presença onipresente no ecossistema global de IA. A empresa refuta preocupações sobre a sustentabilidade de suas receitas, destacando a solidez e a diversificação de suas parcerias estratégicas.",
-      "image": "/images/radar-ia/post-2026-09-10.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
-      "publishedAt": "2026-09-10",
-      "tags": [
-        "Nvidia",
-        "Inteligência Artificial"
       ]
     }
   ]
