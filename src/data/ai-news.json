@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-04T13:32:30.196Z",
+  "updatedAt": "2026-10-05T16:32:09.705Z",
   "posts": [
+    {
+      "id": "radar-2026-10-05-aHR0cHM6Ly",
+      "title": "OpenAI integra anúncios visuais aos resultados do DALL-E",
+      "summary": "A OpenAI iniciou a exibição de anúncios visuais integrados aos resultados de geração de imagens, disponível inicialmente apenas para usuários nos Estados Unidos. Esta estratégia marca um movimento da empresa em direção à monetização direta de seus modelos de IA generativa.",
+      "image": "/images/radar-ia/post-2026-10-05.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+      "publishedAt": "2026-10-05",
+      "tags": [
+        "Inteligência Artificial",
+        "OpenAI"
+      ]
+    },
     {
       "id": "radar-2026-10-03-aHR0cHM6Ly",
       "title": "Amazon responde a críticas e elimina acordos de confidencialidade em data centers",
@@ -220,19 +233,6 @@
       "tags": [
         "OpenAI",
         "IPO"
-      ]
-    },
-    {
-      "id": "radar-2026-09-11-aHR0cHM6Ly",
-      "title": "Mecka AI se aproxima de valorização de US$ 500 milhões com aporte da Sequoia",
-      "summary": "A startup Mecka AI está prestes a atingir uma avaliação de US$ 500 milhões em uma nova rodada de investimento liderada pela Sequoia Capital. O aporte ocorre poucos meses após a sua Série A, impulsionado pela crescente demanda por dados de treinamento para robótica. O movimento destaca a corrida global por infraestrutura de dados voltada à inteligência artificial física.",
-      "image": "/images/radar-ia/post-2026-09-11.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
-      "publishedAt": "2026-09-11",
-      "tags": [
-        "Inteligência Artificial",
-        "Robótica"
       ]
     }
   ]
