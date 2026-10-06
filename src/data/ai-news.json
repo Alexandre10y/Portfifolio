@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-05T16:32:09.705Z",
+  "updatedAt": "2026-10-06T14:34:09.703Z",
   "posts": [
+    {
+      "id": "radar-2026-10-06-aHR0cHM6Ly",
+      "title": "Mistral Large 4: O Novo Gigante de 1T Parâmetros",
+      "summary": "A Mistral AI lançou o Mistral Large 4, um modelo multimodal robusto de 1 trilhão de parâmetros projetado para superar a concorrência global. Com foco em alta performance, o modelo posiciona o laboratório francês na vanguarda da corrida pela liderança em IA generativa.",
+      "image": "/images/radar-ia/post-2026-10-06.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+      "publishedAt": "2026-10-06",
+      "tags": [
+        "Inteligência Artificial",
+        "Mistral AI"
+      ]
+    },
     {
       "id": "radar-2026-10-05-aHR0cHM6Ly",
       "title": "OpenAI integra anúncios visuais aos resultados do DALL-E",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Biotecnologia"
-      ]
-    },
-    {
-      "id": "radar-2026-09-12-aHR0cHM6Ly",
-      "title": "OpenAI Adia IPO: Sam Altman Considera Imprudente Abrir Capital em 2026",
-      "summary": "O CEO da OpenAI, Sam Altman, declarou que seria uma decisão imprudente a empresa abrir seu capital na bolsa de valores em 2026. Embora a gigante da IA já tenha entrado com registros confidenciais para um IPO, a estreia no mercado financeiro foi oficialmente postergada. A empresa busca priorizar a consolidação de suas tecnologias antes de lidar com a pressão de investidores públicos.",
-      "image": "/images/radar-ia/post-2026-09-12.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
-      "publishedAt": "2026-09-12",
-      "tags": [
-        "OpenAI",
-        "IPO"
       ]
     }
   ]
