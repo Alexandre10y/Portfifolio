@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-06T14:34:09.703Z",
+  "updatedAt": "2026-10-07T14:51:32.391Z",
   "posts": [
+    {
+      "id": "radar-2026-10-07-aHR0cHM6Ly",
+      "title": "O Futuro dos Gadgets de IA: Lições de Tony Fadell",
+      "summary": "Tony Fadell, o criador do iPod, aponta que a primeira onda de dispositivos de IA falhou por não resolver problemas reais. A próxima geração deve superar o hype, focando na utilidade prática e na conquista da confiança do consumidor.",
+      "image": "/images/radar-ia/post-2026-10-07.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next/",
+      "publishedAt": "2026-10-07",
+      "tags": [
+        "Inteligência Artificial",
+        "Inovação Tecnológica"
+      ]
+    },
     {
       "id": "radar-2026-10-06-aHR0cHM6Ly",
       "title": "Mistral Large 4: O Novo Gigante de 1T Parâmetros",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "IA Corporativa"
-      ]
-    },
-    {
-      "id": "radar-2026-09-14-aHR0cHM6Ly",
-      "title": "Como a IA e a Biologia Computacional Estão Trazendo Espécies Extintas de Volta",
-      "summary": "O avanço da inteligência artificial aliado à genética e à biologia computacional está tornando possível a desextinção de espécies, transformando a ficção científica em uma indústria bilionária. Essas tecnologias prometem redefinir a conservação ambiental, levantando debates profundos sobre o papel da tecnologia na restauração da natureza.",
-      "image": "/images/radar-ia/post-2026-09-14.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/",
-      "publishedAt": "2026-09-14",
-      "tags": [
-        "Inteligência Artificial",
-        "Biotecnologia"
       ]
     }
   ]
