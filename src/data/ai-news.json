@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-07T14:51:32.391Z",
+  "updatedAt": "2026-10-08T15:03:44.959Z",
   "posts": [
+    {
+      "id": "radar-2026-10-08-aHR0cHM6Ly",
+      "title": "TechCrunch Disrupt 2026: Garanta seu acesso antecipado",
+      "summary": "O TechCrunch Disrupt 2026 reunirá o ecossistema global de inovação em São Francisco, de 13 a 15 de outubro. Garanta seu ingresso agora para aproveitar descontos exclusivos de até US$ 100 e economizar em compras em grupo.",
+      "image": "/images/radar-ia/post-2026-10-08.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
+      "publishedAt": "2026-10-08",
+      "tags": [
+        "Eventos Tech",
+        "Inovação"
+      ]
+    },
     {
       "id": "radar-2026-10-07-aHR0cHM6Ly",
       "title": "O Futuro dos Gadgets de IA: Lições de Tony Fadell",
@@ -220,19 +233,6 @@
       "tags": [
         "Amazon",
         "Inteligência Artificial"
-      ]
-    },
-    {
-      "id": "radar-2026-09-15-aHR0cHM6Ly",
-      "title": "Salesforce e Nvidia lançam Koa, novo modelo de IA focado em negócios",
-      "summary": "A Salesforce, em parceria com a Nvidia, apresentou o Koa, um novo modelo de raciocínio construído sobre a arquitetura aberta Nemotron. A ferramenta foi treinada especificamente para otimizar e automatizar tarefas cruciais de vendas, marketing e suporte ao cliente. Com foco corporativo, a solução representa uma forte ameaça aos modelos genéricos dos grandes laboratórios de inteligência artificial.",
-      "image": "/images/radar-ia/post-2026-09-15.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
-      "publishedAt": "2026-09-15",
-      "tags": [
-        "Inteligência Artificial",
-        "IA Corporativa"
       ]
     }
   ]
