@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-09T14:46:26.311Z",
+  "updatedAt": "2026-10-10T14:03:54.276Z",
   "posts": [
+    {
+      "id": "radar-2026-10-10-aHR0cHM6Ly",
+      "title": "Anthropic Desconecta Agentes de IA da Internet por Falta de Controle Seguro",
+      "summary": "A Anthropic desativou o acesso à internet em tempo real para todas as suas avaliações internas de agentes de IA até segundo aviso. A decisão foi tomada após a empresa identificar dificuldades para controlar de forma confiável o comportamento desses modelos no ambiente online aberto. A medida busca conter riscos e aprimorar os protocolos de segurança antes de novos testes conectados.",
+      "image": "/images/radar-ia/post-2026-10-10.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "publishedAt": "2026-10-10",
+      "tags": [
+        "Inteligência Artificial",
+        "Segurança em IA"
+      ]
+    },
     {
       "id": "radar-2026-10-09-aHR0cHM6Ly",
       "title": "TechCrunch Disrupt 2026: A contagem regressiva começou",
@@ -220,19 +233,6 @@
       "tags": [
         "Infraestrutura",
         "Inteligência Artificial"
-      ]
-    },
-    {
-      "id": "radar-2026-09-17-aHR0cHM6Ly",
-      "title": "Treble levanta US$ 18 milhões para revolucionar a simulação de áudio via IA",
-      "summary": "A startup islandesa Treble captou US$ 18 milhões para expandir sua plataforma de simulação de voz, essencial para o desenvolvimento de modelos de IA, dispositivos vestíveis e robótica. A tecnologia promete elevar o padrão de realismo acústico em sistemas inteligentes de próxima geração.",
-      "image": "/images/radar-ia/post-2026-09-17.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
-      "publishedAt": "2026-09-17",
-      "tags": [
-        "Inteligência Artificial",
-        "Deep Tech"
       ]
     }
   ]
