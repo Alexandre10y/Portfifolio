@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-10T14:03:54.276Z",
+  "updatedAt": "2026-10-11T14:28:13.068Z",
   "posts": [
+    {
+      "id": "radar-2026-10-11-aHR0cHM6Ly",
+      "title": "IA de Voz: Por Que o 'Momento ChatGPT' do Setor Ainda Não Chegou?",
+      "summary": "Apesar do avanço das tecnologias de áudio, executivos do setor alertam que a IA de voz ainda enfrenta falhas críticas em sua camada de contexto. Pequenos erros na interpretação do significado acabam comprometendo todo o fluxo de processamento do sistema. Por isso, a tecnologia ainda busca um marco de maturidade e confiabilidade comparável ao do ChatGPT.",
+      "image": "/images/radar-ia/post-2026-10-11.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "publishedAt": "2026-10-11",
+      "tags": [
+        "Inteligência Artificial",
+        "IA de Voz"
+      ]
+    },
     {
       "id": "radar-2026-10-10-aHR0cHM6Ly",
       "title": "Anthropic Desconecta Agentes de IA da Internet por Falta de Controle Seguro",
@@ -220,19 +233,6 @@
       "tags": [
         "Regulamentação",
         "Privacidade de Dados"
-      ]
-    },
-    {
-      "id": "radar-2026-09-17-aHR0cHM6Ly",
-      "title": "Crusoe Capta US$ 3,9 Bi para Expandir Data Centers e 'Fábricas de IA' Modulares",
-      "summary": "A gigante de infraestrutura Crusoe garantiu um aporte de US$ 3,9 bilhões, elevando seu valor de mercado para US$ 30,9 bilhões. Os recursos serão destinados à construção de grandes data centers e instalações modulares projetadas especialmente para processamento de inteligência artificial. Com o movimento, a empresa se consolida como peça-chave no fornecimento de capacidade computacional em larga escala.",
-      "image": "/images/radar-ia/post-2026-09-17.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
-      "publishedAt": "2026-09-17",
-      "tags": [
-        "Infraestrutura",
-        "Inteligência Artificial"
       ]
     }
   ]
