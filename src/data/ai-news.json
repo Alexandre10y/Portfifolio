@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-11T14:28:13.068Z",
+  "updatedAt": "2026-10-12T17:06:34.652Z",
   "posts": [
+    {
+      "id": "radar-2026-10-12-aHR0cHM6Ly",
+      "title": "Microsoft defende regulação urgente para o setor de IA no Reino Unido",
+      "summary": "O presidente da Microsoft, Brad Smith, destacou a necessidade premente de criar estruturas regulatórias para a inteligência artificial, argumentando que setores básicos possuem maior fiscalização que as empresas de tecnologia. O Reino Unido é apontado como o cenário ideal para liderar essa iniciativa global e estabelecer padrões seguros para a inovação.",
+      "image": "https://image.pollinations.ai/prompt/Modern%20digital%20brain%20silhouette%20surrounded%20by%20complex%20light%20circuits%20and%20UK%20skyline%20background%2C%20clean%20professional%20aesthetic%2C%20high-tech%20style.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "publishedAt": "2026-10-12",
+      "tags": [
+        "Inteligência Artificial",
+        "Regulação Tecnológica"
+      ]
+    },
     {
       "id": "radar-2026-10-11-aHR0cHM6Ly",
       "title": "IA de Voz: Por Que o 'Momento ChatGPT' do Setor Ainda Não Chegou?",
@@ -220,19 +233,6 @@
       "tags": [
         "Tecnologia",
         "Mercado de Trabalho"
-      ]
-    },
-    {
-      "id": "radar-2026-09-19-aHR0cHM6Ly",
-      "title": "Índia exige que apps de identificação de chamadas compartilhem dados de spam com operadoras",
-      "summary": "O governo da Índia passou a exigir que aplicativos como o Truecaller repassem seus relatórios de spam diretamente para as operadoras de telecomunicações. A Truecaller criticou a medida, alegando que o compartilhamento unidirecional entrega um valioso ativo comercial proprietário às empresas de telefonia. O impasse evidencia a crescente tensão entre regulamentações estatais antifraude e a proteção de dados privados de empresas de tecnologia.",
-      "image": "/images/radar-ia/post-2026-09-19.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
-      "publishedAt": "2026-09-19",
-      "tags": [
-        "Regulamentação",
-        "Privacidade de Dados"
       ]
     }
   ]
