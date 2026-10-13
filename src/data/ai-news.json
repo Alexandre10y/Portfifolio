@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-12T17:06:34.652Z",
+  "updatedAt": "2026-10-13T15:22:39.896Z",
   "posts": [
+    {
+      "id": "radar-2026-10-13-aHR0cHM6Ly",
+      "title": "TechCrunch Disrupt 2026: O epicentro da inovação em São Francisco",
+      "summary": "O TechCrunch Disrupt 2026 começa hoje no Moscone West, reunindo mais de 10 mil líderes globais para moldar o futuro da tecnologia. O evento destaca o que há de mais inovador no ecossistema de startups, consolidando-se como o palco essencial para networking e tendências do setor.",
+      "image": "/images/radar-ia/post-2026-10-13.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
+      "publishedAt": "2026-10-13",
+      "tags": [
+        "Tecnologia",
+        "Startups"
+      ]
+    },
     {
       "id": "radar-2026-10-12-aHR0cHM6Ly",
       "title": "Microsoft defende regulação urgente para o setor de IA no Reino Unido",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Mercado Financeiro"
-      ]
-    },
-    {
-      "id": "radar-2026-09-19-aHR0cHM6Ly",
-      "title": "Flock busca reestruturação através de demissões voluntárias",
-      "summary": "Para evitar cortes compulsórios, a Flock implementou um programa de desligamento voluntário como estratégia de redução de custos. A medida visa estabilizar a operação e ajustar o quadro de funcionários frente aos desafios atuais da empresa.",
-      "image": "/images/radar-ia/post-2026-09-19.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
-      "publishedAt": "2026-09-19",
-      "tags": [
-        "Tecnologia",
-        "Mercado de Trabalho"
       ]
     }
   ]
