@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-13T15:22:39.896Z",
+  "updatedAt": "2026-10-14T13:10:03.103Z",
   "posts": [
+    {
+      "id": "radar-2026-10-14-aHR0cHM6Ly",
+      "title": "Scimplify: O poder da IA contra a dependência global de insumos químicos",
+      "summary": "A Scimplify captou US$ 25 milhões para escalar sua plataforma de IA, visando descentralizar a cadeia de suprimentos de materiais críticos da China. Com um faturamento anualizado de US$ 200 milhões, a startup agora acelera sua expansão estratégica no mercado dos Estados Unidos.",
+      "image": "/images/radar-ia/post-2026-10-14.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+      "publishedAt": "2026-10-14",
+      "tags": [
+        "Inteligência Artificial",
+        "Supply Chain"
+      ]
+    },
     {
       "id": "radar-2026-10-13-aHR0cHM6Ly",
       "title": "TechCrunch Disrupt 2026: O epicentro da inovação em São Francisco",
@@ -220,19 +233,6 @@
       "tags": [
         "Metaverso",
         "Hardware"
-      ]
-    },
-    {
-      "id": "radar-2026-09-22-aHR0cHM6Ly",
-      "title": "Aposta em Infraestrutura: IPO da Nscale testa o interesse do mercado em data centers de IA",
-      "summary": "A Nscale prepara seu IPO em um momento decisivo, sendo fortemente dependente de gigantes como Microsoft e Anthropic para sua receita. A estreia na bolsa revelará o real apetite de Wall Street por empresas focadas em infraestrutura de IA.",
-      "image": "/images/radar-ia/post-2026-09-22.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
-      "publishedAt": "2026-09-22",
-      "tags": [
-        "Inteligência Artificial",
-        "Mercado Financeiro"
       ]
     }
   ]
