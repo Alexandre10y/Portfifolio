@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-14T13:10:03.103Z",
+  "updatedAt": "2026-10-15T12:56:44.198Z",
   "posts": [
+    {
+      "id": "radar-2026-10-15-aHR0cHM6Ly",
+      "title": "Amazon Bee revoluciona o mercado com novos dispositivos de IA vestíveis",
+      "summary": "A Bee, subsidiária da Amazon, lançou dois dispositivos compactos integrados com IA capazes de resumir conversas e gerenciar listas de tarefas. Com foco em produtividade, os novos wearables já contam com suporte à Alexa e conexão direta com o ecossistema de compras da Amazon.",
+      "image": "/images/radar-ia/post-2026-10-15.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "publishedAt": "2026-10-15",
+      "tags": [
+        "Inteligência Artificial",
+        "Hardware"
+      ]
+    },
     {
       "id": "radar-2026-10-14-aHR0cHM6Ly",
       "title": "Scimplify: O poder da IA contra a dependência global de insumos químicos",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "E-commerce"
-      ]
-    },
-    {
-      "id": "radar-2026-09-26-aHR0cHM6Ly",
-      "title": "Meta aposta no futuro da computação com óculos inteligentes",
-      "summary": "A Meta reafirmou seu compromisso com a computação vestível durante o Meta Connect, destacando a evolução de seus óculos inteligentes. A estratégia visa integrar o mundo digital à rotina dos usuários por meio de dispositivos inovadores que prometem substituir o smartphone no dia a dia.",
-      "image": "/images/radar-ia/post-2026-09-26.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
-      "publishedAt": "2026-09-26",
-      "tags": [
-        "Metaverso",
-        "Hardware"
       ]
     }
   ]
