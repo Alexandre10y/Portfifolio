@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-15T12:56:44.198Z",
+  "updatedAt": "2026-10-17T11:49:35.642Z",
   "posts": [
+    {
+      "id": "radar-2026-10-16-aHR0cHM6Ly",
+      "title": "Replit encerra parceria com a Anthropic devido a custos e novas estratégias",
+      "summary": "A Replit encerrou oficialmente sua parceria com a Anthropic, citando o alto custo entre os principais motivos da decisão, segundo o CEO Amjad Masad. A mudança segue a recente aliança da empresa com a OpenAI, sinalizando uma reestruturação estratégica em seu ecossistema de inteligência artificial.",
+      "image": "/images/radar-ia/post-2026-10-16.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "publishedAt": "2026-10-16",
+      "tags": [
+        "Inteligência Artificial",
+        "Replit"
+      ]
+    },
     {
       "id": "radar-2026-10-15-aHR0cHM6Ly",
       "title": "Amazon Bee revoluciona o mercado com novos dispositivos de IA vestíveis",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Produtividade"
-      ]
-    },
-    {
-      "id": "radar-2026-09-27-aHR0cHM6Ly",
-      "title": "Google testa compras diretas via Gemini e AI Mode na Índia",
-      "summary": "O Google começou a testar compras diretas na e-commerce Flipkart integradas ao Gemini e ao seu AI Mode na Índia. Inicialmente disponível para usuários e produtos selecionados, o recurso combina IA generativa e comércio eletrônico para agilizar a jornada do consumidor. A expansão da funcionalidade para um público mais amplo está planejada para o final de outubro.",
-      "image": "https://image.pollinations.ai/prompt/Futuristic%203D%20vector%20illustration%20of%20a%20smartphone%20displaying%20an%20AI%20assistant%20shopping%20interface%20with%20digital%20shopping%20bags%20and%20glowing%20network%20connections%2C%20dynamic%20light%20effects%2C%20no%20text.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-      "publishedAt": "2026-09-27",
-      "tags": [
-        "Inteligência Artificial",
-        "E-commerce"
       ]
     }
   ]
