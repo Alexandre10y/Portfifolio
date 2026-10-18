@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-17T11:49:35.642Z",
+  "updatedAt": "2026-10-18T12:15:28.558Z",
   "posts": [
+    {
+      "id": "radar-2026-10-17-aHR0cHM6Ly",
+      "title": "Meta ajusta termos de uso após polêmica com raspagem de dados para IA",
+      "summary": "A Meta removeu trechos controversos dos seus termos que levantavam dúvidas sobre a coleta de dados e o treinamento de modelos de inteligência artificial. A empresa esclareceu que a atualização não altera a forma como navega e coleta informações na web, buscando apenas maior clareza nas diretrizes. A revisão ocorre em meio a crescentes preocupações da indústria sobre privacidade e uso de conteúdo de terceiros.",
+      "image": "/images/radar-ia/post-2026-10-17.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "publishedAt": "2026-10-17",
+      "tags": [
+        "Inteligência Artificial",
+        "Privacidade"
+      ]
+    },
     {
       "id": "radar-2026-10-16-aHR0cHM6Ly",
       "title": "Replit encerra parceria com a Anthropic devido a custos e novas estratégias",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Inovação"
-      ]
-    },
-    {
-      "id": "radar-2026-09-29-aHR0cHM6Ly",
-      "title": "Dazzle: A nova era da organização pessoal através das suas fotos",
-      "summary": "A ex-CEO do Yahoo, Marissa Mayer, lançou o Dazzle, um assistente de IA focado em transformar a organização da sua galeria de fotos em uma ferramenta de gestão da vida cotidiana. A tecnologia promete extrair informações valiosas do seu rolo de câmera, tornando o histórico visual mais útil que a sua caixa de entrada.",
-      "image": "https://image.pollinations.ai/prompt/A%20minimalist%20smartphone%20screen%20displaying%20an%20array%20of%20colorful%2C%20organized%20photo%20icons%20connected%20by%20glowing%20digital%20lines%2C%20sleek%20tech%20aesthetic%2C%20blurred%20background.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/29/with-dazzle-marissa-mayer-bets-your-camera-roll-has-more-info-on-your-life-than-your-inbox/",
-      "publishedAt": "2026-09-29",
-      "tags": [
-        "Inteligência Artificial",
-        "Produtividade"
       ]
     }
   ]
