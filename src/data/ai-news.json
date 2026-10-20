@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-18T12:15:28.558Z",
+  "updatedAt": "2026-10-20T13:07:49.422Z",
   "posts": [
+    {
+      "id": "radar-2026-10-20-aHR0cHM6Ly",
+      "title": "Braço robótico com IA física eleva valor da Eka para US$ 1,45 bilhão",
+      "summary": "A Eka Robotics alcançou a marca de US$ 1,45 bilhão impulsionada por um modelo inovador de IA física aplicada à robótica. O novo braço robótico da startup impressiona especialistas do setor por sua fluidez impressionante e movimentos semelhantes aos humanos. A tecnologia se destaca pela capacidade inédita de manipular com precisão uma ampla variedade de objetos.",
+      "image": "/images/radar-ia/post-2026-10-20.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+      "publishedAt": "2026-10-20",
+      "tags": [
+        "Robótica",
+        "IA Física"
+      ]
+    },
     {
       "id": "radar-2026-10-17-aHR0cHM6Ly",
       "title": "Meta ajusta termos de uso após polêmica com raspagem de dados para IA",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Inovação Mobile"
-      ]
-    },
-    {
-      "id": "radar-2026-09-30-aHR0cHM6Ly",
-      "title": "Airbnb integra busca por IA e novos serviços para viajantes",
-      "summary": "O Airbnb anunciou a implementação de um sistema de busca impulsionado por inteligência artificial e novos recursos sociais em sua plataforma. A empresa também está expandindo sua atuação ao oferecer serviços convenientes como entrega de refeições e lavanderia em locais selecionados. Com essas novidades, a marca reforça sua transição para um ecossistema de viagens completo e personalizado.",
-      "image": "/images/radar-ia/post-2026-09-30.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
-      "publishedAt": "2026-09-30",
-      "tags": [
-        "Inteligência Artificial",
-        "Inovação"
       ]
     }
   ]
