@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-20T13:07:49.422Z",
+  "updatedAt": "2026-10-21T13:19:03.903Z",
   "posts": [
+    {
+      "id": "radar-2026-10-20-aHR0cHM6Ly",
+      "title": "Anthropic propõe lei de segurança para barrar IA em casos de risco extremo",
+      "summary": "A Anthropic apresentou uma proposta de regulamentação que prevê o bloqueio de modelos de IA caso haja risco real de causar destruição em massa ou mais de 50 mortes. No entanto, a medida exige autorização judicial para que agências federais impeçam o lançamento de um sistema, limitando intervenções governamentais diretas. A iniciativa busca equilibrar a prevenção de catástrofes tecnológicas com a manutenção da autonomia das empresas do setor.",
+      "image": "/images/radar-ia/post-2026-10-20.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "publishedAt": "2026-10-20",
+      "tags": [
+        "Inteligência Artificial",
+        "Regulamentação"
+      ]
+    },
     {
       "id": "radar-2026-10-20-aHR0cHM6Ly",
       "title": "Braço robótico com IA física eleva valor da Eka para US$ 1,45 bilhão",
@@ -220,19 +233,6 @@
       "tags": [
         "TechCrunch Disrupt",
         "Startups"
-      ]
-    },
-    {
-      "id": "radar-2026-10-01-aHR0cHM6Ly",
-      "title": "Photon: O Fim dos Aplicativos Tradicionais e a Era dos Agentes de IA",
-      "summary": "A startup Photon captou US$ 4,5 milhões para substituir aplicativos móveis por agentes inteligentes integrados a plataformas de mensagens como iMessage e SMS. A proposta aposta que a interação direta via IA será a nova norma, eliminando a necessidade de downloads constantes para o usuário final.",
-      "image": "https://image.pollinations.ai/prompt/A%20futuristic%20glowing%20digital%20interface%20interacting%20with%20various%20messaging%20bubbles%2C%20minimalist%20style%2C%20high-tech%20abstract%20aesthetic.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
-      "publishedAt": "2026-10-01",
-      "tags": [
-        "Inteligência Artificial",
-        "Inovação Mobile"
       ]
     }
   ]
