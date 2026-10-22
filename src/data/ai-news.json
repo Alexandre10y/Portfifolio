@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-21T13:19:03.903Z",
+  "updatedAt": "2026-10-22T13:17:10.242Z",
   "posts": [
+    {
+      "id": "radar-2026-10-22-aHR0cHM6Ly",
+      "title": "DeepSeek desafia sanções e levanta US$ 15 bilhões",
+      "summary": "A startup chinesa de IA, DeepSeek, garantiu um aporte bilionário recorde poucos dias após o governo dos EUA restringir o uso de sua tecnologia por questões de segurança. O movimento destaca a resiliência e o rápido avanço do ecossistema de inteligência artificial na China frente às pressões geopolíticas.",
+      "image": "/images/radar-ia/post-2026-10-22.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "publishedAt": "2026-10-22",
+      "tags": [
+        "Inteligência Artificial",
+        "Geopolítica Tech"
+      ]
+    },
     {
       "id": "radar-2026-10-20-aHR0cHM6Ly",
       "title": "Anthropic propõe lei de segurança para barrar IA em casos de risco extremo",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Meta"
-      ]
-    },
-    {
-      "id": "radar-2026-10-02-aHR0cHM6Ly",
-      "title": "TechCrunch Disrupt 2026: Última chamada para expor sua startup a 10 mil líderes",
-      "summary": "Termina hoje o prazo de inscrição para garantir um estande de exposição no TechCrunch Disrupt 2026, em São Francisco. O evento reunirá mais de 10 mil fundadores, investidores e tomadores de decisão em busca de inovações promissoras. É a oportunidade ideal para conectar sua empresa aos maiores nomes da tecnologia global.",
-      "image": "/images/radar-ia/post-2026-10-02.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/",
-      "publishedAt": "2026-10-02",
-      "tags": [
-        "TechCrunch Disrupt",
-        "Startups"
       ]
     }
   ]
