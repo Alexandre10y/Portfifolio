@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-22T13:17:10.242Z",
+  "updatedAt": "2026-10-23T12:56:20.080Z",
   "posts": [
+    {
+      "id": "radar-2026-10-23-aHR0cHM6Ly",
+      "title": "inDrive e Pony.ai aceleram rumo ao futuro dos robotaxis na Ásia Central",
+      "summary": "A inDrive anunciou uma parceria estratégica com a Pony.ai e a Nvidia para iniciar testes de veículos autônomos no Cazaquistão até 2027. O projeto visa integrar a tecnologia de condução autônoma de ponta à infraestrutura de transporte da capital, consolidando a empresa no mercado de mobilidade inteligente.",
+      "image": "/images/radar-ia/post-2026-10-23.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "publishedAt": "2026-10-23",
+      "tags": [
+        "Inteligência Artificial",
+        "Mobilidade Urbana"
+      ]
+    },
     {
       "id": "radar-2026-10-22-aHR0cHM6Ly",
       "title": "DeepSeek desafia sanções e levanta US$ 15 bilhões",
@@ -220,19 +233,6 @@
       "tags": [
         "Amazon",
         "Data Centers"
-      ]
-    },
-    {
-      "id": "radar-2026-10-03-aHR0cHM6Ly",
-      "title": "Meta democratiza a IA: Modelo Muse agora disponível gratuitamente",
-      "summary": "A Meta liberou o código-fonte do seu modelo generativo Muse, permitindo que desenvolvedores integrem recursos avançados de IA em diversos dispositivos domésticos. A iniciativa visa acelerar a inovação tecnológica ao tornar uma das IAs mais potentes do mercado acessível para implementações em hardware variados.",
-      "image": "/images/radar-ia/post-2026-10-03.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-      "publishedAt": "2026-10-03",
-      "tags": [
-        "Inteligência Artificial",
-        "Meta"
       ]
     }
   ]
