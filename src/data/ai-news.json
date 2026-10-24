@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-23T12:56:20.080Z",
+  "updatedAt": "2026-10-24T12:18:11.025Z",
   "posts": [
+    {
+      "id": "radar-2026-10-23-aHR0cHM6Ly",
+      "title": "OpenAI encerra treinamento de IA na internet em tempo real citando riscos",
+      "summary": "A OpenAI anunciou que deixará de treinar seus modelos de inteligência artificial de ponta utilizando dados em tempo real da internet, alegando riscos significativos de segurança. A decisão ocorre poucas semanas após engenheiros da própria empresa afirmarem que essa medida seria inviável. Com a mudança, a startup busca mitigar vulnerabilidades e garantir maior controle sobre o aprendizado de suas IAs.",
+      "image": "/images/radar-ia/post-2026-10-23.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "publishedAt": "2026-10-23",
+      "tags": [
+        "OpenAI",
+        "Segurança em IA"
+      ]
+    },
     {
       "id": "radar-2026-10-23-aHR0cHM6Ly",
       "title": "inDrive e Pony.ai aceleram rumo ao futuro dos robotaxis na Ásia Central",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "OpenAI"
-      ]
-    },
-    {
-      "id": "radar-2026-10-03-aHR0cHM6Ly",
-      "title": "Amazon responde a críticas e elimina acordos de confidencialidade em data centers",
-      "summary": "Em resposta ao crescente escrutínio público sobre a expansão de infraestrutura de IA e nuvem, a Amazon Web Services anunciou que não utiliza mais acordos de confidencialidade com governos locais. A medida visa aumentar a transparência e combater a desconfiança da população sobre os impactos ambientais e energéticos dessas instalações. Com essa mudança, a gigante da tecnologia busca construir um diálogo mais aberto com as comunidades afetadas.",
-      "image": "/images/radar-ia/post-2026-10-03.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-      "publishedAt": "2026-10-03",
-      "tags": [
-        "Amazon",
-        "Data Centers"
       ]
     }
   ]
