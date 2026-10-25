@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-24T12:18:11.025Z",
+  "updatedAt": "2026-10-25T12:49:42.380Z",
   "posts": [
+    {
+      "id": "radar-2026-10-24-aHR0cHM6Ly",
+      "title": "O Cemitério da IA: Lições dos Projetos que Não Prosperaram",
+      "summary": "Este levantamento explora a trajetória de startups e ferramentas de IA que falharam em atingir expectativas ou encerraram suas operações. O artigo oferece uma análise técnica valiosa sobre os desafios reais de mercado e a volatilidade no desenvolvimento de tecnologias inteligentes.",
+      "image": "/images/radar-ia/post-2026-10-24.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "publishedAt": "2026-10-24",
+      "tags": [
+        "Inteligência Artificial",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "radar-2026-10-23-aHR0cHM6Ly",
       "title": "OpenAI encerra treinamento de IA na internet em tempo real citando riscos",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Mistral AI"
-      ]
-    },
-    {
-      "id": "radar-2026-10-05-aHR0cHM6Ly",
-      "title": "OpenAI integra anúncios visuais aos resultados do DALL-E",
-      "summary": "A OpenAI iniciou a exibição de anúncios visuais integrados aos resultados de geração de imagens, disponível inicialmente apenas para usuários nos Estados Unidos. Esta estratégia marca um movimento da empresa em direção à monetização direta de seus modelos de IA generativa.",
-      "image": "/images/radar-ia/post-2026-10-05.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
-      "publishedAt": "2026-10-05",
-      "tags": [
-        "Inteligência Artificial",
-        "OpenAI"
       ]
     }
   ]
