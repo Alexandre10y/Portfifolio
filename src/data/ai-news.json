@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-25T12:49:42.380Z",
+  "updatedAt": "2026-10-26T14:38:24.869Z",
   "posts": [
+    {
+      "id": "radar-2026-10-26-aHR0cHM6Ly",
+      "title": "Anthropic oficializa pedido de IPO e revela balanço com forte crescimento e foco em segurança",
+      "summary": "A startup de inteligência artificial Anthropic deu o passo oficial para estrear na bolsa de valores ao dar entrada no seu processo de IPO. Os documentos revelam um salto expressivo na receita impulsionado pela adoção corporativa, embora acompanhado por prejuízos crescentes devido aos altos custos do setor. Para proteger sua missão de segurança em IA, a empresa adotou uma estrutura de governança que mantém o controle estratégico com os fundadores.",
+      "image": "/images/radar-ia/post-2026-10-26.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "publishedAt": "2026-10-26",
+      "tags": [
+        "Inteligência Artificial",
+        "IPO"
+      ]
+    },
     {
       "id": "radar-2026-10-24-aHR0cHM6Ly",
       "title": "O Cemitério da IA: Lições dos Projetos que Não Prosperaram",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Inovação Tecnológica"
-      ]
-    },
-    {
-      "id": "radar-2026-10-06-aHR0cHM6Ly",
-      "title": "Mistral Large 4: O Novo Gigante de 1T Parâmetros",
-      "summary": "A Mistral AI lançou o Mistral Large 4, um modelo multimodal robusto de 1 trilhão de parâmetros projetado para superar a concorrência global. Com foco em alta performance, o modelo posiciona o laboratório francês na vanguarda da corrida pela liderança em IA generativa.",
-      "image": "/images/radar-ia/post-2026-10-06.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-      "publishedAt": "2026-10-06",
-      "tags": [
-        "Inteligência Artificial",
-        "Mistral AI"
       ]
     }
   ]
