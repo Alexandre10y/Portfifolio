@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-26T14:38:24.869Z",
+  "updatedAt": "2026-10-27T13:42:11.894Z",
   "posts": [
+    {
+      "id": "radar-2026-10-27-aHR0cHM6Ly",
+      "title": "Falha de Segurança: Gigante Japonesa GMO Investiga Vazamento de Dados",
+      "summary": "A GMO Internet, gigante japonesa de serviços em nuvem, está investigando o vazamento de dados de clientes após um ataque cibernético confirmado. A empresa trabalha para verificar a autenticidade das informações expostas pelos hackers e mitigar os riscos aos usuários.",
+      "image": "/images/radar-ia/post-2026-10-27.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+      "publishedAt": "2026-10-27",
+      "tags": [
+        "Cibersegurança",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "radar-2026-10-26-aHR0cHM6Ly",
       "title": "Anthropic oficializa pedido de IPO e revela balanço com forte crescimento e foco em segurança",
@@ -220,19 +233,6 @@
       "tags": [
         "Eventos Tech",
         "Inovação"
-      ]
-    },
-    {
-      "id": "radar-2026-10-07-aHR0cHM6Ly",
-      "title": "O Futuro dos Gadgets de IA: Lições de Tony Fadell",
-      "summary": "Tony Fadell, o criador do iPod, aponta que a primeira onda de dispositivos de IA falhou por não resolver problemas reais. A próxima geração deve superar o hype, focando na utilidade prática e na conquista da confiança do consumidor.",
-      "image": "/images/radar-ia/post-2026-10-07.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next/",
-      "publishedAt": "2026-10-07",
-      "tags": [
-        "Inteligência Artificial",
-        "Inovação Tecnológica"
       ]
     }
   ]
