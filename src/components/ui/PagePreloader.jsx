@@ -2,7 +2,6 @@ import { useEffect, useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import fotoPerfil from '../../assets/img/Foto Perfil.jpeg';
 import videoApresentacao from '../../assets/img/Vídeo Apresentação.mov';
-import { scheduleScrollToEducadores } from '../../utils/scrollToEducadores';
 import './page-preloader.css';
 
 const PHRASES = [
@@ -102,7 +101,6 @@ export default function PagePreloader({ children }) {
         sessionStorage.setItem(SESSION_KEY, '1');
         setVisible(false);
         document.body.classList.remove('preloader-active');
-        scheduleScrollToEducadores(720);
       }, 520);
     };
 
@@ -120,11 +118,6 @@ export default function PagePreloader({ children }) {
       document.body.classList.remove('preloader-active');
     };
   }, [visible]);
-
-  useEffect(() => {
-    if (visible || !skip) return undefined;
-    return scheduleScrollToEducadores(180);
-  }, [visible, skip]);
 
   return (
     <>

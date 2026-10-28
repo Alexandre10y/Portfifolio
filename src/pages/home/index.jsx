@@ -22,6 +22,11 @@ import ContactSection from '../../components/contato/ContactSection';
 import EducatorIntro from '../../components/educadores/EducatorIntro';
 import InscricaoButton from '../../components/ui/InscricaoButton';
 import NoiseOverlay from '../../components/ui/NoiseOverlay';
+import {
+  useProjects,
+  useSobre,
+  renderBoldMarkdown,
+} from '../../hooks/usePortfolioContent';
 
 import fotoPerfil from '../../assets/img/Foto Perfil.jpeg';
 
@@ -32,6 +37,9 @@ export default function Home() {
   const gridRef = useRef(null);
   const heroRef = useRef(null);
   const hasInteractedRef = useRef(false);
+  const { items: projetosEmp } = useProjects('empresarial');
+  const { items: projetosPes } = useProjects('pessoal');
+  const { data: sobre } = useSobre();
 
   const { scrollYProgress } = useScroll({
     target: heroRef,
@@ -47,7 +55,8 @@ export default function Home() {
     }
 
     const hash = window.location.hash;
-    if (!hash || hash === '#educadores' || hash === '#inicio') {
+    if (!hash || hash === '#inicio') {
+      window.scrollTo(0, 0);
       return undefined;
     }
 
@@ -204,55 +213,43 @@ export default function Home() {
               </Reveal>
               <Reveal delay={0.05}>
                 <h2 className="section-title sobre-titulo cursor-target">
-                  Meu nome é <em>Alexandre Belloni</em>
+                  {String(sobre.headline || '').startsWith('Meu nome é') ? (
+                    <>
+                      Meu nome é <em>{sobre.cardName || 'Alexandre Belloni'}</em>
+                    </>
+                  ) : (
+                    sobre.headline
+                  )}
                 </h2>
               </Reveal>
               <Reveal delay={0.1}>
-                <p className="sobre-paragrafo">
-                  Sou <strong>Engenheiro de Software</strong> e pós-graduado em{' '}
-                  <strong>Inteligência Artificial</strong>. Atualmente sou <strong>Analista
-                  de Dados</strong> na <strong>Cresol</strong>, 3ª maior cooperativa de
-                  crédito do Brasil, desenvolvendo painéis gerenciais de BI para decisões
-                  estratégicas.
-                  <br />
-                  <br />
-                  Meu segundo foco profissional é prestar <strong>suporte de tecnologia,
-                  inteligência artificial, marketing de TI e desenvolvimento de sistemas</strong>{' '}
-                  para <strong>hotéis e empresas do setor</strong> — configuração de contas
-                  Google, automações, chatbots, sites e inovação no dia a dia do negócio.
-                  <br />
-                  <br />
-                  Não ministro mais aulas no ensino estadual, mas sigo apoiando ex-alunos que
-                  têm dúvidas sobre carreira e projetos. Já formei turmas gratuitas em escolas
-                  e comunidade por mais de 4 anos.
-                  <br />
-                  <br />
-                  <strong>Acredito que tecnologia só faz sentido quando gera impacto real.</strong>
-                </p>
+                <div className="sobre-paragrafo">
+                  {(sobre.paragraphs || []).map((p, idx) => (
+                    <p
+                      key={idx}
+                      style={{ marginBottom: idx === (sobre.paragraphs?.length || 0) - 1 ? 0 : '1rem' }}
+                      dangerouslySetInnerHTML={{ __html: renderBoldMarkdown(p) }}
+                    />
+                  ))}
+                </div>
               </Reveal>
               <Reveal delay={0.2}>
                 <ul className="sobre-highlights">
-                  <li>
-                    <span>01</span>Engenheiro de Software + Pós em Inteligência Artificial
-                  </li>
-                  <li>
-                    <span>02</span>Analista de Dados na Cresol · 3ª maior cooperativa do Brasil
-                  </li>
-                  <li>
-                    <span>03</span>TI, IA e marketing digital para hotéis e empresas do ramo
-                  </li>
-                  <li>
-                    <span>04</span>4+ anos de docência social · apoio pontual a ex-alunos
-                  </li>
+                  {(sobre.highlights || []).map((h, idx) => (
+                    <li key={h}>
+                      <span>{String(idx + 1).padStart(2, '0')}</span>
+                      {h}
+                    </li>
+                  ))}
                 </ul>
               </Reveal>
             </div>
 
             <Reveal direction="right" delay={0.15} className="sobre-cardbox">
               <ProfileCard
-                name="Alexandre Belloni"
-                title="Analista de Dados · Eng. Software"
-                handle="alexandre10y"
+                name={sobre.cardName || 'Alexandre Belloni'}
+                title={sobre.cardTitle || 'Analista de Dados · Eng. Software'}
+                handle={sobre.cardHandle || 'alexandre10y'}
                 status="Online"
                 contactText="Fale comigo"
                 showUserInfo
@@ -316,7 +313,7 @@ export default function Home() {
                 exit={{ opacity: 0, y: -40 }}
                 transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
               >
-                <ChromaGrid />
+                <ChromaGrid items={projetosEmp} />
               </motion.div>
             ) : (
               <motion.div
@@ -326,7 +323,7 @@ export default function Home() {
                 exit={{ opacity: 0, y: -40 }}
                 transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
               >
-                <MeuDrigPessoal />
+                <MeuDrigPessoal items={projetosPes} />
               </motion.div>
             )}
           </AnimatePresence>
