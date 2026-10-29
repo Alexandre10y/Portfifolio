@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-27T13:42:11.894Z",
+  "updatedAt": "2026-10-29T14:43:49.741Z",
   "posts": [
+    {
+      "id": "radar-2026-10-29-aHR0cHM6Ly",
+      "title": "Wabi atinge status de unicórnio com nova rodada de US$ 55 milhões",
+      "summary": "A startup Wabi, especializada em agentes inteligentes capazes de desenvolver miniaplicativos, alcançou uma avaliação de US$ 1,25 bilhão após sua última rodada de investimentos. A empresa consolida sua posição no mercado ao transicionar para o conceito de agente pessoal autônomo.",
+      "image": "https://image.pollinations.ai/prompt/Futuristic%20digital%20interface%20showing%20abstract%20code%20and%20modular%20application%20icons%20glowing%20in%20a%20high-tech%20studio%20environment%2C%20cinematic%20lighting%2C%208k.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+      "publishedAt": "2026-10-29",
+      "tags": [
+        "Inteligência Artificial",
+        "Unicórnio"
+      ]
+    },
     {
       "id": "radar-2026-10-27-aHR0cHM6Ly",
       "title": "Falha de Segurança: Gigante Japonesa GMO Investiga Vazamento de Dados",
@@ -220,19 +233,6 @@
       "tags": [
         "TechCrunch Disrupt",
         "Eventos de Tecnologia"
-      ]
-    },
-    {
-      "id": "radar-2026-10-08-aHR0cHM6Ly",
-      "title": "TechCrunch Disrupt 2026: Garanta seu acesso antecipado",
-      "summary": "O TechCrunch Disrupt 2026 reunirá o ecossistema global de inovação em São Francisco, de 13 a 15 de outubro. Garanta seu ingresso agora para aproveitar descontos exclusivos de até US$ 100 e economizar em compras em grupo.",
-      "image": "/images/radar-ia/post-2026-10-08.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
-      "publishedAt": "2026-10-08",
-      "tags": [
-        "Eventos Tech",
-        "Inovação"
       ]
     }
   ]
