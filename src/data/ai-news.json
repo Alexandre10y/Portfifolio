@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-29T14:43:49.741Z",
+  "updatedAt": "2026-10-30T14:39:56.644Z",
   "posts": [
+    {
+      "id": "radar-2026-10-30-aHR0cHM6Ly",
+      "title": "Networking de Alto Nível: TechCrunch Founder Summit Adota Braindate",
+      "summary": "O TechCrunch Founder Summit 2026 utilizará a plataforma Braindate para otimizar conexões estratégicas e reuniões produtivas entre fundadores. Os interessados podem garantir descontos exclusivos e ingressos em dobro ao se registrarem antecipadamente para o evento em Boston.",
+      "image": "https://image.pollinations.ai/prompt/Modern%20business%20networking%20event%2C%20professional%20atmosphere%2C%20people%20interacting%20in%20a%20bright%20minimalist%20venue%2C%20high-tech%20conference%20aesthetic%2C%20photorealistic.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+      "publishedAt": "2026-10-30",
+      "tags": [
+        "Networking",
+        "TechCrunch"
+      ]
+    },
     {
       "id": "radar-2026-10-29-aHR0cHM6Ly",
       "title": "Wabi atinge status de unicórnio com nova rodada de US$ 55 milhões",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Segurança em IA"
-      ]
-    },
-    {
-      "id": "radar-2026-10-09-aHR0cHM6Ly",
-      "title": "TechCrunch Disrupt 2026: A contagem regressiva começou",
-      "summary": "O TechCrunch Disrupt 2026 reunirá 10 mil líderes do setor em São Francisco entre os dias 13 e 15 de outubro. Garanta seu ingresso agora para aproveitar descontos de até US$ 100 e economizar 50% na compra de passes adicionais antes do aumento de preço.",
-      "image": "https://image.pollinations.ai/prompt/Modern%20abstract%20representation%20of%20a%20global%20technology%20conference%20stage%20with%20neon%20lights%20and%20geometric%20shapes%2C%20cinematic%20lighting%2C%208k%20resolution.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
-      "publishedAt": "2026-10-09",
-      "tags": [
-        "TechCrunch Disrupt",
-        "Eventos de Tecnologia"
       ]
     }
   ]
