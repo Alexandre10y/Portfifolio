@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-31T13:58:37.196Z",
+  "updatedAt": "2026-11-01T14:36:20.275Z",
   "posts": [
+    {
+      "id": "radar-2026-10-31-aHR0cHM6Ly",
+      "title": "Apple Prioriza Utilidade Prática e Afirma Que Não Lançará IA Apenas por Moda",
+      "summary": "O CEO da Apple defendeu a postura estratégica da empresa no mercado de inteligência artificial, enfatizando o foco na criação de recursos com valor real para os usuários. A gigante de tecnologia prefere integrar soluções práticas a simplesmente lançar ferramentas para acompanhar a tendência da indústria. Essa abordagem reforça o compromisso da marca com uma experiência funcional e o desenvolvimento focado em utilidade.",
+      "image": "/images/radar-ia/post-2026-10-31.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "publishedAt": "2026-10-31",
+      "tags": [
+        "Apple",
+        "Inteligência Artificial"
+      ]
+    },
     {
       "id": "radar-2026-10-31-aHR0cHM6Ly",
       "title": "Nvidia impulsiona expansão de data centers de IA com suporte financeiro estratégico",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Regulação Tecnológica"
-      ]
-    },
-    {
-      "id": "radar-2026-10-11-aHR0cHM6Ly",
-      "title": "IA de Voz: Por Que o 'Momento ChatGPT' do Setor Ainda Não Chegou?",
-      "summary": "Apesar do avanço das tecnologias de áudio, executivos do setor alertam que a IA de voz ainda enfrenta falhas críticas em sua camada de contexto. Pequenos erros na interpretação do significado acabam comprometendo todo o fluxo de processamento do sistema. Por isso, a tecnologia ainda busca um marco de maturidade e confiabilidade comparável ao do ChatGPT.",
-      "image": "/images/radar-ia/post-2026-10-11.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-      "publishedAt": "2026-10-11",
-      "tags": [
-        "Inteligência Artificial",
-        "IA de Voz"
       ]
     }
   ]
