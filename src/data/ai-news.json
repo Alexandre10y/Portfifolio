@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-01T14:36:20.275Z",
+  "updatedAt": "2026-11-03T15:34:12.260Z",
   "posts": [
+    {
+      "id": "radar-2026-11-03-aHR0cHM6Ly",
+      "title": "TechCrunch Founder Summit: O Ponto de Encontro de Fundadores e VCs em Boston",
+      "summary": "O TechCrunch Founder Summit reunirá fundadores de startups e investidores de risco em Boston para compartilhar insights práticos e impulsionar novos negócios. Além da programação oficial, o evento se destaca como uma oportunidade única de networking estratégico para o ecossistema de tecnologia.",
+      "image": "/images/radar-ia/post-2026-11-03.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
+      "publishedAt": "2026-11-03",
+      "tags": [
+        "Startups",
+        "Investimentos"
+      ]
+    },
     {
       "id": "radar-2026-10-31-aHR0cHM6Ly",
       "title": "Apple Prioriza Utilidade Prática e Afirma Que Não Lançará IA Apenas por Moda",
@@ -220,19 +233,6 @@
       "tags": [
         "Tecnologia",
         "Startups"
-      ]
-    },
-    {
-      "id": "radar-2026-10-12-aHR0cHM6Ly",
-      "title": "Microsoft defende regulação urgente para o setor de IA no Reino Unido",
-      "summary": "O presidente da Microsoft, Brad Smith, destacou a necessidade premente de criar estruturas regulatórias para a inteligência artificial, argumentando que setores básicos possuem maior fiscalização que as empresas de tecnologia. O Reino Unido é apontado como o cenário ideal para liderar essa iniciativa global e estabelecer padrões seguros para a inovação.",
-      "image": "https://image.pollinations.ai/prompt/Modern%20digital%20brain%20silhouette%20surrounded%20by%20complex%20light%20circuits%20and%20UK%20skyline%20background%2C%20clean%20professional%20aesthetic%2C%20high-tech%20style.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
-      "publishedAt": "2026-10-12",
-      "tags": [
-        "Inteligência Artificial",
-        "Regulação Tecnológica"
       ]
     }
   ]
