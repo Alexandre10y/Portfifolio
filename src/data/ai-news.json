@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-03T15:34:12.260Z",
+  "updatedAt": "2026-11-04T15:50:47.661Z",
   "posts": [
+    {
+      "id": "radar-2026-11-04-aHR0cHM6Ly",
+      "title": "TechCrunch Founder Summit 2026: O Hub da Inovação em Boston",
+      "summary": "O TechCrunch Founder Summit 2026 acontece hoje na SoWa Power Station, em Boston, reunindo os principais nomes do ecossistema de startups. O evento é uma oportunidade estratégica para networking e insights voltados exclusivamente ao desenvolvimento de fundadores.",
+      "image": "https://image.pollinations.ai/prompt/Modern%20industrial%20architecture%20of%20an%20event%20venue%20in%20Boston%2C%20sleek%20tech%20conference%20atmosphere%2C%20people%20networking%2C%20cinematic%20lighting%2C%20high%20quality.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+      "publishedAt": "2026-11-04",
+      "tags": [
+        "TechCrunch",
+        "Empreendedorismo"
+      ]
+    },
     {
       "id": "radar-2026-11-03-aHR0cHM6Ly",
       "title": "TechCrunch Founder Summit: O Ponto de Encontro de Fundadores e VCs em Boston",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Supply Chain"
-      ]
-    },
-    {
-      "id": "radar-2026-10-13-aHR0cHM6Ly",
-      "title": "TechCrunch Disrupt 2026: O epicentro da inovação em São Francisco",
-      "summary": "O TechCrunch Disrupt 2026 começa hoje no Moscone West, reunindo mais de 10 mil líderes globais para moldar o futuro da tecnologia. O evento destaca o que há de mais inovador no ecossistema de startups, consolidando-se como o palco essencial para networking e tendências do setor.",
-      "image": "/images/radar-ia/post-2026-10-13.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
-      "publishedAt": "2026-10-13",
-      "tags": [
-        "Tecnologia",
-        "Startups"
       ]
     }
   ]
