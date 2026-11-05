@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-04T15:50:47.661Z",
+  "updatedAt": "2026-11-05T15:53:08.127Z",
   "posts": [
+    {
+      "id": "radar-2026-11-05-aHR0cHM6Ly",
+      "title": "Dropbox adquire Tigris Data por US$ 350 milhões para acelerar infraestrutura de IA",
+      "summary": "A Dropbox investiu US$ 350 milhões na aquisição da Tigris Data com o objetivo de reforçar sua infraestrutura voltada para inteligência artificial. A transação vai alavancar o desenvolvimento do DBX Agent Cloud, uma nova plataforma de armazenamento criada especialmente para desenvolvedores de modelos e agentes de IA.",
+      "image": "/images/radar-ia/post-2026-11-05.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "publishedAt": "2026-11-05",
+      "tags": [
+        "Inteligência Artificial",
+        "Infraestrutura"
+      ]
+    },
     {
       "id": "radar-2026-11-04-aHR0cHM6Ly",
       "title": "TechCrunch Founder Summit 2026: O Hub da Inovação em Boston",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Hardware"
-      ]
-    },
-    {
-      "id": "radar-2026-10-14-aHR0cHM6Ly",
-      "title": "Scimplify: O poder da IA contra a dependência global de insumos químicos",
-      "summary": "A Scimplify captou US$ 25 milhões para escalar sua plataforma de IA, visando descentralizar a cadeia de suprimentos de materiais críticos da China. Com um faturamento anualizado de US$ 200 milhões, a startup agora acelera sua expansão estratégica no mercado dos Estados Unidos.",
-      "image": "/images/radar-ia/post-2026-10-14.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
-      "publishedAt": "2026-10-14",
-      "tags": [
-        "Inteligência Artificial",
-        "Supply Chain"
       ]
     }
   ]
