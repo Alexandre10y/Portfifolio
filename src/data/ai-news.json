@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-05T15:53:08.127Z",
+  "updatedAt": "2026-11-06T15:27:27.878Z",
   "posts": [
+    {
+      "id": "radar-2026-11-06-aHR0cHM6Ly",
+      "title": "Alexa agora permite mensagens de texto para auxiliar em compras na Amazon",
+      "summary": "A Amazon lançou um novo recurso que permite aos usuários interagirem com a Alexa via texto para obter suporte e recomendações durante as compras. A novidade surge após o bloqueio da ferramenta de terceiros Muse e será distribuída para milhões de clientes nas próximas semanas.",
+      "image": "/images/radar-ia/post-2026-11-06.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "publishedAt": "2026-11-06",
+      "tags": [
+        "Amazon",
+        "Inteligência Artificial"
+      ]
+    },
     {
       "id": "radar-2026-11-05-aHR0cHM6Ly",
       "title": "Dropbox adquire Tigris Data por US$ 350 milhões para acelerar infraestrutura de IA",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Replit"
-      ]
-    },
-    {
-      "id": "radar-2026-10-15-aHR0cHM6Ly",
-      "title": "Amazon Bee revoluciona o mercado com novos dispositivos de IA vestíveis",
-      "summary": "A Bee, subsidiária da Amazon, lançou dois dispositivos compactos integrados com IA capazes de resumir conversas e gerenciar listas de tarefas. Com foco em produtividade, os novos wearables já contam com suporte à Alexa e conexão direta com o ecossistema de compras da Amazon.",
-      "image": "/images/radar-ia/post-2026-10-15.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-      "publishedAt": "2026-10-15",
-      "tags": [
-        "Inteligência Artificial",
-        "Hardware"
       ]
     }
   ]
