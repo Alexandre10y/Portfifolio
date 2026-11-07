@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-06T15:27:27.878Z",
+  "updatedAt": "2026-11-07T14:28:52.595Z",
   "posts": [
+    {
+      "id": "radar-2026-11-07-aHR0cHM6Ly",
+      "title": "Google Adquire Projeto de Data Center de IA da Crusoe em Wyoming",
+      "summary": "A Crusoe vendeu seu complexo projeto de data center em Wyoming para o Google após enfrentar desafios operacionais. A transação evidencia os crescentes obstáculos logísticos e financeiros no desenvolvimento de infraestruturas massivas para inteligência artificial. Com o acordo, a gigante de tecnologia reforça sua busca por maior capacidade computacional para suportar modelos de IA.",
+      "image": "/images/radar-ia/post-2026-11-07.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "publishedAt": "2026-11-07",
+      "tags": [
+        "Data Centers",
+        "Inteligência Artificial"
+      ]
+    },
     {
       "id": "radar-2026-11-06-aHR0cHM6Ly",
       "title": "Alexa agora permite mensagens de texto para auxiliar em compras na Amazon",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Privacidade"
-      ]
-    },
-    {
-      "id": "radar-2026-10-16-aHR0cHM6Ly",
-      "title": "Replit encerra parceria com a Anthropic devido a custos e novas estratégias",
-      "summary": "A Replit encerrou oficialmente sua parceria com a Anthropic, citando o alto custo entre os principais motivos da decisão, segundo o CEO Amjad Masad. A mudança segue a recente aliança da empresa com a OpenAI, sinalizando uma reestruturação estratégica em seu ecossistema de inteligência artificial.",
-      "image": "/images/radar-ia/post-2026-10-16.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "publishedAt": "2026-10-16",
-      "tags": [
-        "Inteligência Artificial",
-        "Replit"
       ]
     }
   ]
