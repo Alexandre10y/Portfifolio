@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-07T14:28:52.595Z",
+  "updatedAt": "2026-11-08T14:37:33.499Z",
   "posts": [
+    {
+      "id": "radar-2026-11-07-aHR0cHM6Ly",
+      "title": "Incertezas no Setor Tech: Como as Eleições Impactam Data Centers e Elon Musk",
+      "summary": "Os resultados das eleições de meio de mandato nos EUA trouxeram novos desafios para a indústria de tecnologia, afetando diretamente a expansão de data centers e os empreendimentos de Elon Musk. O novo cenário político promete intensificar o debate sobre regulamentação, infraestrutura digital e alto consumo energético do setor. Com isso, investidores e gigantes da tecnologia recalcitram seus passos diante de possíveis entraves regulatórios para a inteligência artificial.",
+      "image": "/images/radar-ia/post-2026-11-07.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "publishedAt": "2026-11-07",
+      "tags": [
+        "Data Centers",
+        "Política Tech"
+      ]
+    },
     {
       "id": "radar-2026-11-07-aHR0cHM6Ly",
       "title": "Google Adquire Projeto de Data Center de IA da Crusoe em Wyoming",
@@ -220,19 +233,6 @@
       "tags": [
         "Robótica",
         "IA Física"
-      ]
-    },
-    {
-      "id": "radar-2026-10-17-aHR0cHM6Ly",
-      "title": "Meta ajusta termos de uso após polêmica com raspagem de dados para IA",
-      "summary": "A Meta removeu trechos controversos dos seus termos que levantavam dúvidas sobre a coleta de dados e o treinamento de modelos de inteligência artificial. A empresa esclareceu que a atualização não altera a forma como navega e coleta informações na web, buscando apenas maior clareza nas diretrizes. A revisão ocorre em meio a crescentes preocupações da indústria sobre privacidade e uso de conteúdo de terceiros.",
-      "image": "/images/radar-ia/post-2026-10-17.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-      "publishedAt": "2026-10-17",
-      "tags": [
-        "Inteligência Artificial",
-        "Privacidade"
       ]
     }
   ]
