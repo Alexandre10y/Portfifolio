@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-08T14:37:33.499Z",
+  "updatedAt": "2026-11-09T17:54:52.438Z",
   "posts": [
+    {
+      "id": "radar-2026-11-09-aHR0cHM6Ly",
+      "title": "Corrida da IA: Anthropic investe US$ 3,4 bilhões em turbinas a gás natural",
+      "summary": "A Anthropic adquiriu US$ 3,4 bilhões em turbinas a gás natural para suprir a crescente demanda energética do treinamento de suas inteligências artificiais. O movimento reflete a busca urgente do setor por infraestrutura de energia rápida para alimentar data centers massivos. No entanto, analistas alertam que os altos custos e o impacto ambiental da transação podem gerar arrependimento no longo prazo.",
+      "image": "/images/radar-ia/post-2026-11-09.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "publishedAt": "2026-11-09",
+      "tags": [
+        "Inteligência Artificial",
+        "Energia"
+      ]
+    },
     {
       "id": "radar-2026-11-07-aHR0cHM6Ly",
       "title": "Incertezas no Setor Tech: Como as Eleições Impactam Data Centers e Elon Musk",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Regulamentação"
-      ]
-    },
-    {
-      "id": "radar-2026-10-20-aHR0cHM6Ly",
-      "title": "Braço robótico com IA física eleva valor da Eka para US$ 1,45 bilhão",
-      "summary": "A Eka Robotics alcançou a marca de US$ 1,45 bilhão impulsionada por um modelo inovador de IA física aplicada à robótica. O novo braço robótico da startup impressiona especialistas do setor por sua fluidez impressionante e movimentos semelhantes aos humanos. A tecnologia se destaca pela capacidade inédita de manipular com precisão uma ampla variedade de objetos.",
-      "image": "/images/radar-ia/post-2026-10-20.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
-      "publishedAt": "2026-10-20",
-      "tags": [
-        "Robótica",
-        "IA Física"
       ]
     }
   ]
