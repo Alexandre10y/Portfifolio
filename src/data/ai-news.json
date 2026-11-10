@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-09T17:54:52.438Z",
+  "updatedAt": "2026-11-10T15:53:50.363Z",
   "posts": [
+    {
+      "id": "radar-2026-11-10-aHR0cHM6Ly",
+      "title": "O Futuro da Regulação: Scott Wiener e os Desafios Energéticos da IA",
+      "summary": "O sucessor de Nancy Pelosi, Scott Wiener, assume o compromisso de implementar regulações rigorosas para mitigar os riscos da inteligência artificial avançada. Paralelamente, o setor tecnológico enfrenta um gargalo crítico com a crescente demanda energética exigida pelos centros de processamento de dados.",
+      "image": "https://image.pollinations.ai/prompt/Modern%20data%20center%20interior%20with%20glowing%20blue%20fiber%20optic%20cables%20and%20futuristic%20server%20racks%2C%20high%20tech%20atmosphere%2C%20cinematic%20lighting%2C%208k%20resolution.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
+      "source": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
+      "publishedAt": "2026-11-10",
+      "tags": [
+        "Inteligência Artificial",
+        "Regulação Tecnológica"
+      ]
+    },
     {
       "id": "radar-2026-11-09-aHR0cHM6Ly",
       "title": "Corrida da IA: Anthropic investe US$ 3,4 bilhões em turbinas a gás natural",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Geopolítica Tech"
-      ]
-    },
-    {
-      "id": "radar-2026-10-20-aHR0cHM6Ly",
-      "title": "Anthropic propõe lei de segurança para barrar IA em casos de risco extremo",
-      "summary": "A Anthropic apresentou uma proposta de regulamentação que prevê o bloqueio de modelos de IA caso haja risco real de causar destruição em massa ou mais de 50 mortes. No entanto, a medida exige autorização judicial para que agências federais impeçam o lançamento de um sistema, limitando intervenções governamentais diretas. A iniciativa busca equilibrar a prevenção de catástrofes tecnológicas com a manutenção da autonomia das empresas do setor.",
-      "image": "/images/radar-ia/post-2026-10-20.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-      "publishedAt": "2026-10-20",
-      "tags": [
-        "Inteligência Artificial",
-        "Regulamentação"
       ]
     }
   ]
