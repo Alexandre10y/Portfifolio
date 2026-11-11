@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-10T15:53:50.363Z",
+  "updatedAt": "2026-11-11T15:41:32.509Z",
   "posts": [
+    {
+      "id": "radar-2026-11-11-aHR0cHM6Ly",
+      "title": "Databricks inova com IA que revela a realidade operacional para a liderança",
+      "summary": "O CEO da Databricks, Ali Ghodsi, implementou o agente de IA 'Genie' para obter insights transparentes sobre desafios operacionais em sua organização global. A tecnologia atua como um filtro analítico, permitindo que a liderança identifique gargalos e problemas internos que nem sempre são comunicados pelos colaboradores.",
+      "image": "/images/radar-ia/post-2026-11-11.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+      "publishedAt": "2026-11-11",
+      "tags": [
+        "Inteligência Artificial",
+        "Gestão de Dados"
+      ]
+    },
     {
       "id": "radar-2026-11-10-aHR0cHM6Ly",
       "title": "O Futuro da Regulação: Scott Wiener e os Desafios Energéticos da IA",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Mobilidade Urbana"
-      ]
-    },
-    {
-      "id": "radar-2026-10-22-aHR0cHM6Ly",
-      "title": "DeepSeek desafia sanções e levanta US$ 15 bilhões",
-      "summary": "A startup chinesa de IA, DeepSeek, garantiu um aporte bilionário recorde poucos dias após o governo dos EUA restringir o uso de sua tecnologia por questões de segurança. O movimento destaca a resiliência e o rápido avanço do ecossistema de inteligência artificial na China frente às pressões geopolíticas.",
-      "image": "/images/radar-ia/post-2026-10-22.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
-      "publishedAt": "2026-10-22",
-      "tags": [
-        "Inteligência Artificial",
-        "Geopolítica Tech"
       ]
     }
   ]
