@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-11T15:41:32.509Z",
+  "updatedAt": "2026-11-12T16:25:05.692Z",
   "posts": [
+    {
+      "id": "radar-2026-11-12-aHR0cHM6Ly",
+      "title": "Trump sugere Tim Cook, CEO da Apple, para substituir Jensen Huang na Nvidia",
+      "summary": "Em uma postagem recente, Donald Trump afirmou de forma surpreendente que Tim Cook é a única pessoa capaz de assumir o comando da Nvidia no lugar de Jensen Huang. A declaração chamou a atenção do mercado ao envolver os líderes de duas das maiores gigantes globais de inovação e inteligência artificial. Apesar de não haver nenhum plano oficial para essa transição, a fala gerou intensas discussões sobre a liderança no setor de tecnologia.",
+      "image": "/images/radar-ia/post-2026-11-12.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+      "publishedAt": "2026-11-12",
+      "tags": [
+        "Nvidia",
+        "Inteligência Artificial"
+      ]
+    },
     {
       "id": "radar-2026-11-11-aHR0cHM6Ly",
       "title": "Databricks inova com IA que revela a realidade operacional para a liderança",
@@ -220,19 +233,6 @@
       "tags": [
         "OpenAI",
         "Segurança em IA"
-      ]
-    },
-    {
-      "id": "radar-2026-10-23-aHR0cHM6Ly",
-      "title": "inDrive e Pony.ai aceleram rumo ao futuro dos robotaxis na Ásia Central",
-      "summary": "A inDrive anunciou uma parceria estratégica com a Pony.ai e a Nvidia para iniciar testes de veículos autônomos no Cazaquistão até 2027. O projeto visa integrar a tecnologia de condução autônoma de ponta à infraestrutura de transporte da capital, consolidando a empresa no mercado de mobilidade inteligente.",
-      "image": "/images/radar-ia/post-2026-10-23.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-      "publishedAt": "2026-10-23",
-      "tags": [
-        "Inteligência Artificial",
-        "Mobilidade Urbana"
       ]
     }
   ]
