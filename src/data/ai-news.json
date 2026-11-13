@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-12T16:25:05.692Z",
+  "updatedAt": "2026-11-13T15:46:20.042Z",
   "posts": [
+    {
+      "id": "radar-2026-11-13-aHR0cHM6Ly",
+      "title": "ElevenLabs revoluciona reuniões com novo app de transcrição e notas inteligentes",
+      "summary": "A ElevenLabs lançou uma ferramenta inovadora focada em elevar a produtividade de equipes corporativas através de ditado e anotações automatizadas. A solução utiliza IA avançada para transformar reuniões em registros organizados e acessíveis em tempo real.",
+      "image": "/images/radar-ia/post-2026-11-13.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "publishedAt": "2026-11-13",
+      "tags": [
+        "Inteligência Artificial",
+        "Produtividade"
+      ]
+    },
     {
       "id": "radar-2026-11-12-aHR0cHM6Ly",
       "title": "Trump sugere Tim Cook, CEO da Apple, para substituir Jensen Huang na Nvidia",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Tecnologia"
-      ]
-    },
-    {
-      "id": "radar-2026-10-23-aHR0cHM6Ly",
-      "title": "OpenAI encerra treinamento de IA na internet em tempo real citando riscos",
-      "summary": "A OpenAI anunciou que deixará de treinar seus modelos de inteligência artificial de ponta utilizando dados em tempo real da internet, alegando riscos significativos de segurança. A decisão ocorre poucas semanas após engenheiros da própria empresa afirmarem que essa medida seria inviável. Com a mudança, a startup busca mitigar vulnerabilidades e garantir maior controle sobre o aprendizado de suas IAs.",
-      "image": "/images/radar-ia/post-2026-10-23.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "publishedAt": "2026-10-23",
-      "tags": [
-        "OpenAI",
-        "Segurança em IA"
       ]
     }
   ]
