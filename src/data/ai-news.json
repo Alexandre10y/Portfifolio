@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-13T15:46:20.042Z",
+  "updatedAt": "2026-11-14T14:36:48.062Z",
   "posts": [
+    {
+      "id": "radar-2026-11-13-aHR0cHM6Ly",
+      "title": "Saída de Jensen Huang da Nvidia ameaça financiamento de startups de IA",
+      "summary": "A aposentadoria ou saída de Jensen Huang do comando da Nvidia acendeu o alerta vermelho entre investidores de risco e fundadores de inteligência artificial. Sob sua liderança, a gigante dos chips injetou dezenas de bilhões de dólares no ecossistema global de tecnologia. Sem o executivo na linha de frente, o mercado já se prepara para cheques menores e avaliações mais conservadoras de novas empresas.",
+      "image": "/images/radar-ia/post-2026-11-13.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "publishedAt": "2026-11-13",
+      "tags": [
+        "Inteligência Artificial",
+        "Venture Capital"
+      ]
+    },
     {
       "id": "radar-2026-11-13-aHR0cHM6Ly",
       "title": "ElevenLabs revoluciona reuniões com novo app de transcrição e notas inteligentes",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "IPO"
-      ]
-    },
-    {
-      "id": "radar-2026-10-24-aHR0cHM6Ly",
-      "title": "O Cemitério da IA: Lições dos Projetos que Não Prosperaram",
-      "summary": "Este levantamento explora a trajetória de startups e ferramentas de IA que falharam em atingir expectativas ou encerraram suas operações. O artigo oferece uma análise técnica valiosa sobre os desafios reais de mercado e a volatilidade no desenvolvimento de tecnologias inteligentes.",
-      "image": "/images/radar-ia/post-2026-10-24.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "publishedAt": "2026-10-24",
-      "tags": [
-        "Inteligência Artificial",
-        "Tecnologia"
       ]
     }
   ]
