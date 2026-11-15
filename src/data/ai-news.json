@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-14T14:36:48.062Z",
+  "updatedAt": "2026-11-15T15:04:19.632Z",
   "posts": [
+    {
+      "id": "radar-2026-11-15-aHR0cHM6Ly",
+      "title": "Crise de Segurança na Nvidia: Renúncia de Jensen Huang Expõe Vulnerabilidades Corporativas",
+      "summary": "A recente saída do chefe de segurança da Nvidia e a renúncia do CEO Jensen Huang trouxeram à tona sérias preocupações sobre vazamentos estratégicos na gigante dos chips. O escândalo envolve suspeitas de desvio de semicondutores para a China por meio de relacionamentos corporativos não monitorados. Especialistas alertam que a maioria das equipes de segurança interna não está preparada para conter esse tipo de vazamento informal.",
+      "image": "/images/radar-ia/post-2026-11-15.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "publishedAt": "2026-11-15",
+      "tags": [
+        "Nvidia",
+        "Cibersegurança"
+      ]
+    },
     {
       "id": "radar-2026-11-13-aHR0cHM6Ly",
       "title": "Saída de Jensen Huang da Nvidia ameaça financiamento de startups de IA",
@@ -220,19 +233,6 @@
       "tags": [
         "Cibersegurança",
         "Tecnologia"
-      ]
-    },
-    {
-      "id": "radar-2026-10-26-aHR0cHM6Ly",
-      "title": "Anthropic oficializa pedido de IPO e revela balanço com forte crescimento e foco em segurança",
-      "summary": "A startup de inteligência artificial Anthropic deu o passo oficial para estrear na bolsa de valores ao dar entrada no seu processo de IPO. Os documentos revelam um salto expressivo na receita impulsionado pela adoção corporativa, embora acompanhado por prejuízos crescentes devido aos altos custos do setor. Para proteger sua missão de segurança em IA, a empresa adotou uma estrutura de governança que mantém o controle estratégico com os fundadores.",
-      "image": "/images/radar-ia/post-2026-10-26.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-      "publishedAt": "2026-10-26",
-      "tags": [
-        "Inteligência Artificial",
-        "IPO"
       ]
     }
   ]
