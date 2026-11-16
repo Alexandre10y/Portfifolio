@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-15T15:04:19.632Z",
+  "updatedAt": "2026-11-16T17:38:07.532Z",
   "posts": [
+    {
+      "id": "radar-2026-11-16-aHR0cHM6Ly",
+      "title": "FBI alerta: ferramenta hacker de IA é usada para invadir redes em menos de 3 horas",
+      "summary": "O FBI alertou que a ferramenta de IA de código aberto Artex está sendo utilizada em ciberataques de alta velocidade, capazes de violar redes corporativas em menos de três horas. A solução já causou estragos significativos, impactando uma gigante de TI nos Estados Unidos e o setor financeiro da Coreia do Sul.",
+      "image": "/images/radar-ia/post-2026-11-16.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "publishedAt": "2026-11-16",
+      "tags": [
+        "Cibersegurança",
+        "Inteligência Artificial"
+      ]
+    },
     {
       "id": "radar-2026-11-15-aHR0cHM6Ly",
       "title": "Crise de Segurança na Nvidia: Renúncia de Jensen Huang Expõe Vulnerabilidades Corporativas",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Unicórnio"
-      ]
-    },
-    {
-      "id": "radar-2026-10-27-aHR0cHM6Ly",
-      "title": "Falha de Segurança: Gigante Japonesa GMO Investiga Vazamento de Dados",
-      "summary": "A GMO Internet, gigante japonesa de serviços em nuvem, está investigando o vazamento de dados de clientes após um ataque cibernético confirmado. A empresa trabalha para verificar a autenticidade das informações expostas pelos hackers e mitigar os riscos aos usuários.",
-      "image": "/images/radar-ia/post-2026-10-27.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
-      "publishedAt": "2026-10-27",
-      "tags": [
-        "Cibersegurança",
-        "Tecnologia"
       ]
     }
   ]
