@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-16T17:38:07.532Z",
+  "updatedAt": "2026-11-17T17:13:44.476Z",
   "posts": [
+    {
+      "id": "radar-2026-11-17-aHR0cHM6Ly",
+      "title": "Jensen Huang declara que seria uma honra retornar como CEO da Nvidia",
+      "summary": "Em sua primeira manifestação pública desde que renunciou, o fundador da Nvidia, Jensen Huang, sinalizou total disposição para voltar ao comando da gigante dos chips. O executivo afirmou que ficaria honrado caso receba a oportunidade de liderar a empresa novamente. A declaração movimenta o setor de inteligência artificial e levanta expectativas sobre os próximos passos da companhia.",
+      "image": "/images/radar-ia/post-2026-11-17.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+      "publishedAt": "2026-11-17",
+      "tags": [
+        "Nvidia",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "radar-2026-11-16-aHR0cHM6Ly",
       "title": "FBI alerta: ferramenta hacker de IA é usada para invadir redes em menos de 3 horas",
@@ -220,19 +233,6 @@
       "tags": [
         "Networking",
         "TechCrunch"
-      ]
-    },
-    {
-      "id": "radar-2026-10-29-aHR0cHM6Ly",
-      "title": "Wabi atinge status de unicórnio com nova rodada de US$ 55 milhões",
-      "summary": "A startup Wabi, especializada em agentes inteligentes capazes de desenvolver miniaplicativos, alcançou uma avaliação de US$ 1,25 bilhão após sua última rodada de investimentos. A empresa consolida sua posição no mercado ao transicionar para o conceito de agente pessoal autônomo.",
-      "image": "https://image.pollinations.ai/prompt/Futuristic%20digital%20interface%20showing%20abstract%20code%20and%20modular%20application%20icons%20glowing%20in%20a%20high-tech%20studio%20environment%2C%20cinematic%20lighting%2C%208k.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
-      "publishedAt": "2026-10-29",
-      "tags": [
-        "Inteligência Artificial",
-        "Unicórnio"
       ]
     }
   ]
