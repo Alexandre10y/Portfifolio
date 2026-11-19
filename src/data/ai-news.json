@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-18T16:48:10.990Z",
+  "updatedAt": "2026-11-19T16:57:08.853Z",
   "posts": [
+    {
+      "id": "radar-2026-11-19-aHR0cHM6Ly",
+      "title": "CEO da Anthropic Reafirma Compromisso com Desenvolvimento Responsável de IA na Nasdaq",
+      "summary": "Durante a abertura do mercado na Nasdaq, o CEO da Anthropic, Dario Amodei, reforçou a determinação da empresa em manter um ritmo controlado no avanço da inteligência artificial. Ele enfatizou que o compromisso com o desenvolvimento seguro da tecnologia prevalecerá, independentemente de pressões comerciais ou políticas. A declaração consolida a postura ética da startup no cenário competitivo de IA.",
+      "image": "/images/radar-ia/post-2026-11-19.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+      "publishedAt": "2026-11-19",
+      "tags": [
+        "Inteligência Artificial",
+        "Anthropic"
+      ]
+    },
     {
       "id": "radar-2026-11-18-aHR0cHM6Ly",
       "title": "O fim de uma era: Sam Altman destaca impacto de Jensen Huang no setor de IA",
@@ -220,19 +233,6 @@
       "tags": [
         "Apple",
         "Inteligência Artificial"
-      ]
-    },
-    {
-      "id": "radar-2026-10-31-aHR0cHM6Ly",
-      "title": "Nvidia impulsiona expansão de data centers de IA com suporte financeiro estratégico",
-      "summary": "A Nvidia estuda atuar como fiadora em empréstimos para a Nscale, facilitando a construção de um novo data center de IA na Virgínia Ocidental. Esta estratégia inovadora visa mitigar incertezas de investidores e garantir a infraestrutura necessária para a demanda crescente de chips de alto desempenho.",
-      "image": "/images/radar-ia/post-2026-10-31.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-      "publishedAt": "2026-10-31",
-      "tags": [
-        "Inteligência Artificial",
-        "Infraestrutura Tecnológica"
       ]
     }
   ]
