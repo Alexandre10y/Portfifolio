@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-20T16:28:45.596Z",
+  "updatedAt": "2026-11-21T15:44:22.625Z",
   "posts": [
+    {
+      "id": "radar-2026-11-20-aHR0cHM6Ly",
+      "title": "Daniel Ek apoia startup de fusão nuclear criada por pesquisador de IA",
+      "summary": "O fundador do Spotify, Daniel Ek, anunciou investimento na Europa Fusion, uma nova startup focada no desenvolvimento de energia por fusão nuclear. A empresa, idealizada por um especialista em inteligência artificial, busca unir IA e física para acelerar a criação de uma fonte de energia limpa e inagotável. O movimento destaca a crescente aplicação de modelos avançados de IA na solução de grandes desafios da transição energética global.",
+      "image": "/images/radar-ia/post-2026-11-20.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "publishedAt": "2026-11-20",
+      "tags": [
+        "Inteligência Artificial",
+        "Energia Limpa"
+      ]
+    },
     {
       "id": "radar-2026-11-20-aHR0cHM6Ly",
       "title": "Nvidia em Transição: Lucros Sólidos e Mudanças Estratégicas",
@@ -220,19 +233,6 @@
       "tags": [
         "TechCrunch",
         "Empreendedorismo"
-      ]
-    },
-    {
-      "id": "radar-2026-11-03-aHR0cHM6Ly",
-      "title": "TechCrunch Founder Summit: O Ponto de Encontro de Fundadores e VCs em Boston",
-      "summary": "O TechCrunch Founder Summit reunirá fundadores de startups e investidores de risco em Boston para compartilhar insights práticos e impulsionar novos negócios. Além da programação oficial, o evento se destaca como uma oportunidade única de networking estratégico para o ecossistema de tecnologia.",
-      "image": "/images/radar-ia/post-2026-11-03.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
-      "publishedAt": "2026-11-03",
-      "tags": [
-        "Startups",
-        "Investimentos"
       ]
     }
   ]
