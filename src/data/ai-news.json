@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-21T15:44:22.625Z",
+  "updatedAt": "2026-11-22T15:47:16.847Z",
   "posts": [
+    {
+      "id": "radar-2026-11-21-aHR0cHM6Ly",
+      "title": "Signal fortalece privacidade e bloqueia capturas de tela contra ameaças de IA",
+      "summary": "O Signal implementou restrições severas em capturas de tela nos aplicativos Android e iOS para reforçar a segurança de dados. A medida visa combater ameaças emergentes de vigilância por inteligência artificial, garantindo maior proteção à privacidade dos usuários.",
+      "image": "https://image.pollinations.ai/prompt/A%20secure%20digital%20padlock%20icon%20integrated%20into%20a%20futuristic%20glowing%20neural%20network%20shield%2C%20dark%20aesthetic%20with%20blue%20neon%20lines.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "publishedAt": "2026-11-21",
+      "tags": [
+        "Privacidade",
+        "Inteligência Artificial"
+      ]
+    },
     {
       "id": "radar-2026-11-20-aHR0cHM6Ly",
       "title": "Daniel Ek apoia startup de fusão nuclear criada por pesquisador de IA",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Infraestrutura"
-      ]
-    },
-    {
-      "id": "radar-2026-11-04-aHR0cHM6Ly",
-      "title": "TechCrunch Founder Summit 2026: O Hub da Inovação em Boston",
-      "summary": "O TechCrunch Founder Summit 2026 acontece hoje na SoWa Power Station, em Boston, reunindo os principais nomes do ecossistema de startups. O evento é uma oportunidade estratégica para networking e insights voltados exclusivamente ao desenvolvimento de fundadores.",
-      "image": "https://image.pollinations.ai/prompt/Modern%20industrial%20architecture%20of%20an%20event%20venue%20in%20Boston%2C%20sleek%20tech%20conference%20atmosphere%2C%20people%20networking%2C%20cinematic%20lighting%2C%20high%20quality.%2C%20modern%20tech%20editorial%20illustration%2C%20clean%20composition%2C%20no%20text%2C%20no%20watermark?width=800&height=450&nologo=true",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
-      "publishedAt": "2026-11-04",
-      "tags": [
-        "TechCrunch",
-        "Empreendedorismo"
       ]
     }
   ]
