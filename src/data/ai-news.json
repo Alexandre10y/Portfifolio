@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-22T15:47:16.847Z",
+  "updatedAt": "2026-11-23T19:40:11.729Z",
   "posts": [
+    {
+      "id": "radar-2026-11-23-aHR0cHM6Ly",
+      "title": "Google conecta Busca por IA ao Drive e Carteira para respostas personalizadas",
+      "summary": "O Google expandiu o Modo IA de sua ferramenta de busca ao integrá-lo diretamente ao Google Drive, à Carteira e ao aplicativo Gemini. A novidade aproveita os dados do próprio ecossistema do usuário para entregar respostas altamente contextuais e sob medida em tempo real.",
+      "image": "/images/radar-ia/post-2026-11-23.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "publishedAt": "2026-11-23",
+      "tags": [
+        "Inteligência Artificial",
+        "Google"
+      ]
+    },
     {
       "id": "radar-2026-11-21-aHR0cHM6Ly",
       "title": "Signal fortalece privacidade e bloqueia capturas de tela contra ameaças de IA",
@@ -220,19 +233,6 @@
       "tags": [
         "Amazon",
         "Inteligência Artificial"
-      ]
-    },
-    {
-      "id": "radar-2026-11-05-aHR0cHM6Ly",
-      "title": "Dropbox adquire Tigris Data por US$ 350 milhões para acelerar infraestrutura de IA",
-      "summary": "A Dropbox investiu US$ 350 milhões na aquisição da Tigris Data com o objetivo de reforçar sua infraestrutura voltada para inteligência artificial. A transação vai alavancar o desenvolvimento do DBX Agent Cloud, uma nova plataforma de armazenamento criada especialmente para desenvolvedores de modelos e agentes de IA.",
-      "image": "/images/radar-ia/post-2026-11-05.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-      "publishedAt": "2026-11-05",
-      "tags": [
-        "Inteligência Artificial",
-        "Infraestrutura"
       ]
     }
   ]
