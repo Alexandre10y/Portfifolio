@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-23T19:40:11.729Z",
+  "updatedAt": "2026-11-24T19:10:43.381Z",
   "posts": [
+    {
+      "id": "radar-2026-11-24-aHR0cHM6Ly",
+      "title": "Ações da Anthropic caem abaixo do IPO e acendem alerta para startups de IA",
+      "summary": "As ações da Anthropic registraram uma queda abaixo do valor inicial do IPO, sinalizando um momento de cautela para o setor de inteligência artificial. Esse desaquecimento pós-abertura de capital deve pressionar a avaliação de mercado de outras startups de tecnologia. A retração reflete o ajuste de expectativas dos investidores sobre o retorno financeiro real dos pesados aportes na área.",
+      "image": "/images/radar-ia/post-2026-11-24.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "publishedAt": "2026-11-24",
+      "tags": [
+        "Inteligência Artificial",
+        "Mercado Financeiro"
+      ]
+    },
     {
       "id": "radar-2026-11-23-aHR0cHM6Ly",
       "title": "Google conecta Busca por IA ao Drive e Carteira para respostas personalizadas",
@@ -219,19 +232,6 @@
       "publishedAt": "2026-11-07",
       "tags": [
         "Data Centers",
-        "Inteligência Artificial"
-      ]
-    },
-    {
-      "id": "radar-2026-11-06-aHR0cHM6Ly",
-      "title": "Alexa agora permite mensagens de texto para auxiliar em compras na Amazon",
-      "summary": "A Amazon lançou um novo recurso que permite aos usuários interagirem com a Alexa via texto para obter suporte e recomendações durante as compras. A novidade surge após o bloqueio da ferramenta de terceiros Muse e será distribuída para milhões de clientes nas próximas semanas.",
-      "image": "/images/radar-ia/post-2026-11-06.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
-      "publishedAt": "2026-11-06",
-      "tags": [
-        "Amazon",
         "Inteligência Artificial"
       ]
     }
