@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-24T19:10:43.381Z",
+  "updatedAt": "2026-11-25T18:15:42.635Z",
   "posts": [
+    {
+      "id": "radar-2026-11-25-aHR0cHM6Ly",
+      "title": "Nova York bane brinquedos com IA por 5 anos devido a riscos à segurança infantil",
+      "summary": "O estado de Nova York proibiu a comercialização de brinquedos equipados com chatbots de Inteligência Artificial pelo período de cinco anos. A decisão foi impulsionada por pesquisas da Common Sense Media que apontaram falhas graves de segurança, incluindo a exposição de crianças a conteúdos inadequados e riscos ao seu desenvolvimento emocional.",
+      "image": "/images/radar-ia/post-2026-11-25.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "publishedAt": "2026-11-25",
+      "tags": [
+        "Inteligência Artificial",
+        "Regulamentação"
+      ]
+    },
     {
       "id": "radar-2026-11-24-aHR0cHM6Ly",
       "title": "Ações da Anthropic caem abaixo do IPO e acendem alerta para startups de IA",
@@ -220,19 +233,6 @@
       "tags": [
         "Data Centers",
         "Política Tech"
-      ]
-    },
-    {
-      "id": "radar-2026-11-07-aHR0cHM6Ly",
-      "title": "Google Adquire Projeto de Data Center de IA da Crusoe em Wyoming",
-      "summary": "A Crusoe vendeu seu complexo projeto de data center em Wyoming para o Google após enfrentar desafios operacionais. A transação evidencia os crescentes obstáculos logísticos e financeiros no desenvolvimento de infraestruturas massivas para inteligência artificial. Com o acordo, a gigante de tecnologia reforça sua busca por maior capacidade computacional para suportar modelos de IA.",
-      "image": "/images/radar-ia/post-2026-11-07.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-      "publishedAt": "2026-11-07",
-      "tags": [
-        "Data Centers",
-        "Inteligência Artificial"
       ]
     }
   ]
