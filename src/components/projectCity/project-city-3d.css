@@ -1,0 +1,281 @@
+.city3d {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.city3d__toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.city3d__back {
+  appearance: none;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.85);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.city3d__back:hover {
+  border-color: rgba(224, 179, 77, 0.4);
+  color: #f0d49a;
+}
+
+.city3d__hint-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.city3d__hint-inline span,
+.city3d__mute {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  color: #f0d49a;
+  background: rgba(224, 179, 77, 0.1);
+  border: 1px solid rgba(224, 179, 77, 0.28);
+}
+
+.city3d__mute {
+  appearance: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+.city3d__mute:hover {
+  border-color: rgba(224, 179, 77, 0.55);
+  color: #ffe2a0;
+}
+
+.city3d__stage {
+  position: relative;
+  height: min(74vh, 680px);
+  min-height: 500px;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(120, 160, 210, 0.25);
+  background:
+    radial-gradient(ellipse at 72% 18%, #fff2c0 0%, transparent 28%),
+    linear-gradient(180deg, #7eb2ef 0%, #c5d8ef 55%, #dfe8f2 100%);
+  box-shadow: 0 28px 70px rgba(30, 50, 80, 0.28);
+}
+
+.city3d__stage canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.city3d-loader {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 10px;
+  background: radial-gradient(ellipse at 60% 30%, #9ec4ef, #d7e6f5 68%);
+  color: #1a2430;
+}
+
+.city3d-loader__spin {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid rgba(224, 179, 77, 0.25);
+  border-top-color: #e0b34d;
+  animation: city3d-spin 0.8s linear infinite;
+}
+
+.city3d-loader p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.city3d-loader small {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+@keyframes city3d-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.city3d-card {
+  width: 210px;
+  padding: 10px 12px 12px;
+  border-radius: 12px;
+  background: rgba(8, 10, 14, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #fff;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+}
+
+.city3d-card.is-active {
+  border-color: rgba(224, 179, 77, 0.55);
+  box-shadow: 0 0 0 1px rgba(224, 179, 77, 0.25), 0 14px 32px rgba(0, 0, 0, 0.4);
+}
+
+.city3d-card__num {
+  display: block;
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #f0d49a;
+  margin-bottom: 3px;
+}
+
+.city3d-card strong {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  font-size: 0.84rem;
+  line-height: 1.25;
+}
+
+.city3d-card p {
+  margin: 6px 0 10px;
+  font-size: 0.68rem;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.58);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+}
+
+.city3d-card__more {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(224, 179, 77, 0.55);
+  background: linear-gradient(180deg, #e0b34d, #c4922e);
+  color: #1a1408;
+  font-size: 0.68rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.city3d-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.76);
+  backdrop-filter: blur(8px);
+}
+
+.city3d-sheet {
+  position: relative;
+  width: min(640px, 100%);
+  border-radius: 22px;
+  overflow: hidden;
+  background: #101318;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.city3d-sheet__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.city3d-sheet__img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.city3d-sheet__body {
+  padding: 16px 22px 24px;
+}
+
+.city3d-sheet__body span {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #f0d49a;
+}
+
+.city3d-sheet__body h3 {
+  margin: 0 0 10px;
+  font-size: 1.4rem;
+}
+
+.city3d-sheet__body p {
+  margin: 0 0 16px;
+  color: rgba(255, 255, 255, 0.68);
+  line-height: 1.55;
+}
+
+.city3d-sheet__body a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #d4a24c;
+  color: #1a1408;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 720px) {
+  .city3d__toolbar {
+    align-items: flex-start;
+  }
+
+  .city3d__hint-inline span:nth-child(2) {
+    display: none;
+  }
+
+  .city3d__stage {
+    min-height: 460px;
+    height: 68svh;
+    border-radius: 16px;
+  }
+
+  .city3d-card {
+    width: 148px;
+    padding: 8px 10px 10px;
+  }
+
+  .city3d-card p {
+    display: none;
+  }
+}

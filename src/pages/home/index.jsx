@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, lazy, Suspense } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
 import { Container } from 'react-bootstrap';
 import { FaArrowDown } from 'react-icons/fa6';
@@ -22,6 +22,7 @@ import ContactSection from '../../components/contato/ContactSection';
 import EducatorIntro from '../../components/educadores/EducatorIntro';
 import InscricaoButton from '../../components/ui/InscricaoButton';
 import NoiseOverlay from '../../components/ui/NoiseOverlay';
+import ProjectCityChooser from '../../components/projectCity/ProjectCityChooser';
 import {
   useProjects,
   useSobre,
@@ -32,14 +33,18 @@ import fotoPerfil from '../../assets/img/Foto Perfil.jpeg';
 
 import './style.css';
 
+const ProjectCity3D = lazy(() => import('../../components/projectCity/ProjectCity3D'));
+
 export default function Home() {
   const [mode, setMode] = useState('empresarial'); // 'empresarial' | 'pessoal'
+  const [view, setView] = useState('chooser'); // 'chooser' | 'cidade' | 'grade'
   const gridRef = useRef(null);
   const heroRef = useRef(null);
   const hasInteractedRef = useRef(false);
   const { items: projetosEmp } = useProjects('empresarial');
   const { items: projetosPes } = useProjects('pessoal');
   const { data: sobre } = useSobre();
+  const projetosAtivos = mode === 'empresarial' ? projetosEmp : projetosPes;
 
   const { scrollYProgress } = useScroll({
     target: heroRef,
@@ -277,12 +282,41 @@ export default function Home() {
               Projetos que <em>resolvem problemas</em> reais.
             </h2>
             <p className="section-lead">
-              Clientes, marcas e ideias próprias que saíram do rascunho e viraram produto
-              disponível para o mundo. Explore por categoria.
+              Carregue a avenida 3D sob demanda ou abra a grade clássica — você escolhe a
+              experiência.
             </p>
           </Reveal>
 
-          <Reveal delay={0.1} className="work-section__switch">
+          {view !== 'chooser' && (
+            <Reveal delay={0.08} className="work-section__switch">
+              <MagneticButton
+                active={view === 'cidade'}
+                onClick={() => setView('cidade')}
+                ariaControls="grid-projetos"
+                ariaExpanded={view === 'cidade'}
+              >
+                Avenida 3D
+              </MagneticButton>
+              <MagneticButton
+                active={view === 'grade'}
+                onClick={() => setView('grade')}
+                ariaControls="grid-projetos"
+                ariaExpanded={view === 'grade'}
+                variant="ghost"
+              >
+                Grade clássica
+              </MagneticButton>
+              <MagneticButton
+                active={false}
+                onClick={() => setView('chooser')}
+                variant="ghost"
+              >
+                Opções
+              </MagneticButton>
+            </Reveal>
+          )}
+
+          <Reveal delay={0.12} className="work-section__switch work-section__switch--secondary">
             <MagneticButton
               active={mode === 'empresarial'}
               onClick={() => handleModeChange('empresarial')}
@@ -305,7 +339,42 @@ export default function Home() {
 
         <div id="grid-projetos" ref={gridRef} className="work-section__grid">
           <AnimatePresence mode="wait">
-            {mode === 'empresarial' ? (
+            {view === 'chooser' ? (
+              <motion.div
+                key="chooser"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -16 }}
+                transition={{ duration: 0.45 }}
+              >
+                <ProjectCityChooser
+                  onLoad3D={() => setView('cidade')}
+                  onClassic={() => setView('grade')}
+                />
+              </motion.div>
+            ) : view === 'cidade' ? (
+              <motion.div
+                key={`city3d-${mode}`}
+                initial={{ opacity: 0, y: 28 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
+                className="work-section__city"
+              >
+                <Suspense
+                  fallback={
+                    <div className="work-section__city-loading">
+                      Preparando motor 3D…
+                    </div>
+                  }
+                >
+                  <ProjectCity3D
+                    projects={projetosAtivos}
+                    onBack={() => setView('chooser')}
+                  />
+                </Suspense>
+              </motion.div>
+            ) : mode === 'empresarial' ? (
               <motion.div
                 key="emp"
                 initial={{ opacity: 0, y: 40 }}

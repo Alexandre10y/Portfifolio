@@ -153,7 +153,8 @@ p {
   position: relative;
   height: 150px;
   width: 100%;
-  max-width: 1080px;
+  max-width: min(1080px, 100%);
+  overflow: hidden;
 }
 
 .hero__title {
@@ -335,11 +336,31 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
+}
+
+.work-section__switch--secondary {
+  margin-bottom: 28px;
+  opacity: 0.95;
 }
 
 .work-section__grid {
   padding: 20px 24px 80px;
+}
+
+.work-section__city {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.work-section__city-loading {
+  min-height: 320px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.55);
+  background: #0b0d11;
 }
 
 /* =========================================================
@@ -450,11 +471,24 @@ p {
    HERO – ajustes mobile
    ========================================================= */
 @media (max-width: 600px) {
+  .work-section {
+    padding: 96px 0 16px;
+  }
+
+  .work-section__grid {
+    padding: 8px 16px 64px;
+  }
+
+  .work-section__head {
+    margin-bottom: 28px;
+  }
+
   /* No mobile o conteúdo empilhado ultrapassa 100vh; o hero precisa
      crescer com ele, senão o overflow:hidden corta o indicador de scroll. */
   .hero {
     height: auto;
     min-height: 100svh;
+    overflow-x: clip;
   }
 
   .hero__content {

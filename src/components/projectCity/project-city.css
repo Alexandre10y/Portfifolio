@@ -1,0 +1,813 @@
+.project-city {
+  --city-sky-top: #070b12;
+  --city-sky-bot: #152033;
+  --city-road: #1a1c20;
+  --city-lane: #e0b34d;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.project-city--empty {
+  min-height: 280px;
+  display: grid;
+  place-items: center;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.project-city__viewport {
+  position: relative;
+  height: min(76vh, 660px);
+  min-height: 520px;
+  overflow: hidden;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(
+    180deg,
+    var(--city-sky-top) 0%,
+    var(--city-sky-bot) 50%,
+    #1a1d22 50%,
+    #101215 100%
+  );
+  outline: none;
+  cursor: ew-resize;
+  box-shadow:
+    inset 0 -90px 120px rgba(0, 0, 0, 0.4),
+    0 28px 70px rgba(0, 0, 0, 0.45);
+}
+
+.project-city__viewport.is-focused {
+  border-color: rgba(224, 179, 77, 0.4);
+}
+
+.project-city__sky {
+  position: absolute;
+  inset: 0 0 48% 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.project-city__moon {
+  position: absolute;
+  top: 12%;
+  right: 14%;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 32% 32%, #fff8e4, #efd08a 60%, #c9a045);
+  box-shadow: 0 0 48px rgba(239, 208, 138, 0.35);
+}
+
+.project-city__stars {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 12% 28%, rgba(255, 255, 255, 0.7), transparent),
+    radial-gradient(1px 1px at 28% 18%, rgba(255, 255, 255, 0.45), transparent),
+    radial-gradient(1.5px 1.5px at 46% 24%, rgba(255, 255, 255, 0.55), transparent),
+    radial-gradient(1px 1px at 63% 12%, rgba(255, 255, 255, 0.4), transparent),
+    radial-gradient(1px 1px at 81% 30%, rgba(255, 255, 255, 0.5), transparent);
+  opacity: 0.7;
+}
+
+.project-city__haze {
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 40%;
+  background: linear-gradient(180deg, transparent, rgba(20, 28, 40, 0.55));
+}
+
+.project-city__world {
+  position: absolute;
+  inset: 0 auto 0 0;
+  height: 100%;
+  will-change: transform;
+  z-index: 1;
+}
+
+.project-city__distant {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 42%;
+  height: 70px;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.25)),
+    repeating-linear-gradient(
+      90deg,
+      #1b2430 0 18px,
+      #121820 18px 34px,
+      #243041 34px 48px
+    );
+  opacity: 0.45;
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+/* Lote: prédio + jardim ao lado */
+.project-city__plot {
+  position: absolute;
+  bottom: 30%;
+  width: 320px;
+  z-index: 2;
+}
+
+.project-city__building {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: inherit;
+  border-radius: 6px 6px 0 0;
+  overflow: visible;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-bottom: 0;
+  box-shadow:
+    12px 0 30px rgba(0, 0, 0, 0.32),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180deg, #323948 0%, #1a1f28 55%, #12161c 100%);
+  transition:
+    box-shadow 0.35s ease,
+    border-color 0.35s ease,
+    filter 0.35s ease;
+  z-index: 2;
+}
+
+/* Destaque sem “voar” — só brilho e contorno */
+.project-city__building:hover,
+.project-city__building.is-near {
+  border-color: rgba(224, 179, 77, 0.55);
+  box-shadow:
+    0 0 0 1px rgba(224, 179, 77, 0.35),
+    0 0 36px rgba(224, 179, 77, 0.22),
+    14px 0 34px rgba(0, 0, 0, 0.35);
+  filter: none;
+  z-index: 4;
+}
+
+.project-city__building-depth {
+  position: absolute;
+  top: 8px;
+  right: -10px;
+  bottom: 0;
+  width: 10px;
+  background: linear-gradient(180deg, #1a1e26, #0c0e12);
+  border-radius: 0 4px 0 0;
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.project-city__parapet {
+  position: absolute;
+  top: -6px;
+  left: 6%;
+  right: 6%;
+  height: 8px;
+  border-radius: 3px 3px 0 0;
+  background: linear-gradient(180deg, #4a5260, #2a303a);
+  box-shadow: 0 2px 0 rgba(255, 255, 255, 0.08);
+  pointer-events: none;
+}
+
+/* TOPO do prédio — título + descrição (esboço) */
+.project-city__copy {
+  position: relative;
+  z-index: 1;
+  flex: 0 0 auto;
+  padding: 16px 14px 12px;
+  background: linear-gradient(180deg, rgba(10, 12, 16, 0.95), rgba(10, 12, 16, 0.78));
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  min-height: 112px;
+  border-radius: 6px 6px 0 0;
+  overflow: hidden;
+}
+
+.project-city__copy-num {
+  display: block;
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent, #e0b34d);
+  margin-bottom: 4px;
+}
+
+.project-city__copy-title {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #f6f3ea;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.project-city__copy-desc {
+  margin: 0;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.62);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+}
+
+/* MEIO — janelas */
+.project-city__tower {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 8px 12px;
+  gap: 7px;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06), transparent 18%, transparent 82%, rgba(0, 0, 0, 0.22));
+}
+
+.project-city__floor {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  min-height: 22px;
+}
+
+.project-city__pane {
+  display: block;
+  border-radius: 3px;
+  background: linear-gradient(180deg, rgba(255, 230, 160, 0.5), rgba(255, 200, 90, 0.16));
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  opacity: 0.75;
+}
+
+.project-city__building.is-near .project-city__pane {
+  opacity: 1;
+}
+
+/* BASE — porta, arbustos e CTA estático */
+.project-city__ground {
+  position: relative;
+  z-index: 1;
+  flex: 0 0 58px;
+  background: linear-gradient(180deg, #1c2129, #101318);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.project-city__door {
+  position: absolute;
+  left: 18%;
+  bottom: 0;
+  width: 22%;
+  height: 70%;
+  border-radius: 6px 6px 0 0;
+  background: linear-gradient(180deg, #0d0f13, #050607);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 0;
+  box-shadow: inset 0 0 14px rgba(224, 179, 77, 0.12);
+}
+
+.project-city__more {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 11px;
+  border-radius: 999px;
+  border: 1px solid rgba(224, 179, 77, 0.55);
+  background: linear-gradient(180deg, #e0b34d, #c4922e);
+  color: #1a1408;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.project-city__more:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.06);
+}
+
+.project-city__bush {
+  position: absolute;
+  bottom: 2px;
+  width: 22px;
+  height: 14px;
+  border-radius: 50% 50% 40% 40%;
+  background: radial-gradient(circle at 40% 40%, #4f6b45, #243222);
+}
+
+.project-city__bush--l {
+  left: 10%;
+}
+
+.project-city__bush--r {
+  right: 10%;
+  width: 18px;
+  height: 12px;
+  background: radial-gradient(circle at 40% 40%, #5a7a4e, #2a3824);
+}
+
+/* Jardim / árvores ao lado (esboço) */
+.project-city__garden {
+  position: absolute;
+  left: calc(100% + 8px);
+  bottom: 0;
+  width: 70px;
+  height: 110px;
+  pointer-events: none;
+}
+
+.project-city__tree {
+  position: absolute;
+  bottom: 0;
+}
+
+.project-city__tree::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 28px;
+  background: #4a3426;
+  border-radius: 2px;
+}
+
+.project-city__tree::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 35%, #5f8a52, #2f4a2a);
+}
+
+.project-city__tree--tall {
+  left: 8px;
+  width: 36px;
+  height: 70px;
+}
+
+.project-city__tree--tall::before {
+  height: 36px;
+}
+
+.project-city__tree--tall::after {
+  width: 40px;
+  height: 40px;
+  bottom: 24px;
+}
+
+.project-city__tree--short {
+  left: 36px;
+  width: 28px;
+  height: 52px;
+}
+
+.project-city__tree--short::after {
+  width: 28px;
+  height: 28px;
+  background: radial-gradient(circle at 40% 35%, #6a9458, #355230);
+}
+
+.project-city__lamp {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 16px;
+  height: 78px;
+}
+
+.project-city__lamp-pole {
+  position: absolute;
+  left: 7px;
+  bottom: 0;
+  width: 3px;
+  height: 64px;
+  background: linear-gradient(180deg, #666, #222);
+}
+
+.project-city__lamp-glow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffe7a0 0%, rgba(255, 200, 80, 0.2) 45%, transparent 70%);
+  box-shadow: 0 0 24px rgba(255, 210, 100, 0.4);
+}
+
+
+.project-city__sidewalk {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 27%;
+  height: 16px;
+  background: linear-gradient(180deg, #4a4e56, #2d3036);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 1;
+}
+
+.project-city__road {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 27%;
+  background: linear-gradient(180deg, #2c2f35 0%, var(--city-road) 20%, #101216 100%);
+  z-index: 3;
+  overflow: visible;
+}
+
+.project-city__lane {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--city-lane) 0 34px,
+    transparent 34px 64px
+  );
+  opacity: 0.8;
+}
+
+.project-city__lane--fwd {
+  top: 34%;
+  box-shadow: 0 0 10px rgba(224, 179, 77, 0.2);
+}
+
+.project-city__lane--back {
+  top: 68%;
+  opacity: 0.45;
+}
+
+.project-city__car {
+  position: absolute;
+  bottom: 28%;
+  left: 0;
+  width: 150px;
+  height: 62px;
+  z-index: 5;
+  will-change: transform;
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  filter: drop-shadow(0 10px 12px rgba(0, 0, 0, 0.45));
+}
+
+.project-city__car.is-turning {
+  transition: transform 0.5s cubic-bezier(0.34, 1.2, 0.64, 1);
+}
+
+.project-city__car-svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.project-city__headlight {
+  filter: drop-shadow(0 0 6px rgba(255, 224, 138, 0.9));
+}
+
+.project-city__taillight {
+  filter: drop-shadow(0 0 5px rgba(255, 80, 70, 0.75));
+}
+
+/* Giro suave do miolo — origem fixa no centro da roda (não “rema”) */
+.project-city__hub {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.project-city__hub.is-spinning {
+  animation: city-hub-spin 0.55s linear infinite;
+}
+
+@keyframes city-hub-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.project-city__exhaust {
+  position: absolute;
+  left: 6px;
+  bottom: 18px;
+  width: 18px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(200, 200, 200, 0.25);
+  filter: blur(4px);
+  opacity: 0;
+}
+
+.project-city__dust {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(210, 190, 150, 0.55), transparent 70%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.project-city__dust--b {
+  left: 18px;
+  bottom: 4px;
+  width: 14px;
+  height: 14px;
+}
+
+.project-city__dust--c {
+  left: 28px;
+  bottom: 10px;
+  width: 8px;
+  height: 8px;
+}
+
+.project-city__car.is-moving .project-city__exhaust {
+  opacity: 1;
+  animation: city-exhaust 0.7s ease-out infinite;
+}
+
+.project-city__car.is-moving .project-city__dust {
+  opacity: 1;
+  animation: city-dust 0.55s ease-out infinite;
+}
+
+.project-city__car.is-moving .project-city__dust--b {
+  animation-delay: 0.12s;
+}
+
+.project-city__car.is-moving .project-city__dust--c {
+  animation-delay: 0.22s;
+}
+
+.project-city__car.is-turning {
+  filter: drop-shadow(0 10px 12px rgba(0, 0, 0, 0.45)) brightness(1.08);
+}
+
+@keyframes city-exhaust {
+  0% {
+    transform: translateX(0) scale(0.6);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(-18px) scale(1.4);
+    opacity: 0;
+  }
+}
+
+@keyframes city-dust {
+  0% {
+    transform: translate(0, 0) scale(0.5);
+    opacity: 0.55;
+  }
+  100% {
+    transform: translate(-28px, -8px) scale(1.6);
+    opacity: 0;
+  }
+}
+
+.project-city__beam {
+  position: absolute;
+  top: 28px;
+  width: 70px;
+  height: 18px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.project-city__viewport.is-driving .project-city__beam {
+  opacity: 0.55;
+}
+
+.project-city__beam.is-front {
+  right: -58px;
+  background: linear-gradient(90deg, rgba(255, 230, 140, 0.55), transparent);
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%);
+}
+
+.project-city__beam.is-back {
+  left: -50px;
+  background: linear-gradient(270deg, rgba(255, 80, 70, 0.35), transparent);
+}
+
+.project-city__hint {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 8;
+  width: min(520px, calc(100% - 28px));
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: rgba(8, 10, 14, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  pointer-events: none;
+}
+
+.project-city__hint p {
+  margin: 0 0 8px;
+  font-size: 0.86rem;
+  line-height: 1.4;
+}
+
+.project-city__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.project-city__controls span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  color: #f0d49a;
+  background: rgba(224, 179, 77, 0.12);
+  border: 1px solid rgba(224, 179, 77, 0.3);
+}
+
+.project-city__edge {
+  position: absolute;
+  top: 52%;
+  transform: translateY(-50%);
+  z-index: 6;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: rgba(255, 255, 255, 0.55);
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.project-city__edge--left {
+  left: 12px;
+}
+
+.project-city__edge--right {
+  right: 12px;
+}
+
+.project-city__modal {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.76);
+  backdrop-filter: blur(8px);
+}
+
+.project-city__sheet {
+  position: relative;
+  width: min(640px, 100%);
+  border-radius: 22px;
+  overflow: hidden;
+  background: #101318;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55);
+}
+
+.project-city__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 3;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.project-city__sheet-media {
+  position: relative;
+  height: 280px;
+  overflow: hidden;
+  background: #0a0c10;
+}
+
+.project-city__sheet-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.project-city__sheet-fallback {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #2a303a, #12151a);
+}
+
+.project-city__sheet-overlay {
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 40%;
+  background: linear-gradient(180deg, transparent, rgba(16, 19, 24, 0.95));
+  pointer-events: none;
+}
+
+.project-city__sheet-body {
+  padding: 8px 24px 26px;
+}
+
+.project-city__sheet-type {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #f0d49a;
+}
+
+.project-city__sheet-body h3 {
+  margin: 0 0 10px;
+  font-size: 1.45rem;
+  letter-spacing: -0.02em;
+}
+
+.project-city__sheet-body p {
+  margin: 0 0 18px;
+  color: rgba(255, 255, 255, 0.68);
+  line-height: 1.6;
+}
+
+.project-city__sheet-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 15px;
+  border-radius: 10px;
+  background: #d4a24c;
+  color: #1a1408;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.project-city__sheet-link:hover {
+  filter: brightness(1.05);
+}
+
+@media (max-width: 720px) {
+  .project-city__viewport {
+    min-height: 460px;
+    height: 66vh;
+    border-radius: 16px;
+  }
+
+  .project-city__copy {
+    min-height: 96px;
+    padding: 12px;
+  }
+
+  .project-city__copy-title {
+    font-size: 0.86rem;
+  }
+
+  .project-city__sheet-media {
+    height: 200px;
+  }
+
+  .project-city__car {
+    width: 120px;
+    height: 50px;
+  }
+
+  .project-city__garden {
+    display: none;
+  }
+}

@@ -112,3 +112,12 @@
   border-color: rgba(255, 255, 255, 0.08);
   color: #cfcfcf;
 }
+
+@media (max-width: 720px) {
+  .magnetic-btn {
+    width: 100%;
+    padding: 13px 18px;
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+  }
+}

@@ -68,6 +68,7 @@ const TextPressure = ({
     if (!containerRef.current || !titleRef.current) return;
 
     const { width: containerW, height: containerH } = containerRef.current.getBoundingClientRect();
+    if (!containerW) return;
 
     let newFontSize = containerW / (chars.length / 2);
     newFontSize = Math.max(newFontSize, minFontSize);
@@ -90,8 +91,14 @@ const TextPressure = ({
 
   useEffect(() => {
     setSize();
+    const onReady = () => setSize();
+    if (document.fonts?.ready) document.fonts.ready.then(onReady);
+    document.fonts?.addEventListener?.('loadingdone', onReady);
     window.addEventListener('resize', setSize);
-    return () => window.removeEventListener('resize', setSize);
+    return () => {
+      document.fonts?.removeEventListener?.('loadingdone', onReady);
+      window.removeEventListener('resize', setSize);
+    };
     // eslint-disable-next-line
   }, [scale, text]);
 
@@ -129,6 +136,12 @@ const TextPressure = ({
           span.style.opacity = alphaVal;
           span.style.fontVariationSettings = `'wght' ${wght}, 'wdth' ${wdth}, 'ital' ${italVal}`;
         });
+
+        const box = containerRef.current?.clientWidth || 0;
+        const used = titleRef.current.scrollWidth;
+        const fit = box > 0 && used > box ? (box / used) * 0.98 : 1;
+        titleRef.current.style.transform = `scale(${fit}, ${scaleY})`;
+        titleRef.current.style.transformOrigin = 'center center';
       }
 
       rafId = requestAnimationFrame(animate);
@@ -136,7 +149,7 @@ const TextPressure = ({
 
     animate();
     return () => cancelAnimationFrame(rafId);
-  }, [width, weight, italic, alpha, chars.length]);
+  }, [width, weight, italic, alpha, chars.length, scaleY]);
 
   const dynamicClassName = [className, flex ? 'flex' : '', stroke ? 'stroke' : '']
     .filter(Boolean)
@@ -147,8 +160,10 @@ const TextPressure = ({
       ref={containerRef}
       style={{
         position: 'relative',
-        width: containerWidth,
+        width: containerWidth === 'auto' ? '100%' : containerWidth,
         height: containerHeight,
+        maxWidth: '100%',
+        overflow: 'hidden',
         background: 'transparent',
         display: 'flex',
         justifyContent: 'center',
@@ -165,6 +180,8 @@ const TextPressure = ({
         .flex {
           display: flex;
           justify-content: space-between;
+          width: max-content;
+          max-width: none;
         }
 
         .stroke span {
@@ -195,8 +212,6 @@ const TextPressure = ({
           textTransform: 'uppercase',
           fontSize: fontSize,
           lineHeight,
-          transform: `scale(1, ${scaleY})`,
-          transformOrigin: 'center top',
           margin: 0,
           textAlign: 'center',
           userSelect: 'none',

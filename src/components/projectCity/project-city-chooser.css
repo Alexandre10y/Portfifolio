@@ -1,0 +1,102 @@
+.city-chooser {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 12px 0 24px;
+}
+
+.city-chooser__card {
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background:
+    radial-gradient(ellipse 70% 80% at 10% 0%, rgba(224, 179, 77, 0.12), transparent 55%),
+    linear-gradient(180deg, #12161d, #0b0d11);
+  padding: 28px 26px 26px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+}
+
+.city-chooser__kicker {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #f0d49a;
+}
+
+.city-chooser__card h3 {
+  margin: 0 0 10px;
+  font-size: clamp(1.35rem, 2.4vw, 1.8rem);
+  letter-spacing: -0.03em;
+}
+
+.city-chooser__card > p {
+  margin: 0 0 22px;
+  max-width: 56ch;
+  color: rgba(255, 255, 255, 0.58);
+  line-height: 1.55;
+}
+
+.city-chooser__actions {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 14px;
+}
+
+.city-chooser__btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  text-align: left;
+  padding: 18px 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.city-chooser__btn svg {
+  flex: 0 0 auto;
+  margin-top: 3px;
+  font-size: 1.25rem;
+}
+
+.city-chooser__btn strong {
+  display: block;
+  font-size: 0.98rem;
+  margin-bottom: 4px;
+}
+
+.city-chooser__btn small {
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  line-height: 1.35;
+}
+
+.city-chooser__btn:hover {
+  transform: translateY(-2px);
+  border-color: rgba(224, 179, 77, 0.45);
+  background: rgba(224, 179, 77, 0.08);
+}
+
+.city-chooser__btn--3d {
+  border-color: rgba(224, 179, 77, 0.4);
+  background: linear-gradient(145deg, rgba(224, 179, 77, 0.16), rgba(255, 255, 255, 0.03));
+}
+
+.city-chooser__btn--3d svg {
+  color: #e0b34d;
+}
+
+@media (max-width: 720px) {
+  .city-chooser__actions {
+    grid-template-columns: 1fr;
+  }
+
+  .city-chooser__card {
+    padding: 22px 18px;
+  }
+}
