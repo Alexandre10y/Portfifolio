@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-25T18:15:42.635Z",
+  "updatedAt": "2026-11-26T17:57:14.983Z",
   "posts": [
+    {
+      "id": "radar-2026-11-26-aHR0cHM6Ly",
+      "title": "Eficiência vs. Criatividade: O Dilema da Era da IA",
+      "summary": "Enquanto a Anthropic avança rumo ao IPO, o sucesso estrondoso de Grand Theft Auto VI reafirma o valor insubstituível do esforço humano na indústria criativa. O contraste destaca que, no entretenimento, a busca pela eficiência algorítmica não supera a qualidade artesanal.",
+      "image": "/images/radar-ia/post-2026-11-26.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "publishedAt": "2026-11-26",
+      "tags": [
+        "Inteligência Artificial",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "radar-2026-11-25-aHR0cHM6Ly",
       "title": "Nova York bane brinquedos com IA por 5 anos devido a riscos à segurança infantil",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Energia"
-      ]
-    },
-    {
-      "id": "radar-2026-11-07-aHR0cHM6Ly",
-      "title": "Incertezas no Setor Tech: Como as Eleições Impactam Data Centers e Elon Musk",
-      "summary": "Os resultados das eleições de meio de mandato nos EUA trouxeram novos desafios para a indústria de tecnologia, afetando diretamente a expansão de data centers e os empreendimentos de Elon Musk. O novo cenário político promete intensificar o debate sobre regulamentação, infraestrutura digital e alto consumo energético do setor. Com isso, investidores e gigantes da tecnologia recalcitram seus passos diante de possíveis entraves regulatórios para a inteligência artificial.",
-      "image": "/images/radar-ia/post-2026-11-07.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
-      "publishedAt": "2026-11-07",
-      "tags": [
-        "Data Centers",
-        "Política Tech"
       ]
     }
   ]
