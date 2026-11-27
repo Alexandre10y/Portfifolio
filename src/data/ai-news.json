@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-26T17:57:14.983Z",
+  "updatedAt": "2026-11-27T17:43:57.020Z",
   "posts": [
+    {
+      "id": "radar-2026-11-26-aHR0cHM6Ly",
+      "title": "Nvidia suspende envio de chips de IA para o Sudeste Asiático",
+      "summary": "A Nvidia orientou seus parceiros de fabricação a pausar as entregas de servidores com tecnologia de IA para a Malásia, Cingapura, Tailândia e Indonésia. A decisão atende ao endurecimento das restrições dos Estados Unidos para evitar o desvio dessas tecnologias avançadas para a China. A medida reflete o impacto direto das tensões geopolíticas na cadeia global de suprimentos de hardware.",
+      "image": "/images/radar-ia/post-2026-11-26.jpg",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "publishedAt": "2026-11-26",
+      "tags": [
+        "Nvidia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "radar-2026-11-26-aHR0cHM6Ly",
       "title": "Eficiência vs. Criatividade: O Dilema da Era da IA",
@@ -220,19 +233,6 @@
       "tags": [
         "Inteligência Artificial",
         "Regulação Tecnológica"
-      ]
-    },
-    {
-      "id": "radar-2026-11-09-aHR0cHM6Ly",
-      "title": "Corrida da IA: Anthropic investe US$ 3,4 bilhões em turbinas a gás natural",
-      "summary": "A Anthropic adquiriu US$ 3,4 bilhões em turbinas a gás natural para suprir a crescente demanda energética do treinamento de suas inteligências artificiais. O movimento reflete a busca urgente do setor por infraestrutura de energia rápida para alimentar data centers massivos. No entanto, analistas alertam que os altos custos e o impacto ambiental da transação podem gerar arrependimento no longo prazo.",
-      "image": "/images/radar-ia/post-2026-11-09.jpg",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
-      "publishedAt": "2026-11-09",
-      "tags": [
-        "Inteligência Artificial",
-        "Energia"
       ]
     }
   ]
